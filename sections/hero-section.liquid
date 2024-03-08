@@ -1,0 +1,85 @@
+<!-- start of hero -->
+<section class="hero hero-style-2">
+  <div class="hero-slider">
+    {% for block in section.blocks %}
+      <div class="slide">
+        <img
+          src="{{ block.settings.hero_background_image | image_url: width: 1920   }}"
+          width="100%"
+          height="100%"
+          alt
+          class="slider-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col col-lg-5 slide-caption">
+              <div class="slide-title">
+                <h2>{{ block.settings.hero_title }}</h2>
+              </div>
+              <div class="slide-sub-title">
+                <p>{{ block.settings.hero_description }}</p>
+              </div>
+              <div class="btns">
+                <a href="{{ block.settings.hero_button_Link }}" class="btn-style-1">{{ block.settings.hero_button_text }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- end of hero slider -->
+
+
+{% schema %}
+  {
+    "name": "Hero Section",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Slider",
+        "type": "block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "hero_background_image",
+            "label": "Background Image"
+          },
+          {
+            "type": "text",
+            "id": "hero_title",
+            "label": "Hero Section Title",
+            "default": "Design. Create. and Build."
+          },
+          {
+            "type": "text",
+            "id": "hero_description",
+            "label": "Hero Description",
+            "default": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate"
+          },
+          {
+            "type": "text",
+            "id": "hero_button_text",
+            "label": "Hero Button Text",
+            "default": "Start Your Project"
+          },
+          {
+            "type": "url",
+            "id": "hero_button_Link",
+            "label": "Hero Button Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero Section",
+        "blocks": [
+          {
+            "type": "block"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

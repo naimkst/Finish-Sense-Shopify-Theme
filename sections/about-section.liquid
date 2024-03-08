@@ -1,0 +1,69 @@
+<!-- about-area-start -->
+<section class="about-section section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="about-left">
+          <div class="logo">
+            <img
+              src="{{ section.settings.about_image |  image_url: width:350  }}"
+              alt=""
+              width="100%"
+              height="100%">
+          </div>
+          <h2>{{ section.settings.about_title }}</h2>
+        </div>
+      </div>
+      <div class="col-lg-7 offset-lg-1">
+        <div class="about-right">
+          {{ section.settings.about_description }}
+          <a href="{{ section.settings.about_button_url }}" class="read-more">{{ section.settings.about_button_text }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- end contianer -->
+</section>
+<!-- about-area-end -->
+
+
+{% schema %}
+  {
+    "name": "About Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "about_image",
+        "label": "About Logo"
+      },
+      {
+        "type": "text",
+        "id": "about_title",
+        "label": "About Title",
+        "default": "Design, Create and Build bespoke Exhibition Stall"
+      },
+      {
+        "type": "richtext",
+        "id": "about_description",
+        "label": "About Description",
+        "default": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>"
+      },
+      {
+        "type": "text",
+        "id": "about_button_text",
+        "label": "Button Text",
+        "default": "Learn More"
+      },
+      {
+        "type": "url",
+        "id": "about_button_url",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "About Section"
+      }
+    ]
+  }
+{% endschema %}
