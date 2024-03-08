@@ -51,10 +51,62 @@
         "about_button_text": "Learn More",
         "about_button_url": ""
       }
+    },
+    "service_aria_mDixD7": {
+      "type": "service-aria",
+      "blocks": {
+        "block_9ehDBc": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_MtLX7M": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_KTEgrQ": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_zbrg9a": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_9ehDBc",
+        "block_MtLX7M",
+        "block_KTEgrQ",
+        "block_zbrg9a"
+      ],
+      "settings": {
+        "section_title": "What We Do",
+        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+      }
     }
   },
   "order": [
     "hero",
-    "about_section_h8Vka6"
+    "about_section_h8Vka6",
+    "service_aria_mDixD7"
   ]
 }
