@@ -4,8 +4,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-7 col-12">
         <div class="section-title">
-          <h2>Latest Blogs</h2>
-          <p>Our latest Blogs/News</p>
+          <h2>{{ section.settings.section_title }}</h2>
+          <p>{{ section.settings.section_description }}</p>
         </div>
       </div>
     </div>
@@ -25,9 +25,9 @@
             <h2>
               <span>30<small>Mar</small>
               </span>
-              Questions To Ask Yourself Before Renting Or                                                           
+              Questions To Ask Yourself Before Renting Or                                                                  
                                     Buying..</h2>
-            <p>Trade shows made its place long back while creating a platform to generate business                                                           
+            <p>Trade shows made its place long back while creating a platform to generate business                                                                  
                                     and build professional networks at an international level. Now exhibiting in trade
                                     shows is the key..</p>
             <a href="blog-single.html" class="read-more">Learn More</a>
@@ -48,7 +48,7 @@
               <span>26<small>Mar</small>
               </span>
               SSalon VS Foire, quelle estla différence ?</h2>
-            <p>La foire se caractérise comme une manifestation commerciale regroupant des exposants                                                           
+            <p>La foire se caractérise comme une manifestation commerciale regroupant des exposants                                                                  
                                     de secteurs d’activité très diversifiés.</p>
             <a href="blog-single.html" class="read-more">Learn More</a>
           </div>
@@ -67,9 +67,9 @@
             <h2>
               <span>21<small>Mar</small>
               </span>
-              B2B Marketing Trends to ensure a successful                                                           
+              B2B Marketing Trends to ensure a successful                                                                  
                                     exhi...</h2>
-            <p>The B2B marketing landscape is radically changing. With so many tools on the market                                                           
+            <p>The B2B marketing landscape is radically changing. With so many tools on the market                                                                  
                                     that achieve results faster and more efficiently,</p>
             <a href="blog-single.html" class="read-more">Learn More</a>
           </div>
@@ -80,3 +80,29 @@
 <!-- end container -->
 </section>
 <!-- end blog-area -->
+
+
+{% schema %}
+  {
+    "name": "Blog Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section Title",
+        "default": "Latest Blogs"
+      },
+      {
+        "type": "text",
+        "id": "section_description",
+        "label": "Section Description",
+        "default": "Our latest Blogs/News"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Blog Section"
+      }
+    ]
+  }
+{% endschema %}
