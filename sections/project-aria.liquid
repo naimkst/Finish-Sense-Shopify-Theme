@@ -12,7 +12,7 @@
     <div class="project-wrap">
       <div class="project-active owl-carousel">
         {% for block in section.blocks %}
-          <div class="project-item wow fadeInUp" data-wow-duration="1400ms">
+          <div class="project-item wow fadeInUp" data-wow-duration="{{ forloop.index0 |  plus: 1 }}000ms">
             <div class="project-img">
               <img
                 src="{{ block.settings.background_image |  image_url: width: 600  }}"
