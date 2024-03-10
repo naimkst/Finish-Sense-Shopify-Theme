@@ -251,6 +251,15 @@
         "section_title": "Latest Blogs",
         "section_description": "Our latest Blogs\/News"
       }
+    },
+    "contact_section_tYgB37": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "What We Do",
+        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below..."
+      }
     }
   },
   "order": [
@@ -259,6 +268,7 @@
     "service_aria_mDixD7",
     "project_aria_FhRgA3",
     "testimonial_section_zyPTMj",
-    "blog_section_tw4eb4"
+    "blog_section_tw4eb4",
+    "contact_section_tYgB37"
   ]
 }
