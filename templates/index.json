@@ -146,12 +146,111 @@
         "section_title": "Our Work",
         "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
       }
+    },
+    "testimonial_section_zyPTMj": {
+      "type": "testimonial-section",
+      "blocks": {
+        "block_JUeP3Q": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1_6ba44cbf-53ec-4d18-ad4f-94c70a085330.jpg",
+            "title": "You are amazing! You worked so hard for Cady's wedding.",
+            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
+            "designation": "Shivinder Sing - Founder"
+          }
+        },
+        "block_94EtQL": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-2_f6dafcfc-e2cb-42c2-aaf8-d5900fd4276e.jpg",
+            "title": "You are amazing! You worked so hard for Cady's wedding.",
+            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
+            "designation": "Shivinder Sing - Founder"
+          }
+        },
+        "block_QGT4VD": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3_ca419631-6018-42f9-a41f-70556d4b0018.jpg",
+            "title": "You are amazing! You worked so hard for Cady's wedding.",
+            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
+            "designation": "Shivinder Sing - Founder"
+          }
+        },
+        "block_Nqerbi": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1_6ba44cbf-53ec-4d18-ad4f-94c70a085330.jpg",
+            "title": "You are amazing! You worked so hard for Cady's wedding.",
+            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
+            "designation": "Shivinder Sing - Founder"
+          }
+        },
+        "brand_y96Ncm": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/1.png"
+          }
+        },
+        "brand_b7Lihb": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/2.png"
+          }
+        },
+        "brand_kNXfRK": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/6.png"
+          }
+        },
+        "brand_aJE8VU": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/1.png"
+          }
+        },
+        "brand_NPG7jh": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/7.png"
+          }
+        },
+        "brand_aEqrUj": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/4.png"
+          }
+        },
+        "brand_3Qqzch": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/3.png"
+          }
+        }
+      },
+      "block_order": [
+        "block_JUeP3Q",
+        "block_94EtQL",
+        "block_QGT4VD",
+        "block_Nqerbi",
+        "brand_y96Ncm",
+        "brand_b7Lihb",
+        "brand_kNXfRK",
+        "brand_aJE8VU",
+        "brand_NPG7jh",
+        "brand_aEqrUj",
+        "brand_3Qqzch"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "hero",
     "about_section_h8Vka6",
     "service_aria_mDixD7",
-    "project_aria_FhRgA3"
+    "project_aria_FhRgA3",
+    "testimonial_section_zyPTMj"
   ]
 }
