@@ -13,17 +13,15 @@
         <div class="col col-lg-8 col-md-12 col-12">
           <div class="contact-form-area">
             <h3>{{ section.settings.form_title }}</h3>
-            <form
-              method="post"
-              class="contact-validation-active"
-              id="contact-form-mejor"
-              novalidate="novalidate">
+            {% form 'contact'
+              , class: 'contact-validation-active'
+              , id: 'contact-form-mejor' %}
               <div class="row">
                 <div class="col-md-6 col-12 form-field">
                   <input
                     type="text"
                     class="form-control"
-                    name="name"
+                    name="customer[name]"
                     id="name"
                     placeholder="Full Name"
                     autocomplete="name">
@@ -32,7 +30,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    name="cname"
+                    name="customer[company]"
                     id="cname"
                     placeholder="Your Company Name"
                     autocomplete="name">
@@ -41,7 +39,7 @@
                   <input
                     type="email"
                     class="form-control"
-                    name="email"
+                    name="customer[email]"
                     id="email"
                     placeholder="Business email">
                 </div>
@@ -49,12 +47,12 @@
                   <input
                     type="text"
                     class="form-control"
-                    name="phone"
+                    name="customer[phone]"
                     id="phone"
                     placeholder="Phone Number">
                 </div>
                 <div class="col-md-6 col-12 form-field">
-                  <select name="subject" class="form-control">
+                  <select name="customer[country]" class="form-control">
                     <option disabled="disabled" selected="">Select your Country</option>
                     <option value="Afghanistan">Afghanistan</option>
                     <option value="Åland Islands">Åland Islands</option>
@@ -306,21 +304,21 @@
                   <input
                     type="text"
                     class="form-control"
-                    name="service"
+                    name="customer[service]"
                     id="service"
                     placeholder="What service are you Interested in?">
                 </div>
                 <div class="col-md-12 col-12 form-field">
                   <textarea
                     class="form-control"
-                    name="note"
+                    name="customer[note]"
                     id="note"
                     placeholder="Message here.."></textarea>
                 </div>
                 <div class="col-md-12 col-12">
                   <div class="submit-area">
                     <button type="submit" class="theme-btn">
-                      <span>Send a                                                                                
+                      <span>Send a                                                                                                  
                                                         request</span>
                     </button>
                     <div id="loader">
@@ -332,11 +330,12 @@
               <div class="clearfix error-handling-messages">
                 <div id="success">Thank you! Massage Sended</div>
                 <div id="error">
-                  Error occurred while sending email. Please try again                                                                                
+                  Error occurred while sending email. Please try again                                                                                                  
                                             later.
                 </div>
               </div>
-            </form>
+
+            {% endform %}
           </div>
         </div>
       </div>
@@ -355,13 +354,13 @@
         "type": "text",
         "id": "section_title",
         "label": "Section Title",
-        "default": "What We Do"
+        "default": "Do you have a project? Lets Talk."
       },
       {
         "type": "text",
         "id": "section_description",
         "label": "Section Description",
-        "default": "Best Exhibition Stall Designers in India, Europe and Poland"
+        "default": "Please fill in the details and we will be in touch shortly or send us email @:"
       },
       {
         "type": "text",
