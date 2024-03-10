@@ -102,11 +102,56 @@
         "section_title": "What We Do",
         "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
       }
+    },
+    "project_aria_FhRgA3": {
+      "type": "project-aria",
+      "blocks": {
+        "block_ckpBG7": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1_448ba710-1886-4a7d-81f8-21642f10250c.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_VqfqCy": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-2_76c97cf7-626d-45ca-8d4f-70cecdd1b6c6.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_exP6yi": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3_368beb93-4b2a-433d-960c-094da00c2203.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_ckpBG7",
+        "block_VqfqCy",
+        "block_exP6yi"
+      ],
+      "settings": {
+        "section_title": "Our Work",
+        "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
+      }
     }
   },
   "order": [
     "hero",
     "about_section_h8Vka6",
-    "service_aria_mDixD7"
+    "service_aria_mDixD7",
+    "project_aria_FhRgA3"
   ]
 }
