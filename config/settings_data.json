@@ -11,7 +11,43 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "block_rm3VnJ": {
+            "type": "block",
+            "settings": {
+              "address_name": "USA",
+              "address": "1309 Tanager Ave, Ocheyedan, IA 51354 (USA)",
+              "phone": "+1 712 720 0166",
+              "email": "sales@finishsense.io"
+            }
+          },
+          "block_Aa9tw4": {
+            "type": "block",
+            "settings": {
+              "address_name": "CANADA",
+              "address": "1309 Tanager Ave, Ocheyedan, IA 51354 (USA)",
+              "phone": "+1 712 720 0166",
+              "email": "engineering@finishsense.io"
+            }
+          },
+          "footer_menu_KAxqrd": {
+            "type": "footer_menu",
+            "settings": {
+              "menu_title": "Terms of Use",
+              "menu_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "block_rm3VnJ",
+          "block_Aa9tw4",
+          "footer_menu_KAxqrd"
+        ],
         "settings": {
+          "footer_logo": "shopify:\/\/shop_images\/footer-logo.png",
+          "facebook": "https:\/\/facebook.com",
+          "linkedin": "https:\/\/linkedin.com",
+          "youtube": "https:\/\/youtube.com"
         }
       }
     },
