@@ -6,49 +6,54 @@
         <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="widget about-widget">
             <div class="logo widget-title">
-              <a class="logo" href="index.html"><img
-                  src="{{ 'footer-logo.png' |  asset_url}}"
-                  width="100%"
-                  height="100%"
-                  alt=""></a>
+              {% if section.settings.footer_logo != blank %}
+                <a class="logo" href="/"><img
+                    src="{{  section.settings.footer_logo |  image_url: width: 700  }}"
+                    width="100%"
+                    height="100%"
+                    alt=""></a>
+              {% else %}
+                <a class="logo" href="/"><img
+                    src="{{ 'footer-logo.png' |  asset_url}}"
+                    width="100%"
+                    height="100%"
+                    alt=""></a>
+              {% endif %}
+
             </div>
           </div>
         </div>
         <div class="col col-lg-4 offset-lg-2 col-md-6 col-sm-12 col-12">
-          <div class="widget wpo-service-link-widget">
-            <div class="widget-title">
-              <h3>USA
-              </h3>
-            </div>
-            <div class="contact-ft">
-              <ul>
-                <li>
-                  <i class="ti-location-pin"></i>1309 Tanager Ave, <br>
-                  Ocheyedan, IA 51354 (USA)</li>
-                <li>
-                  <i class="ti-mobile"></i>+1 712 720 0166</li>
-                <li>
-                  <i class="ti-email"></i>sales@finishsense.io</li>
-              </ul>
-            </div>
-          </div>
-          <div class="widget wpo-service-link-widget mt-5">
-            <div class="widget-title">
-              <h3>CANADA
-              </h3>
-            </div>
-            <div class="contact-ft">
-              <ul>
-                <li>
-                  <i class="ti-location-pin"></i>2085 - 1 Whittington Dr. <br>
-                  Peterborough, Ontario - K9J 0G5 (Canada)</li>
-                <li>
-                  <i class="ti-mobile"></i>+1 705 876 9808</li>
-                <li>
-                  <i class="ti-email"></i>engineering@finishsense.io</li>
-              </ul>
-            </div>
-          </div>
+          {% for block in section.blocks %}
+            {% if block.type == "block" %}
+              <div class="widget wpo-service-link-widget  mt-5">
+                <div class="widget-title">
+                  <h3>{{ block.settings.address_name }}</h3>
+                </div>
+                <div class="contact-ft">
+                  <ul>
+                    {% if block.settings.address != blank %}
+                      <li>
+                        <i class="ti-location-pin"></i>
+                        {{ block.settings.address }}</li>
+                    {% endif %}
+
+                    {% if block.settings.phone != blank %}
+                      <li>
+                        <i class="ti-mobile"></i>
+                        {{ block.settings.phone }}</li>
+                    {% endif %}
+
+                    {% if block.settings.email != blank %}
+                      <li>
+                        <i class="ti-email"></i>
+                        {{ block.settings.email }}</li>
+                    {% endif %}
+                  </ul>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -59,30 +64,42 @@
       <div class="row">
         <div class="col col-lg-8 col-md-8 col-12">
           <ul>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Copyright Policy</a></li>
+            {% for block in section.blocks %}
+              {% if block.type == "menu" %}
+                <li>
+                  <a href="{{ block.settings.menu_link }} ">{{ block.settings.menu_title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
           </ul>
         </div>
         <div class="col col-lg-4 col-md-4 col-12">
           <ul class="social">
-            <li>
-              <a href="#">
-                <i class="ti-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="ti-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"><img
-                  src="{{  'youtube.png' |  asset_url}}"
-                  width="100%"
-                  height="100%"
-                  alt=""></a>
-            </li>
+            {% if section.settings.facebook != blank %}
+              <li>
+                <a href="{{ section.settings.facebook }}">
+                  <i class="ti-facebook"></i>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if section.settings.linkedin != blank %}
+              <li>
+                <a href="{{section.settings.linkedin}}">
+                  <i class="ti-linkedin"></i>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if section.settings.youtube != blank %}
+              <li>
+                <a href="{{ section.settings.youtube }}"><img
+                    src="{{  'youtube.png' |  asset_url}}"
+                    width="100%"
+                    height="100%"
+                    alt=""></a>
+              </li>
+            {% endif %}
           </ul>
         </div>
       </div>
@@ -97,3 +114,97 @@
   </div>
 </footer>
 <!-- end of wpo-site-footer-section -->
+
+
+{% schema %}
+  {
+    "name": "Footer Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "footer_logo",
+        "label": "Footer Logo"
+      },
+      {
+        "type": "text",
+        "id": "facebook",
+        "label": "Facebook Link",
+        "default": "https://facebook.com"
+      },
+      {
+        "type": "text",
+        "id": "linkedin",
+        "label": "Linkedin Link",
+        "default": "https://linkedin.com"
+      },
+      {
+        "type": "text",
+        "id": "youtube",
+        "label": "Youtube Link",
+        "default": "https://youtube.com"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Address Item",
+        "type": "block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "address_name",
+            "label": "Address Name",
+            "default": "USA"
+          },
+          {
+            "type": "text",
+            "id": "address",
+            "label": "Address",
+            "default": "1309 Tanager Ave, Ocheyedan, IA 51354 (USA)"
+          },
+          {
+            "type": "text",
+            "id": "phone",
+            "label": "Phone Number",
+            "default": "+1 712 720 0166"
+          },
+          {
+            "type": "text",
+            "id": "email",
+            "label": "sales@finishsense.io"
+          }
+        ]
+      },
+      {
+        "name": "Footer Menu",
+        "type": "footer_menu",
+        "settings": [
+          {
+            "type": "text",
+            "id": "menu_title",
+            "label": "Menu Title",
+            "default": "Terms of Use"
+          },
+          {
+            "type": "link_list",
+            "id": "menu_link",
+            "label": "Menu Link"
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Footer Section",
+        "blocks": [
+          {
+            "type": "block"
+          },
+          {
+            "type": "footer_menu"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
