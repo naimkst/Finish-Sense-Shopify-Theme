@@ -34,14 +34,22 @@
             "type": "footer_menu",
             "settings": {
               "menu_title": "Terms of Use",
-              "menu_link": ""
+              "menu_link": "#"
+            }
+          },
+          "footer_menu_GdXKUY": {
+            "type": "footer_menu",
+            "settings": {
+              "menu_title": "Privacy Policy",
+              "menu_link": "#"
             }
           }
         },
         "block_order": [
           "block_rm3VnJ",
           "block_Aa9tw4",
-          "footer_menu_KAxqrd"
+          "footer_menu_KAxqrd",
+          "footer_menu_GdXKUY"
         ],
         "settings": {
           "footer_logo": "shopify:\/\/shop_images\/footer-logo.png",
