@@ -34,14 +34,30 @@
             "type": "footer_menu",
             "settings": {
               "menu_title": "Terms of Use",
-              "menu_link": ""
+              "menu_link": "#"
+            }
+          },
+          "footer_menu_GdXKUY": {
+            "type": "footer_menu",
+            "settings": {
+              "menu_title": "Privacy Policy",
+              "menu_link": "#"
+            }
+          },
+          "footer_menu_9dGcGe": {
+            "type": "footer_menu",
+            "settings": {
+              "menu_title": "Copyright Policy",
+              "menu_link": "#"
             }
           }
         },
         "block_order": [
           "block_rm3VnJ",
           "block_Aa9tw4",
-          "footer_menu_KAxqrd"
+          "footer_menu_KAxqrd",
+          "footer_menu_GdXKUY",
+          "footer_menu_9dGcGe"
         ],
         "settings": {
           "footer_logo": "shopify:\/\/shop_images\/footer-logo.png",
