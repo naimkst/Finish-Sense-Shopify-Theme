@@ -11,9 +11,15 @@
     "name": "Settings",
     "settings": [
       {
-        "type": "header",
-        "content": "Website Settings"
-      }
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon Icon"
+      },
+         {
+           "type": "image_picker",
+           "id": "preloader",
+           "label": "Preloader Icon"
+         }
     ]
   }
 ]

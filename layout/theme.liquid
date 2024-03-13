@@ -13,6 +13,11 @@
         rel="icon"
         type="image/png"
         href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {% else %}
+      <link
+        rel="icon"
+        type="image/png"
+        href="{{ 'favicon.png' | asset_url }}">
     {%- endif -%}
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
@@ -71,12 +76,21 @@
             <div class="loader-line-mask">
               <div class="loader-line"></div>
             </div>
-            <img
-              oading="eager"
-              src="{{'preloader.png' | asset_url }}"
-              width="100%"
-              height="100%"
-              alt="">
+            {% if settings.preloader != blank %}
+              <img
+                oading="eager"
+                src="{{ settings.preloader |  image_url: width: 350  }}"
+                width="100%"
+                height="100%"
+                alt="">
+            {% else %}
+              <img
+                oading="eager"
+                src="{{'preloader.png' | asset_url }}"
+                width="100%"
+                height="100%"
+                alt="">
+            {% endif %}
           </div>
         </div>
     </div>
