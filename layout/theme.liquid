@@ -45,20 +45,20 @@
 
     <link href="{{ 'themify-icons.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'font-awesome.min.css' | asset_url }}" rel="stylesheet">
-    <link href="{{ 'flaticon.css' | asset_url}}" rel="stylesheet">
+    <link href="{{ 'flaticon.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'bootstrap.min.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'magnific-popup.css' | asset_url }}" rel="stylesheet">
-    <link href="{{ 'animate.css' | asset_url}}" rel="stylesheet">
+    <link href="{{ 'animate.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'owl.carousel.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'owl.theme.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'slick.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'slick-theme.css' | asset_url }}" rel="stylesheet">
-    <link href="{{ 'swiper.min.css' |  asset_url }}" rel="stylesheet">
+    <link href="{{ 'swiper.min.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'nice-select.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'owl.transitions.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'jquery.fancybox.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'odometer-theme-default.css' | asset_url }}" rel="stylesheet">
-    <link href="{{ 'style.css' | asset_url}}" rel="stylesheet">
+    <link href="{{ 'style.css' | asset_url }}" rel="stylesheet">
 
 
     {{ content_for_header }}
@@ -79,14 +79,14 @@
             {% if settings.preloader != blank %}
               <img
                 oading="eager"
-                src="{{ settings.preloader |  image_url: width: 350  }}"
+                src="{{ settings.preloader | image_url: width: 350 }}"
                 width="100%"
                 height="100%"
                 alt="">
             {% else %}
               <img
                 oading="eager"
-                src="{{'preloader.png' | asset_url }}"
+                src="{{ 'preloader.png' | asset_url }}"
                 width="100%"
                 height="100%"
                 alt="">
@@ -105,15 +105,15 @@
 
     </div>
 
-    <script src="{{ 'jquery.min.js' | asset_url}}" defer></script>
+    <script src="{{ 'jquery.min.js' | asset_url }}" defer></script>
     <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" defer></script>
-    <script src="{{ 'modernizr.custom.js' |  asset_url}}" defer></script>
-    <script src="{{ 'jquery.dlmenu.js' |  asset_url}}" defer></script>
-    <script src="{{ 'jquery-plugin-collection.js' |  asset_url}}" defer></script>
+    <script src="{{ 'modernizr.custom.js' | asset_url }}" defer></script>
+    <script src="{{ 'jquery.dlmenu.js' | asset_url }}" defer></script>
+    <script src="{{ 'jquery-plugin-collection.js' | asset_url }}" defer></script>
     <!-- Moving Animation -->
-    <script src="{{ 'moving-animation.js' |  asset_url}}" defer></script>
+    <script src="{{ 'moving-animation.js' | asset_url }}" defer></script>
     <!-- Custom script for this template -->
-    <script src="{{ 'script.js' |  asset_url}}" defer></script>
+    <script src="{{ 'script.js' | asset_url }}" defer></script>
 
   </body>
 

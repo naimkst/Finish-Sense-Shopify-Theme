@@ -14,13 +14,13 @@
             <div class="navbar-header">
               {% if section.settings.logo != blank %}
                 <a class="navbar-brand site-logo" href="/"><img
-                    src="{{ section.settings.logo |  image_url: width: 300  }}"
+                    src="{{ section.settings.logo | image_url: width: 300 }}"
                     width="100%"
                     height="100%"
                     alt=""></a>
               {% else %}
                 <a class="navbar-brand site-logo" href="/"><img
-                    src="{{ 'logo.png' |  asset_url }}"
+                    src="{{ 'logo.png' | asset_url }}"
                     width="100%"
                     height="100%"
                     alt=""></a>

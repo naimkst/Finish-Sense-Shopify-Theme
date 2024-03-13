@@ -6,7 +6,7 @@
         <div class="about-left">
           <div class="logo">
             <img
-              src="{{ section.settings.about_image |  image_url: width:350  }}"
+              src="{{ section.settings.about_image | image_url: width: 350 }}"
               alt=""
               width="100%"
               height="100%">
@@ -26,10 +26,10 @@
 </section>
 <!-- about-area-end -->
 
-
 {% schema %}
   {
     "name": "About Section",
+    "class": "section-header",
     "settings": [
       {
         "type": "image_picker",

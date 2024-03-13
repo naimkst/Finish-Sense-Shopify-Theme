@@ -8,13 +8,13 @@
             <div class="logo widget-title">
               {% if section.settings.footer_logo != blank %}
                 <a class="logo" href="/"><img
-                    src="{{  section.settings.footer_logo |  image_url: width: 700  }}"
+                    src="{{ section.settings.footer_logo | image_url: width: 700 }}"
                     width="100%"
                     height="100%"
                     alt=""></a>
               {% else %}
                 <a class="logo" href="/"><img
-                    src="{{ 'footer-logo.png' |  asset_url}}"
+                    src="{{ 'footer-logo.png' | asset_url }}"
                     width="100%"
                     height="100%"
                     alt=""></a>
@@ -85,7 +85,7 @@
 
             {% if section.settings.linkedin != blank %}
               <li>
-                <a href="{{section.settings.linkedin}}">
+                <a href="{{ section.settings.linkedin }}">
                   <i class="ti-linkedin"></i>
                 </a>
               </li>
@@ -94,7 +94,7 @@
             {% if section.settings.youtube != blank %}
               <li>
                 <a href="{{ section.settings.youtube }}"><img
-                    src="{{  'youtube.png' |  asset_url}}"
+                    src="{{ 'youtube.png' | asset_url }}"
                     width="100%"
                     height="100%"
                     alt=""></a>
@@ -107,7 +107,7 @@
   </div>
   <div class="footer-shape">
     <img
-      src="{{ section.settings.footer_background |  image_url: width: 1920  }}"
+      src="{{ section.settings.footer_background | image_url: width: 1920 }}"
       width="100%"
       height="100%"
       alt="">
