@@ -144,6 +144,15 @@
             "button_text": "Learn More",
             "button_Link": ""
           }
+        },
+        "block_w64TPP": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "title": "Conveyance",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
         }
       },
       "block_order": [
@@ -161,7 +170,8 @@
         "block_UTHhRJ",
         "block_DLhKiR",
         "block_LXjEQT",
-        "block_xHr9FR"
+        "block_xHr9FR",
+        "block_w64TPP"
       ],
       "settings": {
         "section_title": "Solutions",
