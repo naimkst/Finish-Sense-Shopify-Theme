@@ -152,13 +152,62 @@
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
           }
+        },
+        "brand_YFfHab": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/5.png"
+          }
+        },
+        "brand_9DbFMV": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/2.png"
+          }
+        },
+        "brand_NWAVi3": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/1.png"
+          }
+        },
+        "brand_ChchaK": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/7.png"
+          }
+        },
+        "brand_jbC8fH": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/4.png"
+          }
+        },
+        "brand_LbBWaK": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/3.png"
+          }
+        },
+        "brand_NX7F3c": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/6.png"
+          }
         }
       },
       "block_order": [
         "block_qxHPQa",
         "block_MHJFjg",
         "block_RQ4in3",
-        "block_gtj3rx"
+        "block_gtj3rx",
+        "brand_YFfHab",
+        "brand_9DbFMV",
+        "brand_NWAVi3",
+        "brand_ChchaK",
+        "brand_jbC8fH",
+        "brand_LbBWaK",
+        "brand_NX7F3c"
       ],
       "settings": {
       }
