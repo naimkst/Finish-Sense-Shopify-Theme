@@ -14,7 +14,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-            "title": "Engineering & Design",
+            "title": "Material Supply Systems - Liquid",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -23,7 +23,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Engineering & Design",
+            "title": "Fluid Delivery - Liquid",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -32,7 +32,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/img-2.jpg",
-            "title": "Engineering & Design",
+            "title": "Manual Application - Liquid",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -41,7 +41,97 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/img-4.jpg",
-            "title": "Engineering & Design",
+            "title": "Robotic Application - Liquid",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_PEBVwT": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "title": "Material Supply Systems - Powder",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_6YE837": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "title": "Fluid Delivery - Powder",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_g7cHVh": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
+            "title": "Manual Application - Powder",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_wPyLMA": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "title": "Robotic Application - Powder",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_efDgki": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "title": "Material Supply Systems - High Viscosity",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_9VAbT4": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "title": "Fluid Delivery - High Viscosity",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_9zBn4M": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "title": "Manual Application - High Viscosity",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_UTHhRJ": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "title": "Robotic Application - High Viscosity",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_DLhKiR": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "title": "Pre-Treatment",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_LXjEQT": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "title": "Curing",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -51,7 +141,17 @@
         "block_b9d7Vx",
         "block_YFnCQc",
         "block_4A9r66",
-        "block_tKhMBb"
+        "block_tKhMBb",
+        "block_PEBVwT",
+        "block_6YE837",
+        "block_g7cHVh",
+        "block_wPyLMA",
+        "block_efDgki",
+        "block_9VAbT4",
+        "block_9zBn4M",
+        "block_UTHhRJ",
+        "block_DLhKiR",
+        "block_LXjEQT"
       ],
       "settings": {
         "section_title": "Solutions",
