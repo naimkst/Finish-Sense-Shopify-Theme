@@ -135,6 +135,15 @@
             "button_text": "Learn More",
             "button_Link": ""
           }
+        },
+        "block_xHr9FR": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "title": "Software",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
         }
       },
       "block_order": [
@@ -151,7 +160,8 @@
         "block_9zBn4M",
         "block_UTHhRJ",
         "block_DLhKiR",
-        "block_LXjEQT"
+        "block_LXjEQT",
+        "block_xHr9FR"
       ],
       "settings": {
         "section_title": "Solutions",
