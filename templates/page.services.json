@@ -42,22 +42,42 @@
             "button_text": "Learn More",
             "button_Link": ""
           }
+        },
+        "block_tKhMBb": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
         }
       },
       "block_order": [
         "block_b9d7Vx",
         "block_YFnCQc",
-        "block_4A9r66"
+        "block_4A9r66",
+        "block_tKhMBb"
       ],
       "settings": {
         "section_title": "Services",
         "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+      }
+    },
+    "contact_section_rFxpxe": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below..."
       }
     }
   },
   "order": [
     "main",
     "breadcrumbs_HUecYk",
-    "service_grid_ULiJXT"
+    "service_grid_ULiJXT",
+    "contact_section_rFxpxe"
   ]
 }
