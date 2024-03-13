@@ -211,6 +211,13 @@
       ],
       "settings": {
       }
+    },
+    "blog_section_8X6Gqb": {
+      "type": "blog-section",
+      "settings": {
+        "section_title": "Latest Blogs",
+        "section_description": "Our latest Blogs\/News"
+      }
     }
   },
   "order": [
@@ -218,6 +225,7 @@
     "about_section_JxD3X7",
     "service_aria_YD8jfD",
     "project_aria_bjakr6",
-    "testimonial_section_JWbMUp"
+    "testimonial_section_JWbMUp",
+    "blog_section_8X6Gqb"
   ]
 }
