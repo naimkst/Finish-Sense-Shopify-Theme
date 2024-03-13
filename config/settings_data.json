@@ -61,6 +61,7 @@
         ],
         "settings": {
           "footer_logo": "shopify:\/\/shop_images\/footer-logo.png",
+          "footer_background": "shopify:\/\/shop_images\/footer-shape.png",
           "facebook": "https:\/\/facebook.com",
           "linkedin": "https:\/\/linkedin.com",
           "youtube": "https:\/\/youtube.com"
