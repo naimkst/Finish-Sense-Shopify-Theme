@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "breadcrumbs_HUecYk": {
+      "type": "breadcrumbs",
+      "settings": {
+        "section_title": "Custom Solutions For Every Process",
+        "section_description": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market."
+      }
+    },
+    "service_grid_ULiJXT": {
+      "type": "service-grid",
+      "blocks": {
+        "block_b9d7Vx": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_YFnCQc": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_4A9r66": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_tKhMBb": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_b9d7Vx",
+        "block_YFnCQc",
+        "block_4A9r66",
+        "block_tKhMBb"
+      ],
+      "settings": {
+        "section_title": "Services",
+        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+      }
+    },
+    "contact_section_rFxpxe": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below..."
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_HUecYk",
+    "service_grid_ULiJXT",
+    "contact_section_rFxpxe"
+  ]
+}
