@@ -1,0 +1,45 @@
+<section class="static-hero" style="background: url({{ section.settings.background_image |  image_url: width: 1920 }}) no-repeat center center;  background-size: cover;">
+  <div class="static-hero-text">
+    <div class="slide-title">
+      <h2>{{ section.settings.section_title }}</h2>
+    </div>
+    <div class="btns">
+      <a href="{{ section.settings.button_link }}" class="btn-style-1">{{ section.settings.button_text }}</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Single Hero Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      },
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section Title",
+        "default": "We’re looking for talented industry experts."
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Current Openings"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Single Hero Section"
+      }
+    ]
+  }
+{% endschema %}

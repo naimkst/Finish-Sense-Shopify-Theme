@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "main": {
+      "type": "single-hero"
+    }
+  },
+  "order": ["main"]
+}
