@@ -61,7 +61,7 @@
             "background_image": "shopify:\/\/shop_images\/img-3.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
-            "button_Link": ""
+            "button_Link": "shopify:\/\/pages\/hmi-scada-development"
           }
         },
         "block_MtLX7M": {
@@ -70,7 +70,7 @@
             "background_image": "shopify:\/\/shop_images\/img-1.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
-            "button_Link": ""
+            "button_Link": "shopify:\/\/pages\/onsite-service"
           }
         },
         "block_KTEgrQ": {
@@ -79,7 +79,7 @@
             "background_image": "shopify:\/\/shop_images\/img-2.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
-            "button_Link": ""
+            "button_Link": "shopify:\/\/pages\/programming"
           }
         },
         "block_zbrg9a": {
@@ -88,7 +88,7 @@
             "background_image": "shopify:\/\/shop_images\/img-4.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
-            "button_Link": ""
+            "button_Link": "shopify:\/\/pages\/remote-support"
           }
         }
       },
