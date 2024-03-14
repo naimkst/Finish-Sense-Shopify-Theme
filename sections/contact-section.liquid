@@ -332,17 +332,27 @@
                   </div>
                 </div>
               </div>
-              <div class="clearfix error-handling-messages">
-                {% if form.posted_successfully? %}
-                  <div id="success">Thank you! Massage Sended</div>
-                {% endif %}
 
-                {% if form.errors %}
-                  <div id="error">
-                    {{ form.errors | default_errors }}
-                  </div>
+              {% if form.posted_successfully? %}
+                <h6>
+                  Thank you message
+                </h6>
+              {% else %}
+                {{ form.errors | default_errors }}
+              {% endif %}
+
+
+              <div class="clearfix error-handling-messages">
+                <div id="success">Thank you! Massage Sended</div>
+                {% if form.posted_successfully? %}
+                {% else %}
+                  {{ form.errors | default_errors }}
                 {% endif %}
+                <div id="error">
+                  {{ form.errors | default_errors }}
+                </div>
               </div>
+
 
             {% endform %}
           </div>
