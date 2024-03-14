@@ -17,25 +17,6 @@
               , class: 'contact-validation-active'
               , id: '' %}
 
-              {% if form.posted_successfully? %}
-                <div class="clearfix error-handling-messages">
-                  <div id="success">Thank you! Massage Sended</div>
-                </div>
-              {% endif %}
-
-              {% if form.errors %}
-                <div class="clearfix error-handling-messages">
-                  <div id="error">
-                    {{ form.errors | default_errors }}
-                  </div>
-                </div>
-              {% endif %}
-
-              <input
-                hidden
-                type="password"
-                name="customer[password]"
-                value="Pass.321">
               <div class="row">
                 <div class="col-md-6 col-12 form-field">
                   <input
@@ -347,7 +328,7 @@
                 </div>
               </div>
 
-              {% if form.posted_successfully? %}
+              {% if form.posted_successfully %}
                 <div class="clearfix error-handling-messages">
                   <div id="success">Thank you! Massage Sended</div>
                 </div>
