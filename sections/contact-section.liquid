@@ -17,6 +17,20 @@
               , class: 'contact-validation-active'
               , id: '' %}
 
+              {% if form.posted_successfully? %}
+                <div class="clearfix error-handling-messages">
+                  <div id="success">Thank you! Massage Sended</div>
+                </div>
+              {% endif %}
+
+              {% if form.errors %}
+                <div class="clearfix error-handling-messages">
+                  <div id="error">
+                    {{ form.errors | default_errors }}
+                  </div>
+                </div>
+              {% endif %}
+
               <input
                 hidden
                 type="password"
@@ -333,19 +347,19 @@
                 </div>
               </div>
 
-
-              <div class="clearfix error-handling-messages">
-                {% if form.posted_successfully? %}
+              {% if form.posted_successfully? %}
+                <div class="clearfix error-handling-messages">
                   <div id="success">Thank you! Massage Sended</div>
-                {% endif %}
+                </div>
+              {% endif %}
 
-                {% if form.errors %}
+              {% if form.errors %}
+                <div class="clearfix error-handling-messages">
                   <div id="error">
                     {{ form.errors | default_errors }}
                   </div>
-                {% endif %}
-
-              </div>
+                </div>
+              {% endif %}
 
 
             {% endform %}
