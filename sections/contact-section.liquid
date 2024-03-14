@@ -337,7 +337,9 @@
               <div class="clearfix error-handling-messages">
                 {% if form.posted_successfully? %}
                   <div id="success">Thank you! Massage Sended</div>
-                {% else %}
+                {% endif %}
+
+                {% if form.errors %}
                   <div id="error">
                     {{ form.errors | default_errors }}
                   </div>
