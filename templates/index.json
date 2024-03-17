@@ -109,6 +109,7 @@
         "block_ckpBG7": {
           "type": "block",
           "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1_d8f39878-818a-4f0b-b339-899fd7c72d10.jpg",
             "title": "Engineering & Design",
             "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
             "button_text": "Learn More",
@@ -118,6 +119,7 @@
         "block_VqfqCy": {
           "type": "block",
           "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-2_e0151026-30c4-4430-bf11-f80095c33f4d.jpg",
             "title": "Engineering & Design",
             "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
             "button_text": "Learn More",
@@ -127,6 +129,7 @@
         "block_exP6yi": {
           "type": "block",
           "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1_d8f39878-818a-4f0b-b339-899fd7c72d10.jpg",
             "title": "Engineering & Design",
             "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
             "button_text": "Learn More",
