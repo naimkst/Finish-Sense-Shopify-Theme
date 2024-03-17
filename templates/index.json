@@ -16,17 +16,17 @@
         "block_UnAAQa": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/hero3.jpg",
+            "hero_background_image": "shopify:\/\/shop_images\/hero2.jpg",
             "hero_title": "Design. Create. and Build.",
             "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
             "hero_button_text": "Start Your Project",
             "hero_button_Link": ""
           }
         },
-        "block_xMfc8a": {
+        "block_MDhkf6": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/hero2.jpg",
+            "hero_background_image": "shopify:\/\/shop_images\/hero3.jpg",
             "hero_title": "Design. Create. and Build.",
             "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
             "hero_button_text": "Start Your Project",
@@ -37,7 +37,7 @@
       "block_order": [
         "block_LaAjnt",
         "block_UnAAQa",
-        "block_xMfc8a"
+        "block_MDhkf6"
       ],
       "settings": {
       }
@@ -45,7 +45,6 @@
     "about_section_h8Vka6": {
       "type": "about-section",
       "settings": {
-        "about_image": "shopify:\/\/shop_images\/logo-2.png",
         "about_title": "Design, Create and Build bespoke Exhibition Stall",
         "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
         "about_button_text": "Learn More",
@@ -58,7 +57,6 @@
         "block_9ehDBc": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/hmi-scada-development"
@@ -67,7 +65,6 @@
         "block_MtLX7M": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/onsite-service"
@@ -76,7 +73,6 @@
         "block_KTEgrQ": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/programming"
@@ -85,7 +81,6 @@
         "block_zbrg9a": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/remote-support"
@@ -109,7 +104,6 @@
         "block_ckpBG7": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1_448ba710-1886-4a7d-81f8-21642f10250c.jpg",
             "title": "Engineering & Design",
             "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
             "button_text": "Learn More",
@@ -119,7 +113,6 @@
         "block_VqfqCy": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2_76c97cf7-626d-45ca-8d4f-70cecdd1b6c6.jpg",
             "title": "Engineering & Design",
             "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
             "button_text": "Learn More",
@@ -129,7 +122,6 @@
         "block_exP6yi": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3_368beb93-4b2a-433d-960c-094da00c2203.jpg",
             "title": "Engineering & Design",
             "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
             "button_text": "Learn More",
@@ -153,7 +145,6 @@
         "block_JUeP3Q": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1_6ba44cbf-53ec-4d18-ad4f-94c70a085330.jpg",
             "title": "You are amazing! You worked so hard for Cady's wedding.",
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
@@ -162,7 +153,6 @@
         "block_94EtQL": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2_f6dafcfc-e2cb-42c2-aaf8-d5900fd4276e.jpg",
             "title": "You are amazing! You worked so hard for Cady's wedding.",
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
@@ -171,7 +161,6 @@
         "block_QGT4VD": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3_ca419631-6018-42f9-a41f-70556d4b0018.jpg",
             "title": "You are amazing! You worked so hard for Cady's wedding.",
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
@@ -180,7 +169,6 @@
         "block_Nqerbi": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1_6ba44cbf-53ec-4d18-ad4f-94c70a085330.jpg",
             "title": "You are amazing! You worked so hard for Cady's wedding.",
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
@@ -189,43 +177,36 @@
         "brand_y96Ncm": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/1.png"
           }
         },
         "brand_b7Lihb": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/2.png"
           }
         },
         "brand_kNXfRK": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/6.png"
           }
         },
         "brand_aJE8VU": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/1.png"
           }
         },
         "brand_NPG7jh": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/7.png"
           }
         },
         "brand_aEqrUj": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/4.png"
           }
         },
         "brand_3Qqzch": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/3.png"
           }
         }
       },
