@@ -90,23 +90,13 @@
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/remote-support"
           }
-        },
-        "block_T9h6qX": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/7.png",
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
         }
       },
       "block_order": [
         "block_9ehDBc",
         "block_MtLX7M",
         "block_KTEgrQ",
-        "block_zbrg9a",
-        "block_T9h6qX"
+        "block_zbrg9a"
       ],
       "settings": {
         "section_title": "What We Do",
