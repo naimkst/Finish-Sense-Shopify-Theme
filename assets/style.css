@@ -2140,7 +2140,7 @@ img {
   .site-header #navbar ul {
     background: #3693d9;
     padding-left: 30px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%);
   }
   .site-header #navbar li {
     position: relative;
@@ -2161,7 +2161,7 @@ img {
 }
 @media screen and (min-width: 992px) and (max-width: 1870px) {
   .site-header #navbar > ul > li > a {
-    padding: 20px 18px;
+    padding: 15px 18px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -2325,7 +2325,7 @@ img {
     width: 100%;
   }
   .site-header .mobail-menu button {
-    background-color: #3693d9;
+    /* background-color: #3693d9; */
     width: 40px;
     height: 35px;
     border: 0;
@@ -2864,6 +2864,7 @@ img {
 }
 .wpo-site-footer .wpo-lower-footer ul.social img {
   max-width: 20px;
+  height: auto;
 }
 .wpo-site-footer .wpo-lower-footer ul li {
   font-size: 18px;
