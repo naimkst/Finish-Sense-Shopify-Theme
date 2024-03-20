@@ -7,7 +7,7 @@
           "type": "block",
           "settings": {
             "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
-            "hero_title": "Design. Create. and Build.",
+            "hero_title": "...Close the Loop...",
             "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
             "hero_button_text": "Start Your Project",
             "hero_button_Link": ""
@@ -46,8 +46,8 @@
       "type": "about-section",
       "settings": {
         "about_image": "shopify:\/\/shop_images\/logo-2.png",
-        "about_title": "Design, Create and Build bespoke Exhibition Stall",
-        "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
+        "about_title": "...Close the Loop...",
+        "about_description": "<p>FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications.  Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.<\/p>",
         "about_button_text": "Learn More",
         "about_button_url": ""
       }
