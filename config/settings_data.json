@@ -41,7 +41,7 @@
             "type": "footer_menu",
             "settings": {
               "menu_title": "Privacy Policy",
-              "menu_link": "#"
+              "menu_link": "shopify:\/\/pages\/privacy-policy"
             }
           },
           "footer_menu_9dGcGe": {
