@@ -7,7 +7,7 @@
           "type": "block",
           "settings": {
             "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
-            "hero_title": "...Close the Loop...",
+            "hero_title": "Close the Loop",
             "hero_description": "Explore the Future of Precision Coating with FinishSense's Closed Loop Control Systems",
             "hero_button_text": "Start Your Project",
             "hero_button_Link": ""
@@ -45,9 +45,9 @@
     "about_section_h8Vka6": {
       "type": "about-section",
       "settings": {
-        "about_image": "shopify:\/\/shop_images\/logo-2.png",
-        "about_title": "...Close the Loop...",
-        "about_description": "<p>FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications.  Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.<\/p>",
+        "about_image": "shopify:\/\/shop_images\/BLACK.svg",
+        "about_title": "",
+        "about_description": "<p>Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.<\/p>",
         "about_button_text": "Learn More",
         "about_button_url": ""
       }
@@ -100,7 +100,7 @@
       ],
       "settings": {
         "section_title": "What We Do",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+        "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications."
       }
     },
     "project_aria_FhRgA3": {
@@ -256,7 +256,7 @@
       "type": "contact-section",
       "settings": {
         "section_title": "What We Do",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland",
+        "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications.",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
       }
