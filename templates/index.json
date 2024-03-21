@@ -8,7 +8,7 @@
           "settings": {
             "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
             "hero_title": "Close the Loop",
-            "hero_description": "Explore the Future of Precision Coating with FinishSense's Closed Loop Control Systems",
+            "hero_description": "Explore the Future of Precision Coating with FinishSense's Control Systems",
             "hero_button_text": "Start Your Project",
             "hero_button_Link": ""
           }
@@ -46,7 +46,7 @@
       "type": "about-section",
       "settings": {
         "about_image": "shopify:\/\/shop_images\/BLACK.svg",
-        "about_title": "",
+        "about_title": "Custom Solutions for Custom Processes",
         "about_description": "<p>Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.<\/p>",
         "about_button_text": "Learn More",
         "about_button_url": ""
