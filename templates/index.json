@@ -168,24 +168,6 @@
             "designation": "Shivinder Sing - Founder"
           }
         },
-        "block_QGT4VD": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4_b11e33a5-3726-4c81-b45d-ea3222bb4ae4.jpg",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
-        "block_Nqerbi": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3_3602f6c4-aaa0-4d1a-8af7-3a49fc52b6b9.jpg",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
         "brand_y96Ncm": {
           "type": "brand",
           "settings": {
@@ -232,8 +214,6 @@
       "block_order": [
         "block_JUeP3Q",
         "block_94EtQL",
-        "block_QGT4VD",
-        "block_Nqerbi",
         "brand_y96Ncm",
         "brand_b7Lihb",
         "brand_kNXfRK",
