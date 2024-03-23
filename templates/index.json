@@ -147,13 +147,6 @@
         "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
       }
     },
-    "service_grid_rpDjHd": {
-      "type": "service-grid",
-      "settings": {
-        "section_title": "Our Partners",
-        "section_description": ""
-      }
-    },
     "testimonial_section_zyPTMj": {
       "type": "testimonial-section",
       "blocks": {
@@ -274,7 +267,6 @@
     "about_section_h8Vka6",
     "service_aria_mDixD7",
     "project_aria_FhRgA3",
-    "service_grid_rpDjHd",
     "testimonial_section_zyPTMj",
     "blog_section_tw4eb4",
     "contact_section_tYgB37"
