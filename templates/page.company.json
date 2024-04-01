@@ -1,7 +1,28 @@
 {
   "sections": {
+    "hero_section_wF9Vgk": {
+      "type": "hero-section",
+      "blocks": {
+        "block_jPJNkz": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_jPJNkz"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "not-found",
+      "disabled": true,
       "settings": {
       }
     },
@@ -23,6 +44,7 @@
     }
   },
   "order": [
+    "hero_section_wF9Vgk",
     "main",
     "breadcrumbs_rNL8WW",
     "contact_section_9iin6V"
