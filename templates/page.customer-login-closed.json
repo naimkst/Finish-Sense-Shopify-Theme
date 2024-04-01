@@ -1,15 +1,18 @@
 {
   "sections": {
-    "main": {
-      "type": "not-found",
+    "single_hero_KhpCUN": {
+      "type": "single-hero",
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/FinishSense_Customer_Login_2f37d43f-58c3-4973-bb63-d2c17a71561c.svg",
+        "section_title": "",
+        "button_text": "Coming Soon!",
+        "button_link": ""
       }
     },
-    "breadcrumbs_rNL8WW": {
-      "type": "breadcrumbs",
+    "main": {
+      "type": "not-found",
+      "disabled": true,
       "settings": {
-        "section_title": "Coming Soon!",
-        "section_description": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market."
       }
     },
     "contact_section_9iin6V": {
@@ -23,8 +26,8 @@
     }
   },
   "order": [
+    "single_hero_KhpCUN",
     "main",
-    "breadcrumbs_rNL8WW",
     "contact_section_9iin6V"
   ]
 }
