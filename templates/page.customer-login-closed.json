@@ -15,6 +15,13 @@
       "settings": {
       }
     },
+    "service_grid_DBGPnQ": {
+      "type": "service-grid",
+      "settings": {
+        "section_title": "",
+        "section_description": ""
+      }
+    },
     "contact_section_9iin6V": {
       "type": "contact-section",
       "settings": {
@@ -28,6 +35,7 @@
   "order": [
     "single_hero_KhpCUN",
     "main",
+    "service_grid_DBGPnQ",
     "contact_section_9iin6V"
   ]
 }
