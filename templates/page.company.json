@@ -106,6 +106,13 @@
       "settings": {
       }
     },
+    "service_grid_nY8bFH": {
+      "type": "service-grid",
+      "settings": {
+        "section_title": "",
+        "section_description": ""
+      }
+    },
     "contact_section_9iin6V": {
       "type": "contact-section",
       "settings": {
@@ -122,6 +129,7 @@
     "breadcrumbs_rNL8WW",
     "project_aria_NHn8pe",
     "testimonial_section_KM4a3W",
+    "service_grid_nY8bFH",
     "contact_section_9iin6V"
   ]
 }
