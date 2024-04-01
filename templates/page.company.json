@@ -67,15 +67,6 @@
             "button_Link": ""
           }
         },
-        "block_mQMWUP": {
-          "type": "block",
-          "settings": {
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
         "block_tRE9AP": {
           "type": "block",
           "settings": {
@@ -90,7 +81,6 @@
       "block_order": [
         "block_Fze8ct",
         "block_YhVkLR",
-        "block_mQMWUP",
         "block_tRE9AP"
       ],
       "settings": {
