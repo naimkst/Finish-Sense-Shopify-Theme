@@ -1,18 +1,21 @@
 {
   "sections": {
-    "single_hero_KhpCUN": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/Picture2.png",
-        "section_title": "",
-        "button_text": "Coming Soon!",
-        "button_link": ""
-      }
-    },
     "main": {
       "type": "not-found",
       "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
+      }
+    },
+    "single_hero_KhpCUN": {
+      "type": "single-hero",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+        "section_title": "",
+        "button_text": "Coming Soon!",
+        "button_link": ""
       }
     },
     "service_grid_DBGPnQ": {
@@ -33,8 +36,8 @@
     }
   },
   "order": [
-    "single_hero_KhpCUN",
     "main",
+    "single_hero_KhpCUN",
     "service_grid_DBGPnQ",
     "contact_section_9iin6V"
   ]
