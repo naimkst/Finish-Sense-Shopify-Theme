@@ -1,17 +1,17 @@
 {
   "sections": {
-    "main": {
-      "type": "not-found",
-      "settings": {
-      }
-    },
     "single_hero_BafV4g": {
       "type": "single-hero",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
+        "background_image": "shopify:\/\/shop_images\/hero.jpg",
         "section_title": "Custom Solutions For Custom Processes",
         "button_text": "Learn More",
         "button_link": "shopify:\/\/pages\/solutions"
+      }
+    },
+    "main": {
+      "type": "not-found",
+      "settings": {
       }
     },
     "about_section_9JM6zx": {
@@ -59,8 +59,8 @@
     }
   },
   "order": [
-    "main",
     "single_hero_BafV4g",
+    "main",
     "about_section_9JM6zx",
     "testimonial_section_AECNQr",
     "service_grid_izebAL",
