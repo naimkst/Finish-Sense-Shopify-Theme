@@ -3236,12 +3236,12 @@ a.read-more:hover:before {
   position: relative;
 }
 .project-area .project-wrap .owl-dots button {
-  width: 10px;
+  width: 12px;
   height: 12px;
   border: 0;
   background: #d4e6f5;
   margin-right: 10px;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 .project-area .project-wrap .owl-dots .owl-dot.active {
   background-color: #3693d9;
