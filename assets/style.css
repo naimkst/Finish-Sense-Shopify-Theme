@@ -3548,7 +3548,7 @@ a.read-more:hover:before {
   border: 0;
   background: #d4e6f5;
   margin-right: 10px;
-  border-radius: 50%;
+  border-radius: 50px;
   object-fit: cover;
 }
 .blog-area .blog-items .owl-dots .owl-dot.active {
