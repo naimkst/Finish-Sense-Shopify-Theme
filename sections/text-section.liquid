@@ -1,0 +1,34 @@
+<!-- about-area-start -->
+<section class="text-block-section section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-block">{{ section.settings.text_block }}</div>
+      </div>
+
+    </div>
+  </div>
+<!-- end contianer -->
+</section>
+<!-- about-area-end -->
+
+
+{% schema %}
+  {
+    "name": "Text Block",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "text_block",
+        "label": "Text Block",
+        "default": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>"
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "Text Block"
+      }
+    ]
+  }
+{% endschema %}
