@@ -4,8 +4,8 @@
     "theme_name": "Finish Sense",
     "theme_version": "1.0",
     "theme_author": "Naim",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "Settings",
@@ -15,11 +15,11 @@
         "id": "favicon",
         "label": "Favicon Icon"
       },
-         {
-           "type": "image_picker",
-           "id": "preloader",
-           "label": "Preloader Icon"
-         }
+      {
+        "type": "image_picker",
+        "id": "preloader",
+        "label": "Preloader Icon"
+      }
     ]
   }
 ]
