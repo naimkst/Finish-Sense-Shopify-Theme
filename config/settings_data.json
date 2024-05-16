@@ -5,6 +5,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/Untitled-1.svg",
           "main_menu": "main-menu"
         }
       },
@@ -15,7 +16,7 @@
             "type": "block",
             "settings": {
               "address_name": "USA",
-              "address": "1309 Tanager Ave, Ocheyedan, IA 51354 (USA)",
+              "address": "Okoboji, IA",
               "phone": "+1 712 720 0166",
               "email": "sales@finishsense.io"
             }
@@ -24,8 +25,8 @@
             "type": "block",
             "settings": {
               "address_name": "CANADA",
-              "address": "IOWA",
-              "phone": "+1 712 758 3606",
+              "address": "Peterborough, ON",
+              "phone": "+1 705 876-9808",
               "email": "engineering@finishsense.io"
             }
           },
@@ -40,7 +41,7 @@
             "type": "footer_menu",
             "settings": {
               "menu_title": "Privacy Policy",
-              "menu_link": "#"
+              "menu_link": "shopify:\/\/pages\/privacy-policy"
             }
           },
           "footer_menu_9dGcGe": {
@@ -59,7 +60,7 @@
           "footer_menu_9dGcGe"
         ],
         "settings": {
-          "footer_logo": "shopify:\/\/shop_images\/footer-logo.png",
+          "footer_logo": "shopify:\/\/shop_images\/Untitled-1.svg",
           "footer_background": "shopify:\/\/shop_images\/footer-shape.png",
           "facebook": "",
           "linkedin": "https:\/\/linkedin.com",

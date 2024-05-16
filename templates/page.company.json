@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "hero_section_wF9Vgk": {
+      "type": "hero-section",
+      "blocks": {
+        "block_jPJNkz": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        },
+        "block_GWYrKi": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_jPJNkz",
+        "block_GWYrKi"
+      ],
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "not-found",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "breadcrumbs_rNL8WW": {
+      "type": "breadcrumbs",
+      "settings": {
+        "section_title": "Coming Soon!",
+        "section_description": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market."
+      }
+    },
+    "project_aria_NHn8pe": {
+      "type": "project-aria",
+      "blocks": {
+        "block_Fze8ct": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_YhVkLR": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_tRE9AP": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_Fze8ct",
+        "block_YhVkLR",
+        "block_tRE9AP"
+      ],
+      "settings": {
+        "section_title": "Our Work",
+        "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
+      }
+    },
+    "testimonial_section_KM4a3W": {
+      "type": "testimonial-section",
+      "blocks": {
+        "block_JU8ift": {
+          "type": "block",
+          "settings": {
+            "title": "You are amazing! You worked so hard for Cady's wedding.",
+            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
+            "designation": "Shivinder Sing - Founder"
+          }
+        }
+      },
+      "block_order": [
+        "block_JU8ift"
+      ],
+      "settings": {
+      }
+    },
+    "service_grid_nY8bFH": {
+      "type": "service-grid",
+      "settings": {
+        "section_title": "",
+        "section_description": ""
+      }
+    },
+    "contact_section_9iin6V": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below..."
+      }
+    }
+  },
+  "order": [
+    "hero_section_wF9Vgk",
+    "main",
+    "breadcrumbs_rNL8WW",
+    "project_aria_NHn8pe",
+    "testimonial_section_KM4a3W",
+    "service_grid_nY8bFH",
+    "contact_section_9iin6V"
+  ]
+}

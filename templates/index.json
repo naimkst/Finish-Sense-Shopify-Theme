@@ -7,8 +7,8 @@
           "type": "block",
           "settings": {
             "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
-            "hero_title": "Design. Create. and Build.",
-            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_title": "Close the Loop",
+            "hero_description": "Explore the Future of Precision Coating with FinishSense's Control Solutions",
             "hero_button_text": "Start Your Project",
             "hero_button_Link": ""
           }
@@ -45,9 +45,9 @@
     "about_section_h8Vka6": {
       "type": "about-section",
       "settings": {
-        "about_image": "shopify:\/\/shop_images\/logo-2.png",
-        "about_title": "Design, Create and Build bespoke Exhibition Stall",
-        "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
+        "about_image": "shopify:\/\/shop_images\/BLACK.svg",
+        "about_title": "Custom Solutions for Custom Processes",
+        "about_description": "<p>Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.<\/p>",
         "about_button_text": "Learn More",
         "about_button_url": ""
       }
@@ -58,7 +58,7 @@
         "block_9ehDBc": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
             "title": "Engineering & Design",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/hmi-scada-development"
@@ -67,7 +67,7 @@
         "block_MtLX7M": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "background_image": "shopify:\/\/shop_images\/GP-BoothLine-2.webp",
             "title": "Installation",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/onsite-service"
@@ -76,7 +76,7 @@
         "block_KTEgrQ": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
             "title": "Commisioning",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/programming"
@@ -85,7 +85,7 @@
         "block_zbrg9a": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
+            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
             "title": "After Sale Support",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/remote-support"
@@ -100,7 +100,7 @@
       ],
       "settings": {
         "section_title": "What We Do",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+        "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications."
       }
     },
     "project_aria_FhRgA3": {
@@ -153,16 +153,14 @@
         "block_JUeP3Q": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1_3a98171a-0f7c-403f-b3e7-01d6cf0f9c73.jpg",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
+            "title": "Our Partners",
+            "description": "Since 2002, some of the top ranked Automotive, Aerospace and large industrial manufacturers have counted on Innovative Finishing Solutions Inc. for Quality, Value and Innovation. Renowned for bringing world leadership to the art and science of  painting & material application through robotic technology and superior engineered solutions. We will earn the trust of our Customer's as valued partners in productivity, profitability and performance.",
+            "designation": "Innovative Finishing Solutions"
           }
         },
         "block_94EtQL": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2_6c7fa8b2-56b2-46f8-9b7c-e76cdf3672a2.jpg",
             "title": "You are amazing! You worked so hard for Cady's wedding.",
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
@@ -171,7 +169,6 @@
         "block_QGT4VD": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4_b11e33a5-3726-4c81-b45d-ea3222bb4ae4.jpg",
             "title": "You are amazing! You worked so hard for Cady's wedding.",
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
@@ -180,7 +177,6 @@
         "block_Nqerbi": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3_3602f6c4-aaa0-4d1a-8af7-3a49fc52b6b9.jpg",
             "title": "You are amazing! You worked so hard for Cady's wedding.",
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
@@ -189,7 +185,7 @@
         "brand_y96Ncm": {
           "type": "brand",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/1.png"
+            "brand_image": "shopify:\/\/shop_images\/cherkam-ltd-logo.png"
           }
         },
         "brand_b7Lihb": {
@@ -256,7 +252,7 @@
       "type": "contact-section",
       "settings": {
         "section_title": "What We Do",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland",
+        "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications.",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
       }

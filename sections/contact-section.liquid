@@ -13,21 +13,21 @@
         <div class="col col-lg-8 col-md-12 col-12">
           <div class="contact-form-area">
             <h3>{{ section.settings.form_title }}</h3>
-            {% form 'create_customer'
+            {% form 'contact'
               , class: 'contact-validation-active'
               , id: '' %}
 
               <input
                 hidden
                 type="password"
-                name="customer[password]"
+                name="contact[password]"
                 value="Pass.321">
               <div class="row">
                 <div class="col-md-6 col-12 form-field">
                   <input
                     type="text"
                     class="form-control"
-                    name="customer[first_name]"
+                    name="contact[first_name]"
                     id="name"
                     placeholder="Full Name"
                     autocomplete="name">
@@ -36,7 +36,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    name="customer[company]"
+                    name="contact[company]"
                     id="cname"
                     placeholder="Your Company Name"
                     autocomplete="name">
@@ -45,7 +45,7 @@
                   <input
                     type="email"
                     class="form-control"
-                    name="customer[email]"
+                    name="contact[email]"
                     id="email"
                     placeholder="Business email">
                 </div>
@@ -53,12 +53,12 @@
                   <input
                     type="text"
                     class="form-control"
-                    name="customer[phone]"
+                    name="contact[phone]"
                     id="phone"
                     placeholder="Phone Number">
                 </div>
                 <div class="col-md-6 col-12 form-field">
-                  <select name="customer[country]" class="form-control">
+                  <select name="contact[country]" class="form-control">
                     <option disabled="disabled" selected="">Select your Country</option>
                     <option value="Afghanistan">Afghanistan</option>
                     <option value="Åland Islands">Åland Islands</option>
@@ -310,14 +310,14 @@
                   <input
                     type="text"
                     class="form-control"
-                    name="customer[service]"
+                    name="contact[service]"
                     id="service"
                     placeholder="What service are you Interested in?">
                 </div>
                 <div class="col-md-12 col-12 form-field">
                   <textarea
                     class="form-control"
-                    name="customer[note]"
+                    name="contact[body]"
                     id="note"
                     placeholder="Message here.."></textarea>
                 </div>
