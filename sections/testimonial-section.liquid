@@ -19,7 +19,7 @@
               {% endif %}
             {% endfor %}
           </div>
-          <div class="testimonial-thumbnil-active">
+          {% comment %} <div class="testimonial-thumbnil-active">
             {% for block in section.blocks %}
               {% if block.type == "block" %}
                 <div class="item">
@@ -33,11 +33,11 @@
                 </div>
               {% endif %}
             {% endfor %}
-          </div>
+          </div> {% endcomment %}
         </div>
       </div>
       <div class="col-lg-5 offset-lg-1">
-        <div class="partner-wrap">
+        {% comment %} <div class="partner-wrap">
           {% for block in section.blocks %}
             {% if block.type == "brand" %}
               <div class="partner-item">
@@ -49,10 +49,7 @@
               </div>
             {% endif %}
           {% endfor %}
-
-
-        </div>
-
+        </div> {% endcomment %}
         <div class="testimonial-thumbnil-active">
           {% for block in section.blocks %}
             {% if block.type == "block" %}

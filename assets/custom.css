@@ -12,3 +12,11 @@
 .site-logo img {
   width: 200px !important;
 }
+.testimonial-thumbnil-img img {
+  width: 300px;
+}
+.testimonial-thumbnil-active .item.slick-slide {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

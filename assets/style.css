@@ -3379,11 +3379,11 @@ a.read-more:hover:before {
   content: '\e629' !important;
   font-family: 'themify';
 }
-.partner-wrap .slick-prev:before {
+.testimonial-thumbnil-active .slick-prev:before {
   content: '\e629' !important;
   font-family: 'themify';
 }
-.partner-wrap .slick-next:before {
+.testimonial-thumbnil-active .slick-next:before {
   content: '\e628' !important;
   font-family: themify;
 }
@@ -3415,10 +3415,10 @@ a.read-more:hover:before {
   .testimonial-area ul.slick-dots {
     display: block !important;
   }
-  .partner-wrap .slick-prev:before {
+  .testimonial-thumbnil-active .slick-prev:before {
     display: none;
   }
-  .partner-wrap .slick-next:before {
+  .testimonial-thumbnil-active .slick-next:before {
     display: none;
   }
 }
