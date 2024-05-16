@@ -1,22 +1,12 @@
 {
   "sections": {
     "main": {
-      "type": "not-found",
+      "type": "single-blog",
       "settings": {
-      }
-    },
-    "single_hero_erUW83": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "{{ article.image }}",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
-        "button_link": ""
       }
     }
   },
   "order": [
-    "main",
-    "single_hero_erUW83"
+    "main"
   ]
 }
