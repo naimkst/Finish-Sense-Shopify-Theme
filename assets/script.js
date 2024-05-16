@@ -221,74 +221,108 @@
     $('.testimonial-active').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.testimonial-thumbnil-active',
+    });
+    $('.testimonial-thumbnil-active').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: '.testimonial-active',
+      focusOnSelect: true,
       arrows: true,
-      dots: true,
-      height: true,
+
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 500,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            slidesToShow: 3,
             infinite: true,
-            dots: true,
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 400,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1,
-          },
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            slidesToShow: 3,
           },
         },
       ],
     });
   }
 
+  // Creative-agency-testimonial-area
+  // if ($('.testimonial-area').length) {
+  //   $('.testimonial-active').slick({
+  //     slidesToShow: 1,
+  //     slidesToScroll: 1,
+  //     arrows: true,
+  //     dots: true,
+  //     height: true,
+  //     responsive: [
+  //       {
+  //         breakpoint: 1024,
+  //         settings: {
+  //           slidesToShow: 1,
+  //           slidesToScroll: 1,
+  //           infinite: true,
+  //           dots: true,
+  //         },
+  //       },
+  //       {
+  //         breakpoint: 600,
+  //         settings: {
+  //           slidesToShow: 1,
+  //           slidesToScroll: 1,
+  //           initialSlide: 1,
+  //         },
+  //       },
+  //       {
+  //         breakpoint: 480,
+  //         settings: {
+  //           slidesToShow: 1,
+  //           slidesToScroll: 1,
+  //         },
+  //       },
+  //     ],
+  //   });
+  // }
+
   // Testimonial brand section
-  if ($('.partner-wrap').length) {
-    $('.partner-wrap').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      arrows: true,
-      dots: true,
-      height: true,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            initialSlide: 1,
-          },
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-  }
+  // if ($('.partner-wrap').length) {
+  //   $('.partner-wrap').slick({
+  //     slidesToShow: 3,
+  //     slidesToScroll: 1,
+  //     arrows: true,
+  //     dots: true,
+  //     height: true,
+  //     responsive: [
+  //       {
+  //         breakpoint: 1024,
+  //         settings: {
+  //           slidesToShow: 3,
+  //           slidesToScroll: 1,
+  //           infinite: true,
+  //           dots: true,
+  //         },
+  //       },
+  //       {
+  //         breakpoint: 600,
+  //         settings: {
+  //           slidesToShow: 3,
+  //           slidesToScroll: 1,
+  //           initialSlide: 1,
+  //         },
+  //       },
+  //       {
+  //         breakpoint: 480,
+  //         settings: {
+  //           slidesToShow: 3,
+  //           slidesToScroll: 1,
+  //         },
+  //       },
+  //     ],
+  //   });
+  // }
 
   /*------------------------------------------
         = project-active
