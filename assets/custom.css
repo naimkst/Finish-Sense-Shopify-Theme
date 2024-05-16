@@ -136,6 +136,11 @@
   align-items: center;
   gap: 15px;
 }
+.blog-hero-section img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
 
 @media only screen and (max-width: 800px) {
   .p-100 {
