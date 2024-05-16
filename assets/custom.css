@@ -20,3 +20,129 @@
   justify-content: center;
   margin: 0 auto;
 }
+.p-100 {
+  padding: 100px 0px;
+}
+.blog-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.author-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.blog-content {
+  padding: 40px 0px 0px 0px;
+}
+.blog-content p {
+  color: #707070;
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.blog-content img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.blog-content h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 20px;
+}
+.blog-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 20px;
+}
+.blog-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 20px;
+}
+.blog-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 20px;
+}
+.blog-content h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 20px;
+}
+.blog-content ul {
+  padding-left: 20px;
+}
+.blog-content ul li {
+  color: #707070;
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.blog-content ol {
+  padding-left: 20px;
+}
+.blog-content ol li {
+  color: #707070;
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.blog-content blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #0856a2;
+  /* margin: 1.5em 10px; */
+  padding: 20px 10px;
+  quotes: '\201C''\201D''\2018''\2019';
+}
+.blog-content blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.blog-content blockquote p {
+  display: inline;
+}
+.blog-content blockquote cite {
+  color: #707070;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.blog-content blockquote cite:before {
+  content: '-';
+}
+.blog-content .blog-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.blog-meta .blog-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .p-100 {
+    padding: 60px 0px;
+  }
+  .section-title h2,
+  .section-title-s2 .blog-title {
+    line-height: 30px;
+  }
+}
