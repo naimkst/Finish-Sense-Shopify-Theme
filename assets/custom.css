@@ -141,7 +141,12 @@
   height: 450px;
   object-fit: cover;
 }
-
+.how-work-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
 @media only screen and (max-width: 800px) {
   .p-100 {
     padding: 60px 0px;
