@@ -154,6 +154,41 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  background: #0856a2;
+  width: 173px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.count-experience h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+}
+.count-experience p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0;
+}
+.work-right-content span {
+  font-size: 22px;
+  font-weight: 300;
+  color: #707070;
+}
+.work-right-content h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #111111;
+  margin: 20px 0px;
+}
+.content {
+  color: #707070;
+  line-height: 1.8em;
+  font-size: 17px;
 }
 @media only screen and (max-width: 800px) {
   .p-100 {
