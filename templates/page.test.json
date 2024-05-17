@@ -15,10 +15,28 @@
             "title": "Apply for the Jobs",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
+        },
+        "block_L6zqQk": {
+          "type": "block",
+          "settings": {
+            "process_number": "02",
+            "title": "Prepare for the Test & Interview",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_cCEULG": {
+          "type": "block",
+          "settings": {
+            "process_number": "03",
+            "title": "Prepare for the Test & Interview",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
         }
       },
       "block_order": [
-        "block_B6pRdA"
+        "block_B6pRdA",
+        "block_L6zqQk",
+        "block_cCEULG"
       ],
       "settings": {
         "left_image": "shopify:\/\/shop_images\/work1.png",
