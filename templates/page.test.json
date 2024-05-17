@@ -20,11 +20,35 @@
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
       }
+    },
+    "how_we_work_WqRzmA": {
+      "type": "how-we-work",
+      "blocks": {
+        "block_B6pRdA": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        }
+      },
+      "block_order": [
+        "block_B6pRdA"
+      ],
+      "settings": {
+        "expericent_time": "25+",
+        "expericent_text": "Year of Experience",
+        "how_we_work_slug": "HOW WE WORK",
+        "how_we_work_title": "Bringing Out the Potential in You",
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+      }
     }
   },
   "order": [
     "main",
     "breadcrumbs_rNL8WW",
-    "contact_section_9iin6V"
+    "contact_section_9iin6V",
+    "how_we_work_WqRzmA"
   ]
 }
