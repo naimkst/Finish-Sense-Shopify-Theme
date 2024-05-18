@@ -3,13 +3,13 @@
     <div class="row">
       <div class="how-work-flex col-lg-6 col-12">
         <div class="work-left-section">
-          <div class="work-left-image">
+          <div class="work-left-image wow fadeInLeft" data-wow-duration="600ms">
             <img
               src="{{ "work1.png" | asset_url }}"
               alt=""
               width=""
               height="">
-            <div class="count-experience">
+            <div class="count-experience wow fadeInUp" data-wow-duration="700ms">
               <h2>25+</h2>
               <p>Years of Experience</p>
             </div>
@@ -18,17 +18,30 @@
       </div>
       <div class="how-work-flex col-lg-6 col-12 align-self-center">
         <div class="work-right-content">
-          <span>HOW WE WORK</span>
-          <h2>Bringing Out the Potential in You</h2>
-          <p class="content">
+          <span class="wow fadeInUp" data-wow-duration="600ms">HOW WE WORK</span>
+          <h2 class="wow fadeInUp" data-wow-duration="700ms">Bringing Out the Potential in You</h2>
+          <p class="content 
+            wow
+            fadeInUp" data-wow-duration="
+            700ms">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
           </p>
           <div class="work-process">
-            <span>01</span>
-            <h3>Apply for the Jobs</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-            </p>
+            {% for block in section.blocks %}
+              <div class="process-item wow
+            fadeInUp" data-wow-duration="
+            {{ forloop.index |  plus: 5 }}00ms">
+                <div>
+                  <span>{{ block.settings.process_number }}</span>
+                </div>
+                <div class="process-content">
+                  <h3>{{ block.settings.title }}</h3>
+                  <p class="content">
+                    {{ block.settings.content }}
+                  </p>
+                </div>
+              </div>
+            {% endfor %}
           </div>
         </div>
       </div>
