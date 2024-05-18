@@ -10,7 +10,7 @@
       "type": "single-hero",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/hero3.jpg",
-        "section_title": "We’re looking for talented industry experts.{{ page.title }}",
+        "section_title": "{{ page.title }}",
         "button_text": "Current Openings",
         "button_link": ""
       }
