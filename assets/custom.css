@@ -335,7 +335,7 @@
 .baner-content {
   display: flex;
   flex-direction: column;
-  padding: 100px 50px 100px 100px;
+  padding: 100px;
   justify-content: center;
 }
 .no-space {
@@ -379,5 +379,13 @@
   }
   .faq-wrap {
     margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .baner-content {
+    padding: 50px 15px;
+  }
+  .baner-content h2 {
+    font-size: 25px;
   }
 }
