@@ -310,6 +310,25 @@
   outline: none;
   box-shadow: none;
 }
+.checkIcon {
+  height: 40px;
+  width: 40px;
+  background: #0856a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.checkIcon .ti-check {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media only screen and (max-width: 800px) {
   .p-100 {
     padding: 60px 0px;
