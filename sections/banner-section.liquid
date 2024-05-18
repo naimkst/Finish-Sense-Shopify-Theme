@@ -1,24 +1,18 @@
 <div class="baner-serction p-100">
   <div class="container-fluid no-space">
     <div class="row g-0">
-      <div class="col-lg-7 col-12 no-space">
-        <div class="baner-image">
-          <img
-            src="{{ section.settings.left_image |  image_url: width: 1920  }}"
-            alt=""
-            width=""
-            height="">
-        </div>
-      </div>
+      <div class="col-lg-7 col-12 no-space" style="background-image: url({{ section.settings.left_image |  image_url: width: 1920  }});     background-repeat: no-repeat;
+    background-size: cover;">
+</div>
       <div class="col-lg-5 col-12 banner-right-row no-space">
-        <div class="baner-content">
+        <div class="baner-content wow zoomIn" data-wow-duration="600ms">
           <img
             src="{{ section.settings.baner_icon |  image_url: width: 600  }}"
             alt=""
             width=""
             height="">
-          <h2>{{ section.settings.title }}</h2>
-          <p>{{ section.settings.description }}</p>
+          <h2 class="wow fadeInUp" data-wow-duration="700ms">{{ section.settings.title }}</h2>
+          <p class="wow fadeInUp" data-wow-duration="800ms">{{ section.settings.description }}</p>
           <div class="
             wow
             fadeInUp" data-wow-duration="
