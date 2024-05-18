@@ -102,12 +102,51 @@
         "about_button_text": "Learn More",
         "about_button_url": ""
       }
+    },
+    "faq_section_KBzz7E": {
+      "type": "faq-section",
+      "blocks": {
+        "block_rwc96B": {
+          "type": "block",
+          "settings": {
+            "question": "Do you provide vacancies worldwide?",
+            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+          }
+        },
+        "block_H8FqBM": {
+          "type": "block",
+          "settings": {
+            "question": "Can I consult about my CV and Portfolio?",
+            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+          }
+        },
+        "block_zttKWV": {
+          "type": "block",
+          "settings": {
+            "question": "What job vacancies are most popular at Emproi?",
+            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+          }
+        }
+      },
+      "block_order": [
+        "block_rwc96B",
+        "block_H8FqBM",
+        "block_zttKWV"
+      ],
+      "settings": {
+        "section_slug": "FAQ",
+        "section_title": "Frequently Asked Questions",
+        "section_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+        "section_button_text": "Contact Us",
+        "section_button_url": ""
+      }
     }
   },
   "order": [
     "main",
     "how_we_work_WqRzmA",
     "what_we_do_UPBD8x",
-    "about_section_HDN8qY"
+    "about_section_HDN8qY",
+    "faq_section_KBzz7E"
   ]
 }
