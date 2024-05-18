@@ -1,16 +1,16 @@
 <div class="baner-serction p-100">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 col-12">
+  <div class="container-fluid no-space">
+    <div class="row g-0">
+      <div class="col-lg-7 col-12 no-space">
         <div class="baner-image">
           <img
-            src="{{ section.settings.left_image |  image_url: width: 600  }}"
+            src="{{ section.settings.left_image |  image_url: width: 1920  }}"
             alt=""
             width=""
             height="">
         </div>
       </div>
-      <div class="col-lg-5 col-12 banner-right-row">
+      <div class="col-lg-5 col-12 banner-right-row no-space">
         <div class="baner-content">
           <img
             src="{{ section.settings.baner_icon |  image_url: width: 600  }}"
@@ -19,7 +19,12 @@
             height="">
           <h2>{{ section.settings.title }}</h2>
           <p>{{ section.settings.description }}</p>
-          <a href="{{ section.settings.button_Link }}" class="read-more">{{ section.settings.button_text }}</a>
+          <div class="
+            wow
+            fadeInUp" data-wow-duration="
+            900ms">
+            <a href="{{ section.settings.button_Link }}" class="read-more">{{ section.settings.button_text }}</a>
+          </div>
         </div>
       </div>
     </div>

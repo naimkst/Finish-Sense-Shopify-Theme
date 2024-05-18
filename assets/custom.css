@@ -334,10 +334,34 @@
 }
 .baner-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  padding: 100px 0px;
+  padding: 100px 50px 100px 100px;
+  justify-content: center;
+}
+.no-space {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+.baner-content h2 {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.baner-content p {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.baner-content a {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+}
+.banner-right-row img {
+  width: 300px;
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 800px) {
   .p-100 {
