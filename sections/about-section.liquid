@@ -3,21 +3,27 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
-        {% if section.settings.about_image != blank %}
-          <div class="about-left">
-            <div class="logo">
+        <div class="about-left">
+          {% if section.settings.about_image != blank %}
+            <div class="logo
+              wow
+              fadeInLeft" data-wow-duration="
+              600ms">
               <img
                 src="{{ section.settings.about_image | image_url: width: 350 }}"
                 alt=""
                 width="100%"
                 height="100%">
             </div>
-            <h2>{{ section.settings.about_title }}</h2>
-          </div>
-        {% endif %}
+          {% endif %}
+          <h2 class="wow
+              fadeInLeft" data-wow-duration="
+              700ms">
+            {{ section.settings.about_title }}</h2>
+        </div>
       </div>
       <div class="col-lg-7 offset-lg-1">
-        <div class="about-right">
+        <div class="about-right wow fadeInUp" data-wow-duration="800ms">
           {{ section.settings.about_description }}
           {% if section.settings.about_button_url != blank %}
             <a href="{{ section.settings.about_button_url }}" class="read-more">{{ section.settings.about_button_text }}</a>
