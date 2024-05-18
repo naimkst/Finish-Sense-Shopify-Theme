@@ -329,6 +329,16 @@
   justify-content: center;
   align-items: center;
 }
+.banner-right-row {
+  background: #111111;
+}
+.baner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0px;
+}
 @media only screen and (max-width: 800px) {
   .p-100 {
     padding: 60px 0px;
