@@ -150,6 +150,42 @@
         "section_button_text": "Contact Us",
         "section_button_url": ""
       }
+    },
+    "why_choose_ddF44a": {
+      "type": "why-choose",
+      "blocks": {
+        "block_wCjbjh": {
+          "type": "block",
+          "settings": {
+            "title": "35 Years Experience",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_beFXwP": {
+          "type": "block",
+          "settings": {
+            "title": "35 Years Experience",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_TThkpx": {
+          "type": "block",
+          "settings": {
+            "title": "35 Years Experience",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        }
+      },
+      "block_order": [
+        "block_wCjbjh",
+        "block_beFXwP",
+        "block_TThkpx"
+      ],
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/6253d6cb20ab86a85649c6a3_home-intro-image.jpg",
+        "how_we_work_title": "Bringing Out the Potential in You",
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+      }
     }
   },
   "order": [
@@ -158,6 +194,7 @@
     "how_we_work_WqRzmA",
     "what_we_do_UPBD8x",
     "about_section_HDN8qY",
-    "faq_section_KBzz7E"
+    "faq_section_KBzz7E",
+    "why_choose_ddF44a"
   ]
 }
