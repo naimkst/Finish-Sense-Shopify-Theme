@@ -1,0 +1,101 @@
+<div class="why-choose p-100">
+  <div class="container">
+    <div class="row">
+      <div class="why-choose-item col-lg-6 col-12">
+        <div class="work-left-section">
+          <div class="work-left-image wow fadeInLeft" data-wow-duration="600ms">
+            <img
+              src="{{ section.settings.left_image |  image_url: width: 600  }}"
+              alt=""
+              width=""
+              height="">
+          </div>
+        </div>
+      </div>
+      <div class="why-choose-item col-lg-6 col-12 align-self-center">
+        <div class="work-right-content">
+          <h2 class="wow fadeInUp" data-wow-duration="700ms">{{ section.settings.how_we_work_title }}</h2>
+          <p class="content 
+            wow
+            fadeInUp" data-wow-duration="
+            700ms">
+            {{ section.settings.how_we_work_content }}
+          </p>
+          <div class="work-process">
+            {% for block in section.blocks %}
+              <div class="process-item wow
+            fadeInUp" data-wow-duration="
+            {{ forloop.index |  plus: 5 }}00ms">
+                <div class="checkIcon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="process-content">
+                  <h3>{{ block.settings.title }}</h3>
+                  <p class="content">
+                    {{ block.settings.content }}
+                  </p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Why Choose Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "left_image",
+        "label": "Left Image"
+      },
+      {
+        "type": "text",
+        "id": "how_we_work_title",
+        "label": "Title",
+        "default": "Bringing Out the Potential in You"
+      },
+      {
+        "type": "text",
+        "id": "how_we_work_content",
+        "label": "Description",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Choose Item",
+        "type": "block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Apply for the Jobs"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Content",
+            "default": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Why Choose Section",
+        "blocks": [
+          {
+            "type": "block"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
