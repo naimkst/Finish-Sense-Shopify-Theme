@@ -2,7 +2,17 @@
   "sections": {
     "main": {
       "type": "not-found",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "single_hero_3G73Dn": {
+      "type": "single-hero",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/hero3.jpg",
+        "section_title": "{{ page.title }}",
+        "button_text": "Current Openings",
+        "button_link": ""
       }
     },
     "how_we_work_WqRzmA": {
@@ -144,6 +154,7 @@
   },
   "order": [
     "main",
+    "single_hero_3G73Dn",
     "how_we_work_WqRzmA",
     "what_we_do_UPBD8x",
     "about_section_HDN8qY",
