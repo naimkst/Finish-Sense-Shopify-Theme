@@ -5,26 +5,26 @@
         <div class="work-left-section">
           <div class="work-left-image wow fadeInLeft" data-wow-duration="600ms">
             <img
-              src="{{ "work1.png" | asset_url }}"
+              src="{{ section.settings.left_image |  image_url: width: 600  }}"
               alt=""
               width=""
               height="">
             <div class="count-experience wow fadeInUp" data-wow-duration="700ms">
-              <h2>25+</h2>
-              <p>Years of Experience</p>
+              <h2>{{ section.settings.expericent_time }}</h2>
+              <p>{{ section.settings.expericent_text }}</p>
             </div>
           </div>
         </div>
       </div>
       <div class="how-work-flex col-lg-6 col-12 align-self-center">
         <div class="work-right-content">
-          <span class="wow fadeInUp" data-wow-duration="600ms">HOW WE WORK</span>
-          <h2 class="wow fadeInUp" data-wow-duration="700ms">Bringing Out the Potential in You</h2>
+          <span class="wow fadeInUp" data-wow-duration="600ms">{{ section.settings.how_we_work_slug }}</span>
+          <h2 class="wow fadeInUp" data-wow-duration="700ms">{{ section.settings.how_we_work_title }}</h2>
           <p class="content 
             wow
             fadeInUp" data-wow-duration="
             700ms">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            {{ section.settings.how_we_work_content }}
           </p>
           <div class="work-process">
             {% for block in section.blocks %}

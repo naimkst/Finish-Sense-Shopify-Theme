@@ -1,0 +1,85 @@
+<div class="what-we-do-section p-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-12">
+        <div class="section-title">
+          <h2>{{ section.settings.title }}</h2>
+          <p>{{ section.settings.description }}</p>
+        </div>
+      </div>
+      {% for block in section.blocks %}
+        <div class="what-we-do col-lg-3 col-12">
+          <div class="what-we-do-item">
+            <div class="what-we-do-image">
+              <img
+                src="{{ block.settings.image | image_url }}"
+                alt=""
+                width=""
+                height="">
+            </div>
+            <div class="what-we-do-content">
+              <h3>{{ block.settings.title }}</h3>
+              <p>{{ block.settings.content }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "What We Do Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Section Title",
+        "default": "What We Do"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Section Description",
+        "default": "Best Exhibition Stall Designers in India, Europe and Poland"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Add Process",
+        "type": "block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Job Portal"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Content",
+            "default": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "What We Do Section",
+        "blocks": [
+          {
+            "type": "block"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

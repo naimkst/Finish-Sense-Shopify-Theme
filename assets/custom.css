@@ -220,6 +220,9 @@
 .process-item:last-child {
   margin-bottom: 0;
 }
+.work-left-image img {
+  width: 100%;
+}
 @media only screen and (max-width: 800px) {
   .p-100 {
     padding: 60px 0px;
@@ -227,5 +230,11 @@
   .section-title h2,
   .section-title-s2 .blog-title {
     line-height: 30px;
+  }
+  .work-left-image {
+    padding: 0;
+  }
+  .work-right-content {
+    margin-top: 50px;
   }
 }
