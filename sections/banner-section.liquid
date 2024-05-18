@@ -1,0 +1,73 @@
+<div class="baner-serction p-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-12">
+        <div class="baner-image">
+          <img
+            src="{{ section.settings.left_image |  image_url: width: 600  }}"
+            alt=""
+            width=""
+            height="">
+        </div>
+      </div>
+      <div class="col-lg-5 col-12 banner-right-row">
+        <div class="baner-content">
+          <img
+            src="{{ section.settings.baner_icon |  image_url: width: 600  }}"
+            alt=""
+            width=""
+            height="">
+          <h2>{{ section.settings.title }}</h2>
+          <p>{{ section.settings.description }}</p>
+          <a href="{{ section.settings.button_Link }}" class="read-more">{{ section.settings.button_text }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Banner Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "left_image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "baner_icon",
+        "label": "Baneer Icon"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Few Reasons Why You Should Choose Us"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description",
+        "default": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe."
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Read More"
+      },
+      {
+        "type": "url",
+        "id": "button_Link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Banner Section"
+      }
+    ]
+  }
+{% endschema %}
