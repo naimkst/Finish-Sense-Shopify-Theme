@@ -256,6 +256,60 @@
   padding: 10px;
   margin-bottom: 20px;
 }
+.faq-section {
+  margin-top: 50px;
+  background: #0856a2;
+}
+.faq-content span {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  display: block;
+}
+.faq-content h2 {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}
+.faq-content p {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  display: block;
+}
+.faq-content a {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+}
+.faq-section .accordion-button:not(.collapsed),
+.faq-section button.accordion-button.collapsed {
+  color: #111111;
+  background-color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  height: 70px;
+  box-shadow: none;
+}
+.faq-section .accordion-body {
+  font-size: 17px;
+  font-weight: 300;
+  color: #111111;
+}
+.faq-section .accordion-item {
+  margin-bottom: 1px;
+  border-radius: 0px;
+}
+.faq-section .accordion-button:focus {
+  z-index: 3;
+  border-color: #fff;
+  outline: none;
+  box-shadow: none;
+}
 @media only screen and (max-width: 800px) {
   .p-100 {
     padding: 60px 0px;
@@ -268,6 +322,9 @@
     padding: 0;
   }
   .work-right-content {
+    margin-top: 50px;
+  }
+  .faq-wrap {
     margin-top: 50px;
   }
 }

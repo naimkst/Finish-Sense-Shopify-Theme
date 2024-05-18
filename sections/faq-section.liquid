@@ -1,24 +1,43 @@
-<div class="faq-section p-100">
+<div class="faq-section p-100 pb-100">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-12">
+      <div class="col-lg-6 col-12 align-self-center">
         <div class="faq-content">
-          <span>{{ section.settings.section_slug }}</span>
-          <h2>{{ section.settings.section_title }}</h2>
-          <p>{{ section.settings.section_description }}</p>
-          <a href="{{ section.settings.section_button_url }}" class="read-more">{{ section.settings.section_button_text }}</a>
+          <span class="wow fadeInUp" data-wow-duration="600ms">{{ section.settings.section_slug }}</span>
+          <h2 class="wow fadeInUp" data-wow-duration="700ms">{{ section.settings.section_title }}</h2>
+          <p class="wow fadeInUp" data-wow-duration="800ms">{{ section.settings.section_description }}</p>
+          <div class="
+            wow
+            fadeInUp" data-wow-duration="
+            900ms">
+            <a href="{{ section.settings.section_button_url }}" class="read-more">{{ section.settings.section_button_text }}</a>
+          </div>
         </div>
       </div>
       <div class="col-lg-6 col-12">
-        <div class="faq-wrap">
-          <div class="faq-active">
+        <div class="faq-wrap wow fadeInUp" data-wow-duration="1000ms">
+          <div class="accordion" id="accordionExample">
             {% for block in section.blocks %}
-              <div class="faq-item wow fadeInUp" data-wow-duration="{{ forloop.index0 | plus: 1 }}000ms">
-                <div class="faq-title">
-                  <h2>{{ block.settings.question }}</h2>
-                </div>
-                <div class="faq-content">
-                  <p>{{ block.settings.answer }}</p>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading{{ forloop.index }}">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse{{ forloop.index }}"
+                    aria-expanded="{% if forloop.first %} true {% else %} false {% endif %}"
+                    aria-controls="collapse{{ forloop.index }}">
+                    {{ block.settings.question }}
+                  </button>
+                </h2>
+                <div
+                  id="collapse{{ forloop.index }}"
+                  class="accordion-collapse collapse {% if forloop.first %} show {% endif %}"
+                  aria-labelledby="heading{{ forloop.index }}"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    {{ block.settings.answer }}
+                  </div>
                 </div>
               </div>
             {% endfor %}
