@@ -1,0 +1,68 @@
+<div class="image-with-text p-100">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-lg-6 col-12">
+        <img
+          src="{{ "img-2.jpg" | asset_url }}"
+          alt=""
+          width=""
+          height="">
+      </div>
+      <div class="col-lg-6 col-12 banner-right-row ">
+        <div class="baner-content wow zoomIn" data-wow-duration="600ms">
+          <h2 class="wow fadeInUp" data-wow-duration="700ms">Few Reasons Why You Should Choose Us</h2>
+          <p class="wow fadeInUp" data-wow-duration="800ms">In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe.</p>
+          <div class="
+            wow
+            fadeInUp" data-wow-duration="
+            900ms">
+            <a href="{{ section.settings.button_Link }}" class="read-more">{{ section.settings.button_text }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Imge Image Text Section",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Add Item",
+        "type": "block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "left_image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "What You Can Expect"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content",
+            "default": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.</p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>"
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Imge Image Text Section",
+        "blocks": [
+          {
+            "type": "block"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
