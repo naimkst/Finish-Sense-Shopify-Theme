@@ -359,9 +359,51 @@
   font-size: 17px;
   font-weight: 400;
 }
+a.read-more.linkBlack {
+  color: #111111;
+  font-size: 17px;
+  font-weight: 400;
+}
+a.read-more.linkBlack:hover {
+  color: #0856a2;
+}
 .banner-right-row img {
   width: 300px;
   margin-bottom: 20px;
+}
+.image-content {
+  padding: 80px;
+}
+.image-with-text .row {
+  margin-bottom: 70px;
+}
+.title-black {
+  color: #111111;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.title-white {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.content-black {
+  color: #111111;
+  font-size: 17px;
+  font-weight: 300;
+}
+.content-white {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 300;
+}
+.imageBoxText {
+  padding: 20px 0px;
+}
+.rowOrder {
+  order: 1 !important;
 }
 @media only screen and (max-width: 800px) {
   .p-100 {
@@ -380,6 +422,12 @@
   .faq-wrap {
     margin-top: 50px;
   }
+  .title-black {
+    font-size: 30px;
+  }
+  .title-white {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .baner-content {
@@ -387,5 +435,17 @@
   }
   .baner-content h2 {
     font-size: 25px;
+  }
+  .image-content {
+    padding: 15px;
+  }
+  .rowOrder {
+    order: inherit !important;
+  }
+  .image-with-text .row {
+    margin-bottom: 0px;
+  }
+  .image-content {
+    padding: 40px 15px;
   }
 }

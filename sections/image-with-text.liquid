@@ -1,26 +1,28 @@
 <div class="image-with-text p-100">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-12">
-        <img
-          src="{{ "img-2.jpg" | asset_url }}"
-          alt=""
-          width=""
-          height="">
-      </div>
-      <div class="col-lg-6 col-12 banner-right-row ">
-        <div class="baner-content wow zoomIn" data-wow-duration="600ms">
-          <h2 class="wow fadeInUp" data-wow-duration="700ms">Few Reasons Why You Should Choose Us</h2>
-          <p class="wow fadeInUp" data-wow-duration="800ms">In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe.</p>
-          <div class="
+    {% for block in section.blocks %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      <div class="row">
+        <div
+          class="col-lg-6 col-12 no-space {% if mod == 0 %} rowOrder {%  endif %} wow zoomIn image-content"
+          data-wow-duration="{{ forloop.index |  plus: 5 }}00ms"
+          style="background-image: url({{ block.settings.left_image |  image_url: width: 1920  }}); background-repeat: no-repeat;
+    background-size: cover; min-height: 400px">
+
+</div>
+        <div class="col-lg-6 col-12 no-space align-self-center">
+          <div class="wow zoomIn image-content" data-wow-duration="{{ forloop.index | plus: 5 }}00ms">
+            <h2 class="wow fadeInUp title-black" data-wow-duration="{{ forloop.index | plus: 5 }}00ms">{{ block.settings.title }}</h2>
+            <div class="wow fadeInUp content-black imageBoxText" data-wow-duration="{{ forloop.index | plus: 5 }}00ms">{{ block.settings.content }}</div>
+            <div class="
             wow
-            fadeInUp" data-wow-duration="
-            900ms">
-            <a href="{{ section.settings.button_Link }}" class="read-more">{{ section.settings.button_text }}</a>
+            fadeInUp" data-wow-duration="{{ forloop.index | plus: 5 }}00ms">
+              <a href="{{ block.settings.button_Link }}" class="read-more linkBlack">{{ block.settings.button_text }}</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -49,6 +51,17 @@
             "id": "content",
             "label": "Content",
             "default": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.</p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "Contact Us"
+          },
+          {
+            "type": "url",
+            "id": "button_Link",
+            "label": "Button Link"
           }
 
         ]
