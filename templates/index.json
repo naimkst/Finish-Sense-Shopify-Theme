@@ -153,7 +153,7 @@
         "block_JUeP3Q": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/1.png",
+            "background_image": "shopify:\/\/shop_images\/whitegraco.png",
             "title": "Our Partners",
             "description": "Since 2002, some of the top ranked Automotive, Aerospace and large industrial manufacturers have counted on Innovative Finishing Solutions Inc. for Quality, Value and Innovation. Renowned for bringing world leadership to the art and science of  painting & material application through robotic technology and superior engineered solutions. We will earn the trust of our Customer's as valued partners in productivity, profitability and performance.",
             "designation": "Innovative Finishing Solutions"
@@ -167,45 +167,11 @@
             "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
             "designation": "Shivinder Sing - Founder"
           }
-        },
-        "block_QGT4VD": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/6.png",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
-        "block_Nqerbi": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/7.png",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
-        "brand_b7Lihb": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/whitegraco.png"
-          }
-        },
-        "brand_y96Ncm": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/cherkam-ltd-logo.png"
-          }
         }
       },
       "block_order": [
         "block_JUeP3Q",
-        "block_94EtQL",
-        "block_QGT4VD",
-        "block_Nqerbi",
-        "brand_b7Lihb",
-        "brand_y96Ncm"
+        "block_94EtQL"
       ],
       "settings": {
       }
