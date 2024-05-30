@@ -34,7 +34,7 @@
             "type": "footer_menu",
             "settings": {
               "menu_title": "Terms of Use",
-              "menu_link": "#"
+              "menu_link": "shopify:\/\/pages\/terms-of-use"
             }
           },
           "footer_menu_GdXKUY": {
