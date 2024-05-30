@@ -4,16 +4,43 @@
       "type": "single-hero",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
+        "section_title": "Custom Solutions for Every Process",
+        "button_text": "",
         "button_link": ""
       }
     },
-    "breadcrumbs_HUecYk": {
-      "type": "breadcrumbs",
+    "why_choose_frjAyD": {
+      "type": "why-choose",
+      "blocks": {
+        "block_dmBqWP": {
+          "type": "block",
+          "settings": {
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_FGgPpJ": {
+          "type": "block",
+          "settings": {
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        }
+      },
+      "block_order": [
+        "block_dmBqWP",
+        "block_FGgPpJ"
+      ],
       "settings": {
-        "section_title": "Custom Solutions For Every Process",
-        "section_description": "<p>Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.<\/p>"
+        "left_image": "shopify:\/\/shop_images\/img-1_d8f39878-818a-4f0b-b339-899fd7c72d10.jpg",
+        "how_we_work_title": "Bringing Out the Potential in You",
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+      }
+    },
+    "text_section_XgVNY6": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>"
       }
     },
     "service_grid_ULiJXT": {
@@ -79,7 +106,8 @@
   },
   "order": [
     "single_hero_VcGF6C",
-    "breadcrumbs_HUecYk",
+    "why_choose_frjAyD",
+    "text_section_XgVNY6",
     "service_grid_ULiJXT",
     "contact_section_rFxpxe"
   ]

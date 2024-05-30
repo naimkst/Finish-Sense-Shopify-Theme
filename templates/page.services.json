@@ -1,10 +1,55 @@
 {
   "sections": {
-    "breadcrumbs_HUecYk": {
-      "type": "breadcrumbs",
+    "single_hero_G9TdeE": {
+      "type": "single-hero",
       "settings": {
-        "section_title": "Custom Solutions For Every Process",
-        "section_description": "Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production."
+        "background_image": "shopify:\/\/shop_images\/hero.jpg",
+        "section_title": "\"Service First\"",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "what_we_do_wrAGzP": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_gAaHVc": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
+        "block_XgFrqY": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
+        "block_YGfxWY": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
+        "block_rVXX3Y": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        }
+      },
+      "block_order": [
+        "block_gAaHVc",
+        "block_XgFrqY",
+        "block_YGfxWY",
+        "block_rVXX3Y"
+      ],
+      "settings": {
+        "title": "Services",
+        "description": "More than just a Solutions Provider.........................................................."
       }
     },
     "service_grid_ULiJXT": {
@@ -69,7 +114,8 @@
     }
   },
   "order": [
-    "breadcrumbs_HUecYk",
+    "single_hero_G9TdeE",
+    "what_we_do_wrAGzP",
     "service_grid_ULiJXT",
     "contact_section_rFxpxe"
   ]
