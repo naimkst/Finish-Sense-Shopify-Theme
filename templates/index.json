@@ -186,16 +186,16 @@
             "designation": "Shivinder Sing - Founder"
           }
         },
-        "brand_y96Ncm": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/cherkam-ltd-logo.png"
-          }
-        },
         "brand_b7Lihb": {
           "type": "brand",
           "settings": {
             "brand_image": "shopify:\/\/shop_images\/whitegraco.png"
+          }
+        },
+        "brand_y96Ncm": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/cherkam-ltd-logo.png"
           }
         }
       },
@@ -204,8 +204,8 @@
         "block_94EtQL",
         "block_QGT4VD",
         "block_Nqerbi",
-        "brand_y96Ncm",
-        "brand_b7Lihb"
+        "brand_b7Lihb",
+        "brand_y96Ncm"
       ],
       "settings": {
       }
