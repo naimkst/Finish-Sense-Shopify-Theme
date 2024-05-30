@@ -57,50 +57,6 @@
       "settings": {
       }
     },
-    "project_aria_NHn8pe": {
-      "type": "project-aria",
-      "blocks": {
-        "block_Fze8ct": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_YhVkLR": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_tRE9AP": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        }
-      },
-      "block_order": [
-        "block_Fze8ct",
-        "block_YhVkLR",
-        "block_tRE9AP"
-      ],
-      "settings": {
-        "section_title": "Our Work",
-        "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
-      }
-    },
     "faq_section_g6eQFy": {
       "type": "faq-section",
       "blocks": {
@@ -155,6 +111,50 @@
         "section_button_url": ""
       }
     },
+    "project_aria_NHn8pe": {
+      "type": "project-aria",
+      "blocks": {
+        "block_Fze8ct": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_YhVkLR": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_tRE9AP": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "title": "Engineering & Design",
+            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_Fze8ct",
+        "block_YhVkLR",
+        "block_tRE9AP"
+      ],
+      "settings": {
+        "section_title": "Our Work",
+        "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
+      }
+    },
     "service_grid_nY8bFH": {
       "type": "service-grid",
       "settings": {
@@ -176,8 +176,8 @@
     "hero_section_wF9Vgk",
     "main",
     "image_with_text_39LK33",
-    "project_aria_NHn8pe",
     "faq_section_g6eQFy",
+    "project_aria_NHn8pe",
     "service_grid_nY8bFH",
     "contact_section_9iin6V"
   ]
