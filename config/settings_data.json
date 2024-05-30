@@ -48,7 +48,7 @@
             "type": "footer_menu",
             "settings": {
               "menu_title": "Copyright Policy",
-              "menu_link": "#"
+              "menu_link": "shopify:\/\/pages\/copyright-policy"
             }
           }
         },
