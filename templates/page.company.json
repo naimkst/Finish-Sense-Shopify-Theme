@@ -111,6 +111,13 @@
         "section_button_url": ""
       }
     },
+    "service_grid_nY8bFH": {
+      "type": "service-grid",
+      "settings": {
+        "section_title": "",
+        "section_description": ""
+      }
+    },
     "project_aria_NHn8pe": {
       "type": "project-aria",
       "blocks": {
@@ -155,13 +162,6 @@
         "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
       }
     },
-    "service_grid_nY8bFH": {
-      "type": "service-grid",
-      "settings": {
-        "section_title": "",
-        "section_description": ""
-      }
-    },
     "contact_section_9iin6V": {
       "type": "contact-section",
       "settings": {
@@ -177,8 +177,8 @@
     "main",
     "image_with_text_39LK33",
     "faq_section_g6eQFy",
-    "project_aria_NHn8pe",
     "service_grid_nY8bFH",
+    "project_aria_NHn8pe",
     "contact_section_9iin6V"
   ]
 }
