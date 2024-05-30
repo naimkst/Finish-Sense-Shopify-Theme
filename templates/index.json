@@ -197,36 +197,6 @@
           "settings": {
             "brand_image": "shopify:\/\/shop_images\/whitegraco.png"
           }
-        },
-        "brand_kNXfRK": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/4.png"
-          }
-        },
-        "brand_aJE8VU": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/3.png"
-          }
-        },
-        "brand_NPG7jh": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/2.png"
-          }
-        },
-        "brand_aEqrUj": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/5.png"
-          }
-        },
-        "brand_3Qqzch": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/6.png"
-          }
         }
       },
       "block_order": [
@@ -235,12 +205,7 @@
         "block_QGT4VD",
         "block_Nqerbi",
         "brand_y96Ncm",
-        "brand_b7Lihb",
-        "brand_kNXfRK",
-        "brand_aJE8VU",
-        "brand_NPG7jh",
-        "brand_aEqrUj",
-        "brand_3Qqzch"
+        "brand_b7Lihb"
       ],
       "settings": {
       }
