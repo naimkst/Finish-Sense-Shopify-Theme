@@ -59,7 +59,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-            "title": "Engineering & Design",
+            "title": "Consulting",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -77,7 +77,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/img-2.jpg",
-            "title": "Engineering & Design",
+            "title": "Programming",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -86,7 +86,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/img-4.jpg",
-            "title": "Engineering & Design",
+            "title": "Installation",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -99,8 +99,8 @@
         "block_tKhMBb"
       ],
       "settings": {
-        "section_title": "Services",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+        "section_title": "",
+        "section_description": ""
       }
     },
     "contact_section_rFxpxe": {
