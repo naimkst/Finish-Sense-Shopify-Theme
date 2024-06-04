@@ -1,12 +1,23 @@
 {
   "sections": {
-    "single_hero_G9TdeE": {
-      "type": "single-hero",
+    "hero_section_cLqKxk": {
+      "type": "hero-section",
+      "blocks": {
+        "block_WrcBJb": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/csm_duerr-paintrobots-interior-painting_c4cf50ad3a.webp",
+            "hero_title": "Keep Your System Running Smoothly",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_WrcBJb"
+      ],
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/hero.jpg",
-        "section_title": "Keeping Your Systems Running Smoothly",
-        "button_text": "",
-        "button_link": ""
       }
     },
     "what_we_do_wrAGzP": {
@@ -118,7 +129,7 @@
     }
   },
   "order": [
-    "single_hero_G9TdeE",
+    "hero_section_cLqKxk",
     "what_we_do_wrAGzP",
     "service_grid_ULiJXT",
     "contact_section_rFxpxe"
