@@ -171,13 +171,23 @@
             "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
             "designation": ""
           }
+        },
+        "block_TqYwdp": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Kawasaki_Logo_vert.svg",
+            "title": "Kawasaki Robotics",
+            "description": "Kawasaki used decades of experience to drive the design of the K series line of explosion-proof paint robots, resulting top-of-the-line performance, usability and finishes. Their paint robots are packed with features for easier integration and operation, like hollow-wrists for internal hoses and a paint-specific control panel. They’re also built to cover a wide range of small to large workpieces.",
+            "designation": ""
+          }
         }
       },
       "block_order": [
         "block_JUeP3Q",
         "block_94EtQL",
         "block_8zfTqq",
-        "block_CAfDGt"
+        "block_CAfDGt",
+        "block_TqYwdp"
       ],
       "settings": {
       }
