@@ -52,8 +52,8 @@
         "block_yMX8A6": {
           "type": "block",
           "settings": {
-            "question": "Do you provide vacancies worldwide?",
-            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+            "question": "What services does FinishSense offer?",
+            "answer": "FinishSense specializes in robotic system integration for liquid paint, powder coating, and high viscosity dispense applications. We provide end-to-end solutions including design, creation, and building of advanced robotic systems, as well as comprehensive support, maintenance, and training."
           }
         },
         "block_GPL8xr": {
@@ -95,7 +95,7 @@
       "settings": {
         "section_slug": "FAQ",
         "section_title": "Frequently Asked Questions",
-        "section_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore gna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+        "section_description": "At FinishSense, we're committed to excellence in every aspect of our business, and our FAQs section is just one way we demonstrate our dedication to customer satisfaction and transparency. Thank you for considering FinishSense for your robotic integration needs, and we look forward to assisting you on your journey towards enhanced productivity and efficiency.",
         "section_button_text": "Contact Us",
         "section_button_url": ""
       }
