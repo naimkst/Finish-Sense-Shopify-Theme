@@ -103,6 +103,13 @@
         "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications."
       }
     },
+    "project_aria_kJiMFx": {
+      "type": "project-aria",
+      "settings": {
+        "section_title": "Our Partners",
+        "section_description": "At FinishSense, we pride ourselves on our strategic partnerships with industry leaders and innovators. Our collaborations with top-tier suppliers and technology providers enable us to offer state-of-the-art robotic systems and software solutions. These valued partnerships enhance our capabilities in delivering exceptional liquid paint, powder coating, and high viscosity dispense applications. By working closely with our industry partners, we ensure that our clients receive cutting-edge solutions that drive efficiency, quality, and reliability in their production processes. Together, we are revolutionizing the world of industrial finishing."
+      }
+    },
     "project_aria_FhRgA3": {
       "type": "project-aria",
       "blocks": {
@@ -176,6 +183,7 @@
     "hero",
     "about_section_h8Vka6",
     "service_aria_mDixD7",
+    "project_aria_kJiMFx",
     "project_aria_FhRgA3",
     "testimonial_section_zyPTMj",
     "blog_section_tw4eb4",
