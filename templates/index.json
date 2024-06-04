@@ -207,6 +207,15 @@
             "description": "SATA spray guns guarantee perfect finishes through their excellent precision and highest quality. Choose the most suitable technology according to your personal needs - their spray guns are available with RP as well as with HVLP technology.",
             "designation": ""
           }
+        },
+        "block_qpVHJz": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/binks-seeklogo_943c227f-90b5-482e-93eb-9649d435be9d.svg",
+            "title": "Binks",
+            "description": "BINKS MANUFACTURES LOW AND HIGH PRESSURE MANUAL AND AUTOMATIC SPRAY GUNS, ACCESSORIES, AIRLESS AND AIR-ASSISTED AIRLESS SPRAY PAINTING OUTFITS USED IN MANY INDUSTRIAL APPLICATIONS. Binks high and low pressure fluid handling pumps and regulators, pressure feed tanks, 2K electronic paint mixing machines, and paint circulating systems can also be found in many industrial and automotive facilities.",
+            "designation": ""
+          }
         }
       },
       "block_order": [
@@ -217,7 +226,8 @@
         "block_TqYwdp",
         "block_6pGyUT",
         "block_WrrhNn",
-        "block_gpxAcW"
+        "block_gpxAcW",
+        "block_qpVHJz"
       ],
       "settings": {
       }
