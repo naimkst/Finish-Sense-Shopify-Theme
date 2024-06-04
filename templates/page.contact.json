@@ -1,44 +1,28 @@
 {
   "sections": {
-    "single_hero_BafV4g": {
-      "type": "single-hero",
+    "hero_section_aH9jeH": {
+      "type": "hero-section",
+      "blocks": {
+        "block_MfXQiC": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
+            "hero_title": "",
+            "hero_description": "",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_MfXQiC"
+      ],
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/hero.jpg",
-        "section_title": "Custom Solutions For Custom Processes",
-        "button_text": "Learn More",
-        "button_link": "shopify:\/\/pages\/solutions"
       }
     },
     "main": {
       "type": "not-found",
       "disabled": true,
-      "settings": {
-      }
-    },
-    "about_section_9JM6zx": {
-      "type": "about-section",
-      "settings": {
-        "about_title": "Design, Create and Build bespoke Exhibition Stall",
-        "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
-        "about_button_text": "Learn More",
-        "about_button_url": ""
-      }
-    },
-    "testimonial_section_AECNQr": {
-      "type": "testimonial-section",
-      "blocks": {
-        "block_wL8LLK": {
-          "type": "block",
-          "settings": {
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        }
-      },
-      "block_order": [
-        "block_wL8LLK"
-      ],
       "settings": {
       }
     },
@@ -60,10 +44,8 @@
     }
   },
   "order": [
-    "single_hero_BafV4g",
+    "hero_section_aH9jeH",
     "main",
-    "about_section_9JM6zx",
-    "testimonial_section_AECNQr",
     "service_grid_izebAL",
     "contact_section_6fTTXz"
   ]
