@@ -157,9 +157,10 @@
         "block_8zfTqq": {
           "type": "block",
           "settings": {
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
+            "background_image": "shopify:\/\/shop_images\/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
+            "title": "Sames",
+            "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
+            "designation": ""
           }
         }
       },
