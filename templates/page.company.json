@@ -6,7 +6,7 @@
         "block_GWYrKi": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
+            "hero_background_image": "shopify:\/\/shop_images\/Painting-Robots-1920x960.jpg",
             "hero_title": "Design. Create. and Build.",
             "hero_description": "With FinishSense, you get a partner dedicated to transforming your ideas into reality, providing unmatched quality and reliability every step of the way.",
             "hero_button_text": "Start Your Project",
@@ -18,6 +18,30 @@
         "block_GWYrKi"
       ],
       "settings": {
+      }
+    },
+    "how_we_work_mx8bGg": {
+      "type": "how-we-work",
+      "blocks": {
+        "block_QG9Ycm": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        }
+      },
+      "block_order": [
+        "block_QG9Ycm"
+      ],
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/6253d6cb20ab86a85649c6a3_home-intro-image.jpg",
+        "expericent_time": "25+",
+        "expericent_text": "Year of Experience",
+        "how_we_work_slug": "HOW WE WORK",
+        "how_we_work_title": "Bringing Out the Potential in You",
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
       }
     },
     "main": {
@@ -147,50 +171,6 @@
         "section_description": ""
       }
     },
-    "project_aria_NHn8pe": {
-      "type": "project-aria",
-      "blocks": {
-        "block_Fze8ct": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_YhVkLR": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_tRE9AP": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        }
-      },
-      "block_order": [
-        "block_Fze8ct",
-        "block_YhVkLR",
-        "block_tRE9AP"
-      ],
-      "settings": {
-        "section_title": "Our Work",
-        "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
-      }
-    },
     "contact_section_9iin6V": {
       "type": "contact-section",
       "settings": {
@@ -203,11 +183,11 @@
   },
   "order": [
     "hero_section_wF9Vgk",
+    "how_we_work_mx8bGg",
     "main",
     "image_with_text_39LK33",
     "faq_section_g6eQFy",
     "service_grid_nY8bFH",
-    "project_aria_NHn8pe",
     "contact_section_9iin6V"
   ]
 }
