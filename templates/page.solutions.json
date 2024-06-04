@@ -1,12 +1,23 @@
 {
   "sections": {
-    "single_hero_VcGF6C": {
-      "type": "single-hero",
+    "hero_section_JxThMX": {
+      "type": "hero-section",
+      "blocks": {
+        "block_JQH7Gq": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/1223-pf-news-durr-kawasaki-robotics-partnership.jpg",
+            "hero_title": "Custom Solutions For Every Processs",
+            "hero_description": "",
+            "hero_button_text": "Learn More",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_JQH7Gq"
+      ],
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/1223-pf-news-durr-kawasaki-robotics-partnership.jpg",
-        "section_title": "Custom Solutions for Coating Every Process",
-        "button_text": "",
-        "button_link": ""
       }
     },
     "why_choose_frjAyD": {
@@ -105,7 +116,7 @@
     }
   },
   "order": [
-    "single_hero_VcGF6C",
+    "hero_section_JxThMX",
     "why_choose_frjAyD",
     "text_section_XgVNY6",
     "service_grid_ULiJXT",
