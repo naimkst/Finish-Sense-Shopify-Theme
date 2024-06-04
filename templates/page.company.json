@@ -10,7 +10,7 @@
             "hero_title": "Customer Centric. Brand Agnostic.",
             "hero_description": "By being customer and process-centric and brand-agnostic, we are able to deliver truly customized solutions that are optimized for performance, efficiency, and reliability.",
             "hero_button_text": "Start Your Project",
-            "hero_button_Link": ""
+            "hero_button_Link": "shopify:\/\/pages\/contact"
           }
         }
       },
@@ -23,12 +23,12 @@
     "how_we_work_mx8bGg": {
       "type": "how-we-work",
       "settings": {
-        "left_image": "shopify:\/\/shop_images\/6253d6cb20ab86a85649c6a3_home-intro-image.jpg",
+        "left_image": "shopify:\/\/shop_images\/kawasaki_rs007l.jpg",
         "expericent_time": "25+",
         "expericent_text": "Year of Experience",
-        "how_we_work_slug": "HOW WE WORK",
-        "how_we_work_title": "Bringing Out the Potential in You",
-        "how_we_work_content": "At FinishSense, our approach is centered around our customers and their processes. We understand that each client has unique needs and challenges, and we are committed to developing solutions that are tailored to address them. By placing the customer and their process at the forefront of everything we do, we ensure that our solutions are not only effective but also fully aligned with our clients' goals and objectives.In addition, we take a brand-agnostic approach to technology selection. Rather than being tied to specific brands or manufacturers, we prioritize choosing the best technologies available on the market. This allows us to offer our clients a wide range of options and ensures that we can select the solutions that are best suited to their specific requirements.By being customer and process-centric and brand-agnostic, we are able to deliver truly customized solutions that are optimized for performance, efficiency, and reliability. Our commitment to choosing the best technologies ensures that our clients always have access to the most advanced and innovative solutions available, helping them stay ahead of the competition and achieve their business objectives."
+        "how_we_work_slug": "",
+        "how_we_work_title": "Collaboration, Innovation, and a Commitment to Excellence",
+        "how_we_work_content": "At FinishSense, our approach is centered around our customers and their processes. We understand that each client has unique needs and challenges, and we are committed to developing solutions that are tailored to address them. By placing the customer and their process at the forefront of everything we do, we ensure that our solutions are not only effective but also fully aligned with our clients' goals and objectives.In addition, we take a brand-agnostic approach to technology selection. Rather than being tied to specific brands or manufacturers, we prioritize choosing the best technologies available on the market. This allows us to offer our clients a wide range of options and ensures that we can select the solutions that are best suited to their specific requirements. Our commitment to choosing the best technologies ensures that our clients always have access to the most advanced and innovative solutions available, helping them stay ahead of the competition and achieve their business objectives."
       }
     },
     "main": {
