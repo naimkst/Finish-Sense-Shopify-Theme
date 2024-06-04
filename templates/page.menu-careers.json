@@ -31,21 +31,11 @@
       "settings": {
         "text_block": "<p><strong>Join Our Team at FinishSense<\/strong><\/p><p>Are you passionate about innovation and cutting-edge technology? Do you thrive in a dynamic and collaborative work environment? Consider a career at FinishSense, where we're redefining the future of robotic system integration.<\/p><p>As a leading player in the industry, FinishSense offers exciting opportunities for talented individuals to contribute to groundbreaking projects and make a real impact. Whether you're an experienced engineer, a skilled technician, or a motivated sales professional, we're always on the lookout for exceptional talent to join our team.<\/p><p>At FinishSense, we foster a culture of creativity, teamwork, and continuous learning. We believe in investing in our employees' growth and development, providing ongoing training, career advancement opportunities, and competitive benefits.<\/p><p>Join us in shaping the future of industrial automation and unlocking new possibilities for our clients and partners. Explore our current openings and take the next step towards a rewarding career with FinishSense.<\/p>"
       }
-    },
-    "contact_section_9iin6V": {
-      "type": "contact-section",
-      "settings": {
-        "section_title": "Do you have a project? Lets Talk.",
-        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
-        "email_address": "sales@finishsense.io",
-        "form_title": "Complete the form below..."
-      }
     }
   },
   "order": [
     "hero_section_jMMgEQ",
     "main",
-    "text_section_YrzqwX",
-    "contact_section_9iin6V"
+    "text_section_YrzqwX"
   ]
 }
