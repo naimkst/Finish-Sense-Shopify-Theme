@@ -13,6 +13,15 @@
             "hero_button_Link": ""
           }
         },
+        "block_cPiEyC": {
+          "type": "block",
+          "settings": {
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        },
         "block_UnAAQa": {
           "type": "block",
           "settings": {
@@ -36,6 +45,7 @@
       },
       "block_order": [
         "block_LaAjnt",
+        "block_cPiEyC",
         "block_UnAAQa",
         "block_MDhkf6"
       ],
@@ -82,6 +92,14 @@
             "button_Link": "shopify:\/\/pages\/programming"
           }
         },
+        "block_6XTt8J": {
+          "type": "block",
+          "settings": {
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
         "block_zbrg9a": {
           "type": "block",
           "settings": {
@@ -96,6 +114,7 @@
         "block_9ehDBc",
         "block_MtLX7M",
         "block_KTEgrQ",
+        "block_6XTt8J",
         "block_zbrg9a"
       ],
       "settings": {
@@ -136,39 +155,12 @@
     "testimonial_section_zyPTMj": {
       "type": "testimonial-section",
       "blocks": {
-        "block_JUeP3Q": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/Durr_AG_logo.svg",
-            "title": "Dürr",
-            "description": "Dürr is the world leader in the planning and implementation of paint shops for the automotive industry and supplies solutions for every area, from pretreatment with electrocoating, through modern spray booth concepts with robots and application technology, to innovative oven-heating methods.",
-            "designation": ""
-          }
-        },
         "block_94EtQL": {
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/FANUC-Logo.wine.svg",
             "title": "Fanuc",
             "description": "FANUC’s painting robots offer a wide range of reaches and handling capacities, including some models designed and certified to operate in hazardous environments. Whatever your painting and finishing requirements, there is a FANUC paint or dispensing robot to meet your needs.",
-            "designation": ""
-          }
-        },
-        "block_8zfTqq": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
-            "title": "Sames",
-            "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
-            "designation": ""
-          }
-        },
-        "block_CAfDGt": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/ABB_logo.svg",
-            "title": "ABB Robotics",
-            "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
             "designation": ""
           }
         },
@@ -181,6 +173,15 @@
             "designation": ""
           }
         },
+        "block_CAfDGt": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/ABB_logo.svg",
+            "title": "ABB Robotics",
+            "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
+            "designation": ""
+          }
+        },
         "block_6pGyUT": {
           "type": "block",
           "settings": {
@@ -190,12 +191,12 @@
             "designation": ""
           }
         },
-        "block_WrrhNn": {
+        "block_JUeP3Q": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Graco_logo__horizontal.svg",
-            "title": "Graco",
-            "description": "Improve production and boost your bottom line with high-performance meter and mix, paint kitchen, and spray booth equipment. Graco's industrial liquid coating systems advance fine finishing and automation for automotive, aerospace, electronic, heavy equipment, wood product, and general manufacturing applications.",
+            "background_image": "shopify:\/\/shop_images\/Durr_AG_logo.svg",
+            "title": "Dürr",
+            "description": "Dürr is the world leader in the planning and implementation of paint shops for the automotive industry and supplies solutions for every area, from pretreatment with electrocoating, through modern spray booth concepts with robots and application technology, to innovative oven-heating methods.",
             "designation": ""
           }
         },
@@ -217,6 +218,24 @@
             "designation": ""
           }
         },
+        "block_8zfTqq": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
+            "title": "Sames",
+            "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
+            "designation": ""
+          }
+        },
+        "block_WrrhNn": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Graco_logo__horizontal.svg",
+            "title": "Graco",
+            "description": "Improve production and boost your bottom line with high-performance meter and mix, paint kitchen, and spray booth equipment. Graco's industrial liquid coating systems advance fine finishing and automation for automotive, aerospace, electronic, heavy equipment, wood product, and general manufacturing applications.",
+            "designation": ""
+          }
+        },
         "block_dLWfjq": {
           "type": "block",
           "settings": {
@@ -228,15 +247,15 @@
         }
       },
       "block_order": [
-        "block_JUeP3Q",
         "block_94EtQL",
-        "block_8zfTqq",
-        "block_CAfDGt",
         "block_TqYwdp",
+        "block_CAfDGt",
         "block_6pGyUT",
-        "block_WrrhNn",
+        "block_JUeP3Q",
         "block_gpxAcW",
         "block_qpVHJz",
+        "block_8zfTqq",
+        "block_WrrhNn",
         "block_dLWfjq"
       ],
       "settings": {

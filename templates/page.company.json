@@ -22,6 +22,19 @@
     },
     "how_we_work_mx8bGg": {
       "type": "how-we-work",
+      "blocks": {
+        "block_yn7iVm": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        }
+      },
+      "block_order": [
+        "block_yn7iVm"
+      ],
       "settings": {
         "left_image": "shopify:\/\/shop_images\/kawasaki_rs007l.jpg",
         "expericent_time": "25+",
@@ -34,6 +47,24 @@
     "main": {
       "type": "not-found",
       "disabled": true,
+      "settings": {
+      }
+    },
+    "testimonial_section_AfF8E4": {
+      "type": "testimonial-section",
+      "blocks": {
+        "block_jAUfhw": {
+          "type": "block",
+          "settings": {
+            "title": "You are amazing! You worked so hard for Cady's wedding.",
+            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
+            "designation": "Shivinder Sing - Founder"
+          }
+        }
+      },
+      "block_order": [
+        "block_jAUfhw"
+      ],
       "settings": {
       }
     },
@@ -188,72 +219,16 @@
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
       }
-    },
-    "testimonial_section_qHyaqV": {
-      "type": "testimonial-section",
-      "blocks": {
-        "block_pBdwtX": {
-          "type": "block",
-          "settings": {
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        }
-      },
-      "block_order": [
-        "block_pBdwtX"
-      ],
-      "settings": {
-      }
-    },
-    "testimonial_section_7QanFx": {
-      "type": "testimonial-section",
-      "blocks": {
-        "block_wKXHpz": {
-          "type": "block",
-          "settings": {
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        }
-      },
-      "block_order": [
-        "block_wKXHpz"
-      ],
-      "settings": {
-      }
-    },
-    "testimonial_section_b7h94m": {
-      "type": "testimonial-section",
-      "blocks": {
-        "block_EFNzDL": {
-          "type": "block",
-          "settings": {
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        }
-      },
-      "block_order": [
-        "block_EFNzDL"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "hero_section_wF9Vgk",
     "how_we_work_mx8bGg",
     "main",
+    "testimonial_section_AfF8E4",
     "image_with_text_39LK33",
     "faq_section_g6eQFy",
     "service_grid_nY8bFH",
-    "contact_section_9iin6V",
-    "testimonial_section_qHyaqV",
-    "testimonial_section_7QanFx",
-    "testimonial_section_b7h94m"
+    "contact_section_9iin6V"
   ]
 }
