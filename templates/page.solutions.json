@@ -15,7 +15,7 @@
         "block_dmBqWP": {
           "type": "block",
           "settings": {
-            "title": "Bespoke Design",
+            "title": "Process Centric Design",
             "content": "Our team collaborates with you to design robotic systems that precisely match your specific operational requirements, ensuring seamless integration and functionality."
           }
         },
@@ -49,7 +49,7 @@
         "block_b9d7Vx": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
+            "background_image": "shopify:\/\/shop_images\/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
             "title": "Liquid  Coating Applications",
             "button_text": "Learn More",
             "button_Link": ""
@@ -58,7 +58,7 @@
         "block_YFnCQc": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_111182072-scaled.webp",
             "title": "Powder Coating Applications",
             "button_text": "Learn More",
             "button_Link": ""
@@ -67,7 +67,7 @@
         "block_4A9r66": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
+            "background_image": "shopify:\/\/shop_images\/graco-dispensing-valve.jpg",
             "title": "High Viscosity Applications",
             "button_text": "Learn More",
             "button_Link": ""
@@ -76,7 +76,7 @@
         "block_xHr9FR": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
+            "background_image": "shopify:\/\/shop_images\/simatic-hmi-operator-control-monitoring.jpg",
             "title": "Software Solutions",
             "button_text": "Learn More",
             "button_Link": ""
@@ -91,7 +91,7 @@
       ],
       "settings": {
         "section_title": "Solutions",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+        "section_description": "Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production."
       }
     },
     "contact_section_rFxpxe": {
