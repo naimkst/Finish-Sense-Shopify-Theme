@@ -189,6 +189,15 @@
             "description": "Yaskawa Motoman offers manufacturers a wide range of robotic painting products and technology. Their flexible, high-performance paint robots increase finishing quality, consistency and throughput, while dramatically lowering operating costs and decreasing wasted material.",
             "designation": ""
           }
+        },
+        "block_WrrhNn": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Graco_logo__horizontal.svg",
+            "title": "Graco",
+            "description": "Improve production and boost your bottom line with high-performance meter and mix, paint kitchen, and spray booth equipment. Graco's industrial liquid coating systems advance fine finishing and automation for automotive, aerospace, electronic, heavy equipment, wood product, and general manufacturing applications.",
+            "designation": ""
+          }
         }
       },
       "block_order": [
@@ -197,7 +206,8 @@
         "block_8zfTqq",
         "block_CAfDGt",
         "block_TqYwdp",
-        "block_6pGyUT"
+        "block_6pGyUT",
+        "block_WrrhNn"
       ],
       "settings": {
       }
