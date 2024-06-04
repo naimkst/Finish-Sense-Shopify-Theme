@@ -73,8 +73,8 @@
         "block_aKgpt4": {
           "type": "block",
           "settings": {
-            "question": "Do you provide vacancies worldwide?",
-            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+            "question": "Can you integrate your robotic systems with our existing infrastructure?",
+            "answer": "Yes, our solutions are designed to be compatible with a variety of existing systems. We conduct thorough compatibility testing and offer customized integration to ensure seamless operation with your current infrastructure."
           }
         },
         "block_xtqdHw": {
