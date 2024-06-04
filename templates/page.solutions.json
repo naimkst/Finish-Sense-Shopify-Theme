@@ -25,30 +25,22 @@
             "title": "Adaptive Technology",
             "content": "Utilizing advanced software and adaptive control systems, our solutions are flexible and scalable, allowing for easy adjustments and future upgrades."
           }
-        },
-        "block_wPib8p": {
-          "type": "block",
-          "settings": {
-            "title": "Apply for the Jobs",
-            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
-          }
         }
       },
       "block_order": [
         "block_dmBqWP",
-        "block_FGgPpJ",
-        "block_wPib8p"
+        "block_FGgPpJ"
       ],
       "settings": {
         "left_image": "shopify:\/\/shop_images\/p-40ia-spray-coating-tail.jpg",
-        "how_we_work_title": "Bringing Out the Potential in You",
+        "how_we_work_title": "From Vision to Reality: Customized Paint Process Integration",
         "how_we_work_content": "At FinishSense, we specialize in providing custom-tailored robotic solutions to meet the unique needs of each client. Our expertise ensures that every system we integrate is optimized for maximum efficiency and performance."
       }
     },
     "text_section_XgVNY6": {
       "type": "text-section",
       "settings": {
-        "text_block": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>"
+        "text_block": "<p>At FinishSense, we are dedicated to providing comprehensive end-to-end solution support for all your robotic integration needs. From the initial consultation and design phase through installation, testing, and commissioning, our expert team ensures every step is meticulously managed for optimal performance. We don't stop there—our commitment extends to ongoing maintenance, training, and technical support, ensuring your systems remain efficient and up-to-date. Trust FinishSense to deliver seamless, reliable, and high-quality support throughout the entire lifecycle of your robotic solutions.<\/p>"
       }
     },
     "service_grid_ULiJXT": {
