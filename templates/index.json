@@ -216,6 +216,15 @@
             "description": "Binks manufactures low and high pressure manual and automatic spray guns, accesories, airless and air-assisted airless spray packages used in many industrial applications.  Binks high and low pressure fluid handling pumps and regulators, pressure feed tanks, 2K electronic paint mixing machines, and paint circulating systems can also be found in many industrial and automotive facilities.",
             "designation": ""
           }
+        },
+        "block_dLWfjq": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Ransburg-logo.svg-20.svg",
+            "title": "Ransburg",
+            "description": "Ransburg is a global leader in the design and manufacture of manual and automatic electrostatic finishing equipment.  As a leader in electrostatic spray finishing equipment for key industrial, manufacturing, and automotive Tier 1 markets, Ransburg continues to refine its most efficient electrostatic spray painting technology, aspiring to deliver a “Class A” finish to each and every customer’s product, while reducing VOC emissions and providing excellent transfer efficiency.",
+            "designation": ""
+          }
         }
       },
       "block_order": [
@@ -227,7 +236,8 @@
         "block_6pGyUT",
         "block_WrrhNn",
         "block_gpxAcW",
-        "block_qpVHJz"
+        "block_qpVHJz",
+        "block_dLWfjq"
       ],
       "settings": {
       }
