@@ -80,8 +80,43 @@
         "block_xtqdHw": {
           "type": "block",
           "settings": {
-            "question": "Do you provide vacancies worldwide?",
-            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+            "question": "What kind of support can we expect after installation?",
+            "answer": "FinishSense provides comprehensive post-installation support including regular maintenance, rapid troubleshooting, system upgrades, and technical training to ensure continuous and efficient operation of your systems."
+          }
+        },
+        "block_BmBYWM": {
+          "type": "block",
+          "settings": {
+            "question": "How can I get a quote for your services?",
+            "answer": "You can get a quote by contacting us through our website’s contact form or by calling our customer service team. We will discuss your specific needs and provide a detailed proposal tailored to your requirements."
+          }
+        },
+        "block_pN4LfM": {
+          "type": "block",
+          "settings": {
+            "question": "What is the typical timeline for a project?",
+            "answer": "The timeline for each project varies based on its complexity and scope. After an initial consultation and assessment, we provide a detailed project plan with estimated timelines for each phase of the process."
+          }
+        },
+        "block_JLiND7": {
+          "type": "block",
+          "settings": {
+            "question": "Do you offer customized solutions?",
+            "answer": "Yes, we specialize in designing and implementing customized robotic solutions tailored to meet the unique requirements of each client, ensuring optimal performance and efficiency."
+          }
+        },
+        "block_GVyPqj": {
+          "type": "block",
+          "settings": {
+            "question": "What are closed loop control systems and how do they benefit my operations?",
+            "answer": "Closed loop control systems use real-time data to continuously monitor and adjust processes, ensuring consistent quality and efficiency. They help in reducing waste, improving product quality, and enhancing overall operational efficiency."
+          }
+        },
+        "block_kRzCF6": {
+          "type": "block",
+          "settings": {
+            "question": "How do I get in touch with FinishSense for further inquiries?",
+            "answer": "You can reach us via our contact page on the website, by email, or by calling our customer service hotline. Our team is ready to assist you with any questions or concerns you may have."
           }
         }
       },
@@ -90,7 +125,12 @@
         "block_GPL8xr",
         "block_rFTLnf",
         "block_aKgpt4",
-        "block_xtqdHw"
+        "block_xtqdHw",
+        "block_BmBYWM",
+        "block_pN4LfM",
+        "block_JLiND7",
+        "block_GVyPqj",
+        "block_kRzCF6"
       ],
       "settings": {
         "section_slug": "FAQ",
