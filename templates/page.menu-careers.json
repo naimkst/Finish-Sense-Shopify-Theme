@@ -19,7 +19,7 @@
       "type": "breadcrumbs",
       "settings": {
         "section_title": "Current Openings",
-        "section_description": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market."
+        "section_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>"
       }
     },
     "contact_section_9iin6V": {
@@ -30,12 +30,33 @@
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
       }
+    },
+    "hero_section_jMMgEQ": {
+      "type": "hero-section",
+      "blocks": {
+        "block_MfhCwi": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
+            "hero_title": "We Are Looking For Talented Industry Experts",
+            "hero_description": "",
+            "hero_button_text": "Current Openings",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_MfhCwi"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "single_hero_krdd9i",
     "main",
     "breadcrumbs_rNL8WW",
-    "contact_section_9iin6V"
+    "contact_section_9iin6V",
+    "hero_section_jMMgEQ"
   ]
 }
