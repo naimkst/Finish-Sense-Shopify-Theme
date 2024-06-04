@@ -180,6 +180,15 @@
             "description": "Kawasaki used decades of experience to drive the design of the K series line of explosion-proof paint robots, resulting top-of-the-line performance, usability and finishes. Their paint robots are packed with features for easier integration and operation, like hollow-wrists for internal hoses and a paint-specific control panel. They’re also built to cover a wide range of small to large workpieces.",
             "designation": ""
           }
+        },
+        "block_6pGyUT": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Yaskawa_logo.svg",
+            "title": "Yaskawa",
+            "description": "Yaskawa Motoman offers manufacturers a wide range of robotic painting products and technology. Their flexible, high-performance paint robots increase finishing quality, consistency and throughput, while dramatically lowering operating costs and decreasing wasted material.",
+            "designation": ""
+          }
         }
       },
       "block_order": [
@@ -187,7 +196,8 @@
         "block_94EtQL",
         "block_8zfTqq",
         "block_CAfDGt",
-        "block_TqYwdp"
+        "block_TqYwdp",
+        "block_6pGyUT"
       ],
       "settings": {
       }
