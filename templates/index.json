@@ -18,8 +18,8 @@
           "settings": {
             "hero_background_image": "shopify:\/\/shop_images\/csm_duerr-paintrobots-interior-painting_c4cf50ad3a.webp",
             "hero_title": "The Future of Painting, Today",
-            "hero_description": "Our innovative closed loop control systems leverage advanced technology to ensure unparalleled accuracy and consistency in liquid paint, powder coating, and high viscosity dispense applications. By seamlessly integrating with SCADA, MES, and ERP software, our systems provide real-time monitoring and adjustment capabilities, allowing for optimal performance and efficiency. Trust FinishSense to deliver comprehensive robotic solutions that redefine precision in industrial painting",
-            "hero_button_text": "Start Your Project",
+            "hero_description": "Our innovative closed loop control systems leverage advanced technology to ensure unparalleled accuracy and consistency in liquid paint, powder coating, and high viscosity dispense applications.",
+            "hero_button_text": "Learn More",
             "hero_button_Link": ""
           }
         },
