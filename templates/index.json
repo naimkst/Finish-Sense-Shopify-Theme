@@ -162,12 +162,22 @@
             "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
             "designation": ""
           }
+        },
+        "block_CAfDGt": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/ABB_logo.svg",
+            "title": "ABB",
+            "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
+            "designation": ""
+          }
         }
       },
       "block_order": [
         "block_JUeP3Q",
         "block_94EtQL",
-        "block_8zfTqq"
+        "block_8zfTqq",
+        "block_CAfDGt"
       ],
       "settings": {
       }
