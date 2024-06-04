@@ -59,15 +59,15 @@
         "block_GPL8xr": {
           "type": "block",
           "settings": {
-            "question": "Do you provide vacancies worldwide?",
-            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+            "question": "What industries do you serve?",
+            "answer": "We serve a wide range of industries including automotive, aerospace, electronics, consumer goods, and industrial manufacturing, providing customized robotic solutions tailored to specific operational needs."
           }
         },
         "block_rFTLnf": {
           "type": "block",
           "settings": {
-            "question": "Do you provide vacancies worldwide?",
-            "answer": "Donec bibendum arcu in suscipit lobortis. In malesuada, nunc eu tempus suscipit, purus diam feugiat dui, eu convallis dolor neque vitae elit. In at imperdiet mauris. Vivamus non dui gravida, congue odio quis, lacinia justo. Pellentesque ultrices orci ac lectus sagittis."
+            "question": "How do you ensure the quality and reliability of your systems?",
+            "answer": "We follow a rigorous process that includes detailed design, precision engineering, and thorough testing. Additionally, our ongoing maintenance and support services ensure that your systems continue to perform at optimal levels."
           }
         },
         "block_aKgpt4": {
