@@ -278,7 +278,7 @@
             "background_image": "shopify:\/\/shop_images\/abb-painting-robot.jpg",
             "title": "Services",
             "button_text": "Explore",
-            "button_Link": ""
+            "button_Link": "shopify:\/\/pages\/services"
           }
         }
       },
