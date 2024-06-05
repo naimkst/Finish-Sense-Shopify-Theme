@@ -68,45 +68,51 @@
       }
     },
     "service_grid_ULiJXT": {
-      "type": "service-aria",
+      "type": "service-grid",
       "blocks": {
-        "block_9ehDBc": {
+        "block_b9d7Vx": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/istockphoto-1089222846-612x612.jpg",
+            "title": "Consulting",
+            "button_text": "Learn More",
+            "button_Link": ""
+          }
+        },
+        "block_YFnCQc": {
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
-            "title": "Consulting",
+            "title": "Engineering & Design",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/hmi-scada-development"
+            "button_Link": ""
           }
         },
-        "block_MtLX7M": {
+        "block_4A9r66": {
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/robotic-programming-1-16x9.jpg",
-            "title": "Engineering and Design",
+            "title": "Programming",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/onsite-service"
+            "button_Link": ""
           }
         },
-        "block_KTEgrQ": {
+        "block_tKhMBb": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
-            "title": "Installation and Commissioning",
+            "background_image": "shopify:\/\/shop_images\/Paintbooth-Installation-3.jpg",
+            "title": "Installation",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/programming"
-          }
-        },
-        "block_zbrg9a": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
-            "title": "Service and Support",
-            "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/remote-support"
+            "button_Link": ""
           }
         }
       },
+      "block_order": [
+        "block_b9d7Vx",
+        "block_YFnCQc",
+        "block_4A9r66",
+        "block_tKhMBb"
+      ],
       "settings": {
         "section_title": "",
         "section_description": ""
