@@ -86,7 +86,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
-            "title": "After Sale Support",
+            "title": "Service and Support",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/remote-support"
           }
