@@ -3,6 +3,16 @@
     "hero": {
       "type": "hero-section",
       "blocks": {
+        "block_MDhkf6": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
+            "hero_title": "Precision Painting, Perfected by Robots",
+            "hero_description": "Trust FinishSense to deliver comprehensive robotic solutions that redefine precision in industrial painting.",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        },
         "block_LaAjnt": {
           "type": "block",
           "settings": {
@@ -22,22 +32,12 @@
             "hero_button_text": "Learn More",
             "hero_button_Link": ""
           }
-        },
-        "block_MDhkf6": {
-          "type": "block",
-          "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
-            "hero_title": "Precision Painting, Perfected by Robots",
-            "hero_description": "Trust FinishSense to deliver comprehensive robotic solutions that redefine precision in industrial painting.",
-            "hero_button_text": "Start Your Project",
-            "hero_button_Link": ""
-          }
         }
       },
       "block_order": [
+        "block_MDhkf6",
         "block_LaAjnt",
-        "block_UnAAQa",
-        "block_MDhkf6"
+        "block_UnAAQa"
       ],
       "settings": {
       }
