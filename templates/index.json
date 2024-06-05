@@ -6,7 +6,7 @@
         "block_MDhkf6": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
+            "hero_background_image": "shopify:\/\/shop_images\/duerr-ecobell3e.jpg",
             "hero_title": "Precision Painting, Perfected by Robots",
             "hero_description": "Trust FinishSense to deliver comprehensive robotic solutions that redefine precision in industrial painting.",
             "hero_button_text": "Start Your Project",
@@ -59,7 +59,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
-            "title": "Engineering & Design",
+            "title": "Consulting",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/hmi-scada-development"
           }
@@ -68,7 +68,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/robotic-programming-1-16x9.jpg",
-            "title": "Installation",
+            "title": "Engineering and Design",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/onsite-service"
           }
@@ -77,7 +77,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
-            "title": "Commisioning",
+            "title": "Installation and Commissioning",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/programming"
           }
