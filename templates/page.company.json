@@ -40,17 +40,108 @@
     "testimonial_section_AfF8E4": {
       "type": "testimonial-section",
       "blocks": {
-        "block_XY6TBz": {
+        "block_94EtQL": {
           "type": "block",
           "settings": {
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
+            "background_image": "shopify:\/\/shop_images\/FANUC-Logo.wine.svg",
+            "title": "Fanuc",
+            "description": "FANUC’s painting robots offer a wide range of reaches and handling capacities, including some models designed and certified to operate in hazardous environments. Whatever your painting and finishing requirements, there is a FANUC paint or dispensing robot to meet your needs.",
+            "designation": ""
+          }
+        },
+        "block_TqYwdp": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Kawasaki_Logo_vert.svg",
+            "title": "Kawasaki Robotics",
+            "description": "Kawasaki used decades of experience to drive the design of the K series line of explosion-proof paint robots, resulting top-of-the-line performance, usability and finishes. Their paint robots are packed with features for easier integration and operation, like hollow-wrists for internal hoses and a paint-specific control panel. They’re also built to cover a wide range of small to large workpieces.",
+            "designation": ""
+          }
+        },
+        "block_CAfDGt": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/ABB_logo.svg",
+            "title": "ABB Robotics",
+            "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
+            "designation": ""
+          }
+        },
+        "block_6pGyUT": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Yaskawa_logo.svg",
+            "title": "Yaskawa",
+            "description": "Yaskawa Motoman offers manufacturers a wide range of robotic painting products and technology. Their flexible, high-performance paint robots increase finishing quality, consistency and throughput, while dramatically lowering operating costs and decreasing wasted material.",
+            "designation": ""
+          }
+        },
+        "block_JUeP3Q": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Durr_AG_logo.svg",
+            "title": "Dürr",
+            "description": "Dürr is the world leader in the planning and implementation of paint shops for the automotive industry and supplies solutions for every area, from pretreatment with electrocoating, through modern spray booth concepts with robots and application technology, to innovative oven-heating methods.",
+            "designation": ""
+          }
+        },
+        "block_gpxAcW": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Logo_Sata_8adb128f-b598-450a-87ad-f678ced4542e.svg",
+            "title": "SATA",
+            "description": "SATA spray guns guarantee perfect finishes through their excellent precision and highest quality. Choose the most suitable technology according to your personal needs - their spray guns are available with RP as well as with HVLP technology.",
+            "designation": ""
+          }
+        },
+        "block_qpVHJz": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/binks-seeklogo_943c227f-90b5-482e-93eb-9649d435be9d.svg",
+            "title": "Binks",
+            "description": "Binks manufactures low and high pressure manual and automatic spray guns, accesories, airless and air-assisted airless spray packages used in many industrial applications.  Binks high and low pressure fluid handling pumps and regulators, pressure feed tanks, 2K electronic paint mixing machines, and paint circulating systems can also be found in many industrial and automotive facilities.",
+            "designation": ""
+          }
+        },
+        "block_8zfTqq": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
+            "title": "Sames",
+            "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
+            "designation": ""
+          }
+        },
+        "block_WrrhNn": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Graco_logo__horizontal.svg",
+            "title": "Graco",
+            "description": "Improve production and boost your bottom line with high-performance meter and mix, paint kitchen, and spray booth equipment. Graco's industrial liquid coating systems advance fine finishing and automation for automotive, aerospace, electronic, heavy equipment, wood product, and general manufacturing applications.",
+            "designation": ""
+          }
+        },
+        "block_dLWfjq": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Ransburg-logo.svg-20.svg",
+            "title": "Ransburg",
+            "description": "Ransburg is a global leader in the design and manufacture of manual and automatic electrostatic finishing equipment.  As a leader in electrostatic spray finishing equipment for key industrial, manufacturing, and automotive Tier 1 markets, Ransburg continues to refine its most efficient electrostatic spray painting technology, aspiring to deliver a “Class A” finish to each and every customer’s product, while reducing VOC emissions and providing excellent transfer efficiency.",
+            "designation": ""
           }
         }
       },
       "block_order": [
-        "block_XY6TBz"
+        "block_94EtQL",
+        "block_TqYwdp",
+        "block_CAfDGt",
+        "block_6pGyUT",
+        "block_JUeP3Q",
+        "block_gpxAcW",
+        "block_qpVHJz",
+        "block_8zfTqq",
+        "block_WrrhNn",
+        "block_dLWfjq"
       ],
       "settings": {
       }
