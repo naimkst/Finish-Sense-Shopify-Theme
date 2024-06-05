@@ -8,37 +8,9 @@
       ],
       "settings": {
       }
-    },
-    "single_hero_KhpCUN": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-        "section_title": "",
-        "button_text": "Coming Soon!",
-        "button_link": ""
-      }
-    },
-    "service_grid_DBGPnQ": {
-      "type": "service-grid",
-      "settings": {
-        "section_title": "",
-        "section_description": ""
-      }
-    },
-    "contact_section_9iin6V": {
-      "type": "contact-section",
-      "settings": {
-        "section_title": "Do you have a project? Lets Talk.",
-        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
-        "email_address": "sales@finishsense.io",
-        "form_title": "Complete the form below..."
-      }
     }
   },
   "order": [
-    "main",
-    "single_hero_KhpCUN",
-    "service_grid_DBGPnQ",
-    "contact_section_9iin6V"
+    "main"
   ]
 }
