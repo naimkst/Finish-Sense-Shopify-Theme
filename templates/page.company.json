@@ -23,7 +23,7 @@
     "how_we_work_mx8bGg": {
       "type": "how-we-work",
       "settings": {
-        "left_image": "shopify:\/\/shop_images\/kawasaki_rs007l.jpg",
+        "left_image": "shopify:\/\/shop_images\/46559_147350_2424.jpg",
         "expericent_time": "25+",
         "expericent_text": "Year of Experience",
         "how_we_work_slug": "",
@@ -266,16 +266,18 @@
         "block_Th6GDJ": {
           "type": "block",
           "settings": {
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
+            "background_image": "shopify:\/\/shop_images\/kawasaki_rs007l.jpg",
+            "title": "Solutions",
+            "button_text": "Explore",
+            "button_Link": "shopify:\/\/pages\/solutions"
           }
         },
         "block_Y94KFD": {
           "type": "block",
           "settings": {
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
+            "background_image": "shopify:\/\/shop_images\/abb-painting-robot.jpg",
+            "title": "Services",
+            "button_text": "Explore",
             "button_Link": ""
           }
         }
