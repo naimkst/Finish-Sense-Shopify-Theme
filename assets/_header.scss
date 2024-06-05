@@ -7,7 +7,7 @@
 	background: $black;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	position: relative;
-	height: 50px;
+	height: 56px;
 	z-index: 111;
 
 	@media(max-width: 991px) {
@@ -50,7 +50,7 @@
 	background-color: transparent;
 	position: absolute;
 	left: 0;
-	top: 50px;
+	top: 56px;
 	width: 100%;
 	z-index: 11;
 
