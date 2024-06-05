@@ -77,7 +77,7 @@
         "block_MtLX7M": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/GP-BoothLine-2.webp",
+            "background_image": "shopify:\/\/shop_images\/robotic-programming-1-16x9.jpg",
             "title": "Installation",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/onsite-service"
@@ -90,14 +90,6 @@
             "title": "Commisioning",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/programming"
-          }
-        },
-        "block_6XTt8J": {
-          "type": "block",
-          "settings": {
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
           }
         },
         "block_zbrg9a": {
@@ -114,7 +106,6 @@
         "block_9ehDBc",
         "block_MtLX7M",
         "block_KTEgrQ",
-        "block_6XTt8J",
         "block_zbrg9a"
       ],
       "settings": {
