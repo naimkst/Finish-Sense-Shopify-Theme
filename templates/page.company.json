@@ -22,19 +22,6 @@
     },
     "how_we_work_mx8bGg": {
       "type": "how-we-work",
-      "blocks": {
-        "block_yn7iVm": {
-          "type": "block",
-          "settings": {
-            "process_number": "01",
-            "title": "Apply for the Jobs",
-            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
-          }
-        }
-      },
-      "block_order": [
-        "block_yn7iVm"
-      ],
       "settings": {
         "left_image": "shopify:\/\/shop_images\/kawasaki_rs007l.jpg",
         "expericent_time": "25+",
@@ -53,7 +40,7 @@
     "testimonial_section_AfF8E4": {
       "type": "testimonial-section",
       "blocks": {
-        "block_jAUfhw": {
+        "block_XY6TBz": {
           "type": "block",
           "settings": {
             "title": "You are amazing! You worked so hard for Cady's wedding.",
@@ -63,7 +50,7 @@
         }
       },
       "block_order": [
-        "block_jAUfhw"
+        "block_XY6TBz"
       ],
       "settings": {
       }
