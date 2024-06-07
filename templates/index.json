@@ -257,6 +257,15 @@
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
       }
+    },
+    "single_hero_GBi6ie": {
+      "type": "single-hero",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/duerr-kawasaki-lackierroboter-2.jpg",
+        "section_title": "We’re looking for talented industry experts.",
+        "button_text": "Current Openings",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -267,6 +276,7 @@
     "project_aria_FhRgA3",
     "testimonial_section_zyPTMj",
     "blog_section_tw4eb4",
-    "contact_section_tYgB37"
+    "contact_section_tYgB37",
+    "single_hero_GBi6ie"
   ]
 }
