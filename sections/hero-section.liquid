@@ -18,9 +18,11 @@
               <div class="slide-sub-title">
                 <p>{{ block.settings.hero_description }}</p>
               </div>
-              <div class="btns">
-                <a href="{{ block.settings.hero_button_Link }}" class="btn-style-1">{{ block.settings.hero_button_text }}</a>
-              </div>
+              {% if block.settings.hero_button_text != blank %}
+                <div class="btns">
+                  <a href="{{ block.settings.hero_button_Link }}" class="btn-style-1">{{ block.settings.hero_button_text }}</a>
+                </div>
+              {% endif %}
             </div>
           </div>
         </div>
