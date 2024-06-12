@@ -448,4 +448,10 @@ a.read-more.linkBlack:hover {
   .image-content {
     padding: 40px 15px;
   }
+  .testimonial-thumbnil-img img {
+    width: 156px;
+    object-fit: contain;
+    height: 100px;
+    margin-top: 30px;
+  }
 }

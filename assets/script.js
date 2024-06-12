@@ -236,14 +236,14 @@
         {
           breakpoint: 500,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             infinite: true,
           },
         },
         {
           breakpoint: 400,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
           },
         },
       ],

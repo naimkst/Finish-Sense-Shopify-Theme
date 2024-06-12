@@ -1,5 +1,5 @@
 <!-- testimonial-area start -->
-<div class="testimonial-area section-padding">
+<div class="testimonial-area section-padding" style="background-color: {{ section.settings.section_color }};">
   <div class="container">
     <div class="row justify-content-center align-items-center">
       <div class="col-lg-6 col-12">
@@ -19,47 +19,22 @@
               {% endif %}
             {% endfor %}
           </div>
-          {% comment %} <div class="testimonial-thumbnil-active">
-            {% for block in section.blocks %}
-              {% if block.type == "block" %}
-                <div class="item">
-                  <div class="testimonial-thumbnil-img">
-                    <img
-                      src="{{ block.settings.background_image | image_url: width: 120 }}"
-                      alt="tesimonial"
-                      width="100%"
-                      height="100%">
-                  </div>
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div> {% endcomment %}
         </div>
       </div>
       <div class="col-lg-5 offset-lg-1">
-        {% comment %} <div class="partner-wrap">
-          {% for block in section.blocks %}
-            {% if block.type == "brand" %}
-              <div class="partner-item">
-                <img
-                  src="{{ block.settings.brand_image | image_url: width: 100 }}"
-                  width="100%"
-                  height="100%"
-                  alt="">
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div> {% endcomment %}
+
         <div class="testimonial-thumbnil-active">
           {% for block in section.blocks %}
             {% if block.type == "block" %}
               <div class="item">
                 <div class="testimonial-thumbnil-img">
-                  <img
-                    src="{{ block.settings.background_image | image_url: width: 120 }}"
-                    alt="tesimonial"
-                    width="100%"
-                    height="100%">
+                  <a href="{{ block.settings.icon_link }}">
+                    <img
+                      src="{{ block.settings.background_image | image_url: width: 120 }}"
+                      alt="tesimonial"
+                      width="100%"
+                      height="100%">
+                  </a>
                 </div>
               </div>
             {% endif %}
@@ -76,7 +51,14 @@
   {
     "name": "Testimonail Section",
     "tag": "section",
-    "settings": [],
+    "settings": [
+      {
+        "type": "color",
+        "id": "section_color",
+        "label": "Section Color",
+        "default": "#3693d9"
+      }
+    ],
     "blocks": [
       {
         "name": "Add Item",
@@ -104,6 +86,11 @@
             "id": "designation",
             "label": "Name & Designation",
             "default": "Shivinder Sing - Founder"
+          },
+          {
+            "type": "url",
+            "id": "icon_link",
+            "label": "Icon Link"
           }
         ]
       },
