@@ -1,5 +1,5 @@
 <!-- start contact-area -->
-<section class="contact-area section-padding pt-0">
+<section class="contact-area section-padding pt-0" style="background-color: {{ section.settings.section_color }};">
   <div class="container">
     <div class="contact-items">
       <div class="row">
@@ -384,6 +384,12 @@
         "id": "form_title",
         "label": "Form Title",
         "default": "Complete the form below..."
+      },
+      {
+        "type": "color",
+        "id": "section_color",
+        "label": "Section Color",
+        "default": "transparent"
       }
     ],
     "presets": [

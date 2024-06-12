@@ -1805,7 +1805,7 @@ img {
 }
 .site-header .navbar-header .site-logo img {
   position: relative;
-  top: -10px;
+  top: -16px;
 }
 @media (max-width: 991px) {
   .site-header .navbar-header .site-logo img {

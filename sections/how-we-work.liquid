@@ -1,4 +1,4 @@
-<div class="how-work-section p-100">
+<div class="how-work-section p-100" style="background-color: {{ section.settings.section_color }};">
   <div class="container">
     <div class="row">
       <div class="how-work-flex col-lg-6 col-12">
@@ -87,6 +87,12 @@
         "id": "how_we_work_content",
         "label": "Description",
         "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+      },
+      {
+        "type": "color",
+        "id": "section_color",
+        "label": "Section Color",
+        "default": "transparent"
       }
     ],
     "blocks": [

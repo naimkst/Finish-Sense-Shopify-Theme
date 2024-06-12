@@ -1,4 +1,4 @@
-<div class="faq-section p-100 pb-100">
+<div class="faq-section p-100 pb-100" style="background-color: {{ section.settings.section_color }};">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-12 align-self-center">
@@ -80,6 +80,12 @@
         "type": "url",
         "id": "section_button_url",
         "label": "Button URL"
+      },
+      {
+        "type": "color",
+        "id": "section_color",
+        "label": "Section Color",
+        "default": "#3693d9"
       }
     ],
     "blocks": [

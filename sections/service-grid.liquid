@@ -1,4 +1,4 @@
-<div class="service-area section-padding pt-0">
+<div class="service-area section-padding pt-0" style="background-color: {{ section.settings.section_color }};">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-7 col-12">
@@ -48,6 +48,12 @@
         "id": "section_description",
         "label": "Section Description",
         "default": "Best Exhibition Stall Designers in India, Europe and Poland"
+      },
+      {
+        "type": "color",
+        "id": "section_color",
+        "label": "Section Color",
+        "default": "transparent"
       }
     ],
     "blocks": [

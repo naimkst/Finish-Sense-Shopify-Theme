@@ -1,4 +1,4 @@
-<div class="image-with-text p-100">
+<div class="image-with-text p-100" style="background-color: {{ section.settings.section_color }};">
   <div class="container">
     {% for block in section.blocks %}
       {% assign mod = forloop.index | modulo: 2 %}
@@ -29,7 +29,14 @@
 {% schema %}
   {
     "name": "Imge Image Text Section",
-    "settings": [],
+    "settings": [
+      {
+        "type": "color",
+        "id": "section_color",
+        "label": "Section Color",
+        "default": "transparent"
+      }
+    ],
     "blocks": [
       {
         "name": "Add Item",

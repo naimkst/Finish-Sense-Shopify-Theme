@@ -1,9 +1,9 @@
-<div class="baner-serction p-100">
+<div class="baner-serction p-100" style="background-color: {{ section.settings.section_color }};">
   <div class="container-fluid no-space">
     <div class="row g-0">
       <div class="col-lg-7 col-12 no-space" style="background-image: url({{ section.settings.left_image |  image_url: width: 1920  }});     background-repeat: no-repeat;
     background-size: cover;">
-        </div>
+</div>
       <div class="col-lg-5 col-12 banner-right-row no-space">
         <div class="baner-content wow zoomIn" data-wow-duration="600ms">
           <img
@@ -61,6 +61,12 @@
         "type": "url",
         "id": "button_Link",
         "label": "Button Link"
+      },
+      {
+        "type": "color",
+        "id": "section_color",
+        "label": "Section Color",
+        "default": "transparent"
       }
     ],
     "presets": [
