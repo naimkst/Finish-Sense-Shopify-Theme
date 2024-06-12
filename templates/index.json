@@ -50,7 +50,7 @@
         "about_description": "<p>With years of experience in the field of process automation, we understand that no two processes are exactly alike. That's why we go above and beyond to develop bespoke robotic integration solutions that address the specific challenges and requirements of each client.<\/p><p>From liquid paint applications to powder coating and high viscosity dispense processes, our team of experts is equipped with the knowledge, skills, and expertise needed to design and implement solutions that optimize efficiency, precision, and performance. We believe in a collaborative approach, working closely with our clients every step of the way to assess their needs, understand their goals, and develop innovative solutions that deliver tangible results.<\/p><p>At FinishSense, we recognize that success lies in our ability to adapt and innovate. That's why we stay at the forefront of technological advancements, continuously exploring new tools, techniques, and methodologies to enhance our capabilities and better serve our clients. Whether you're looking to streamline your production process, improve product quality, or reduce costs, you can trust that our custom solutions will meet your needs and exceed your expectations.<\/p><p>With FinishSense as your partner, you can rest assured that your process will receive the personalized attention and expertise it deserves. From concept to completion, we're committed to delivering superior outcomes that drive success and fuel growth for your business. Contact us today to learn more about how our custom solutions can help you achieve your goals.<\/p><p><\/p>",
         "about_button_text": "Learn More",
         "about_button_url": "",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "service_aria_mDixD7": {
@@ -102,7 +102,7 @@
       "settings": {
         "section_title": "What We Do",
         "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications.",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "project_aria_kJiMFx": {
@@ -110,7 +110,7 @@
       "settings": {
         "section_title": "Our Partners",
         "section_description": "At FinishSense, we pride ourselves on our strategic partnerships with industry leaders and innovators. Our collaborations with top-tier suppliers and technology providers enable us to offer state-of-the-art robotic systems and software solutions. These valued partnerships enhance our capabilities in delivering exceptional liquid paint, powder coating, and high viscosity dispense applications. By working closely with our industry partners, we ensure that our clients receive cutting-edge solutions that drive efficiency, quality, and reliability in their production processes. Together, we are revolutionizing the world of industrial finishing.",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "project_aria_FhRgA3": {
@@ -134,7 +134,7 @@
       "settings": {
         "section_title": "Our Work",
         "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments.",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "testimonial_section_zyPTMj": {
@@ -262,7 +262,7 @@
       "settings": {
         "section_title": "Latest Blogs",
         "section_description": "Our latest Blogs\/News",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "contact_section_tYgB37": {
@@ -272,7 +272,7 @@
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below...",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "single_hero_GBi6ie": {
