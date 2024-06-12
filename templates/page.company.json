@@ -3,32 +3,32 @@
     "hero_section_wF9Vgk": {
       "type": "hero-section",
       "blocks": {
-        "block_jPJNkz": {
-          "type": "block",
-          "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
-            "hero_title": "Design. Create. and Build.",
-            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
-            "hero_button_text": "Start Your Project",
-            "hero_button_Link": ""
-          }
-        },
         "block_GWYrKi": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
-            "hero_title": "Design. Create. and Build.",
-            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_background_image": "shopify:\/\/shop_images\/Painting-Robots-1920x960.jpg",
+            "hero_title": "Customer Centric. Brand Agnostic.",
+            "hero_description": "By being customer and process-centric, we are able to deliver truly customized solutions that are optimized for performance, efficiency, and reliability.",
             "hero_button_text": "Start Your Project",
-            "hero_button_Link": ""
+            "hero_button_Link": "shopify:\/\/pages\/contact"
           }
         }
       },
       "block_order": [
-        "block_jPJNkz",
         "block_GWYrKi"
       ],
       "settings": {
+      }
+    },
+    "how_we_work_mx8bGg": {
+      "type": "how-we-work",
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/46559_147350_2424.jpg",
+        "expericent_time": "25+",
+        "expericent_text": "Year of Experience",
+        "how_we_work_slug": "",
+        "how_we_work_title": "Collaboration, Innovation, and a Commitment to Excellence",
+        "how_we_work_content": "At FinishSense, our approach is centered around our customers and their processes. We understand that each client has unique needs and challenges, and we are committed to developing solutions that are tailored to address them. By placing the customer and their process at the forefront of everything we do, we ensure that our solutions are not only effective but also fully aligned with our clients' goals and objectives.  In addition, we take a brand-agnostic approach to technology selection. Rather than being tied to specific brands or manufacturers, we prioritize choosing the best technologies available on the market. This allows us to offer our clients a wide range of options and ensures that we can select the solutions that are best suited to their specific requirements. Our commitment to choosing the best technologies ensures that our clients always have access to the most advanced and innovative solutions available, helping them stay ahead of the competition and achieve their business objectives."
       }
     },
     "main": {
@@ -37,77 +37,255 @@
       "settings": {
       }
     },
-    "breadcrumbs_rNL8WW": {
-      "type": "breadcrumbs",
-      "settings": {
-        "section_title": "Coming Soon!",
-        "section_description": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market."
-      }
-    },
-    "project_aria_NHn8pe": {
-      "type": "project-aria",
-      "blocks": {
-        "block_Fze8ct": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_YhVkLR": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_tRE9AP": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        }
-      },
-      "block_order": [
-        "block_Fze8ct",
-        "block_YhVkLR",
-        "block_tRE9AP"
-      ],
-      "settings": {
-        "section_title": "Our Work",
-        "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
-      }
-    },
-    "testimonial_section_KM4a3W": {
+    "testimonial_section_AfF8E4": {
       "type": "testimonial-section",
       "blocks": {
-        "block_JU8ift": {
+        "block_94EtQL": {
           "type": "block",
           "settings": {
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
+            "background_image": "shopify:\/\/shop_images\/FANUC-Logo.wine.svg",
+            "title": "Fanuc",
+            "description": "FANUC’s painting robots offer a wide range of reaches and handling capacities, including some models designed and certified to operate in hazardous environments. Whatever your painting and finishing requirements, there is a FANUC paint or dispensing robot to meet your needs.",
+            "designation": ""
+          }
+        },
+        "block_TqYwdp": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Kawasaki_Logo_vert.svg",
+            "title": "Kawasaki Robotics",
+            "description": "Kawasaki used decades of experience to drive the design of the K series line of explosion-proof paint robots, resulting top-of-the-line performance, usability and finishes. Their paint robots are packed with features for easier integration and operation, like hollow-wrists for internal hoses and a paint-specific control panel. They’re also built to cover a wide range of small to large workpieces.",
+            "designation": ""
+          }
+        },
+        "block_CAfDGt": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/ABB_logo.svg",
+            "title": "ABB Robotics",
+            "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
+            "designation": ""
+          }
+        },
+        "block_6pGyUT": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Yaskawa_logo.svg",
+            "title": "Yaskawa",
+            "description": "Yaskawa Motoman offers manufacturers a wide range of robotic painting products and technology. Their flexible, high-performance paint robots increase finishing quality, consistency and throughput, while dramatically lowering operating costs and decreasing wasted material.",
+            "designation": ""
+          }
+        },
+        "block_JUeP3Q": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Durr_AG_logo.svg",
+            "title": "Dürr",
+            "description": "Dürr is the world leader in the planning and implementation of paint shops for the automotive industry and supplies solutions for every area, from pretreatment with electrocoating, through modern spray booth concepts with robots and application technology, to innovative oven-heating methods.",
+            "designation": ""
+          }
+        },
+        "block_gpxAcW": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Logo_Sata_8adb128f-b598-450a-87ad-f678ced4542e.svg",
+            "title": "SATA",
+            "description": "SATA spray guns guarantee perfect finishes through their excellent precision and highest quality. Choose the most suitable technology according to your personal needs - their spray guns are available with RP as well as with HVLP technology.",
+            "designation": ""
+          }
+        },
+        "block_qpVHJz": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/binks-seeklogo_943c227f-90b5-482e-93eb-9649d435be9d.svg",
+            "title": "Binks",
+            "description": "Binks manufactures low and high pressure manual and automatic spray guns, accesories, airless and air-assisted airless spray packages used in many industrial applications.  Binks high and low pressure fluid handling pumps and regulators, pressure feed tanks, 2K electronic paint mixing machines, and paint circulating systems can also be found in many industrial and automotive facilities.",
+            "designation": ""
+          }
+        },
+        "block_8zfTqq": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
+            "title": "Sames",
+            "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
+            "designation": ""
+          }
+        },
+        "block_WrrhNn": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Graco_logo__horizontal.svg",
+            "title": "Graco",
+            "description": "Improve production and boost your bottom line with high-performance meter and mix, paint kitchen, and spray booth equipment. Graco's industrial liquid coating systems advance fine finishing and automation for automotive, aerospace, electronic, heavy equipment, wood product, and general manufacturing applications.",
+            "designation": ""
+          }
+        },
+        "block_dLWfjq": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Ransburg-logo.svg-20.svg",
+            "title": "Ransburg",
+            "description": "Ransburg is a global leader in the design and manufacture of manual and automatic electrostatic finishing equipment.  As a leader in electrostatic spray finishing equipment for key industrial, manufacturing, and automotive Tier 1 markets, Ransburg continues to refine its most efficient electrostatic spray painting technology, aspiring to deliver a “Class A” finish to each and every customer’s product, while reducing VOC emissions and providing excellent transfer efficiency.",
+            "designation": ""
           }
         }
       },
       "block_order": [
-        "block_JU8ift"
+        "block_94EtQL",
+        "block_TqYwdp",
+        "block_CAfDGt",
+        "block_6pGyUT",
+        "block_JUeP3Q",
+        "block_gpxAcW",
+        "block_qpVHJz",
+        "block_8zfTqq",
+        "block_WrrhNn",
+        "block_dLWfjq"
       ],
       "settings": {
+      }
+    },
+    "image_with_text_39LK33": {
+      "type": "image-with-text",
+      "blocks": {
+        "block_Bd9mYb": {
+          "type": "block",
+          "settings": {
+            "left_image": "shopify:\/\/shop_images\/1223-pf-news-durr-kawasaki-robotics-partnership.jpg",
+            "title": "What You Can Expect",
+            "content": "<p>At FinishSense, we are committed to delivering excellence at every stage of your project. From the initial consultation to the final implementation, you can expect a personalized approach tailored to your unique requirements. Our team of experts provides innovative design solutions, meticulous system integration, and comprehensive support, ensuring your robotic systems operate at peak efficiency. We prioritize clear communication, timely project delivery, and ongoing maintenance to guarantee long-term performance and satisfaction. With FinishSense, you can expect reliability, precision, and unparalleled quality in every aspect of our service.<\/p>",
+            "button_text": "Contact Us",
+            "button_Link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "block_Bd9mYb"
+      ],
+      "settings": {
+      }
+    },
+    "faq_section_g6eQFy": {
+      "type": "faq-section",
+      "blocks": {
+        "block_yMX8A6": {
+          "type": "block",
+          "settings": {
+            "question": "What services does FinishSense offer?",
+            "answer": "FinishSense specializes in robotic system integration for liquid paint, powder coating, and high viscosity dispense applications. We provide end-to-end solutions including design, creation, and building of advanced robotic systems, as well as comprehensive support, maintenance, and training."
+          }
+        },
+        "block_GPL8xr": {
+          "type": "block",
+          "settings": {
+            "question": "What industries do you serve?",
+            "answer": "We serve a wide range of industries including automotive, aerospace, electronics, consumer goods, and industrial manufacturing, providing customized robotic solutions tailored to specific operational needs."
+          }
+        },
+        "block_rFTLnf": {
+          "type": "block",
+          "settings": {
+            "question": "How do you ensure the quality and reliability of your systems?",
+            "answer": "We follow a rigorous process that includes detailed design, precision engineering, and thorough testing. Additionally, our ongoing maintenance and support services ensure that your systems continue to perform at optimal levels."
+          }
+        },
+        "block_aKgpt4": {
+          "type": "block",
+          "settings": {
+            "question": "Can you integrate your robotic systems with our existing infrastructure?",
+            "answer": "Yes, our solutions are designed to be compatible with a variety of existing systems. We conduct thorough compatibility testing and offer customized integration to ensure seamless operation with your current infrastructure."
+          }
+        },
+        "block_xtqdHw": {
+          "type": "block",
+          "settings": {
+            "question": "What kind of support can we expect after installation?",
+            "answer": "FinishSense provides comprehensive post-installation support including regular maintenance, rapid troubleshooting, system upgrades, and technical training to ensure continuous and efficient operation of your systems."
+          }
+        },
+        "block_BmBYWM": {
+          "type": "block",
+          "settings": {
+            "question": "How can I get a quote for your services?",
+            "answer": "You can get a quote by contacting us through our website’s contact form or by calling our customer service team. We will discuss your specific needs and provide a detailed proposal tailored to your requirements."
+          }
+        },
+        "block_pN4LfM": {
+          "type": "block",
+          "settings": {
+            "question": "What is the typical timeline for a project?",
+            "answer": "The timeline for each project varies based on its complexity and scope. After an initial consultation and assessment, we provide a detailed project plan with estimated timelines for each phase of the process."
+          }
+        },
+        "block_JLiND7": {
+          "type": "block",
+          "settings": {
+            "question": "Do you offer customized solutions?",
+            "answer": "Yes, we specialize in designing and implementing customized robotic solutions tailored to meet the unique requirements of each client, ensuring optimal performance and efficiency."
+          }
+        },
+        "block_GVyPqj": {
+          "type": "block",
+          "settings": {
+            "question": "What are closed loop control systems and how do they benefit my operations?",
+            "answer": "Closed loop control systems use real-time data to continuously monitor and adjust processes, ensuring consistent quality and efficiency. They help in reducing waste, improving product quality, and enhancing overall operational efficiency."
+          }
+        },
+        "block_kRzCF6": {
+          "type": "block",
+          "settings": {
+            "question": "How do I get in touch with FinishSense for further inquiries?",
+            "answer": "You can reach us via our contact page on the website, by email, or by calling our customer service hotline. Our team is ready to assist you with any questions or concerns you may have."
+          }
+        }
+      },
+      "block_order": [
+        "block_yMX8A6",
+        "block_GPL8xr",
+        "block_rFTLnf",
+        "block_aKgpt4",
+        "block_xtqdHw",
+        "block_BmBYWM",
+        "block_pN4LfM",
+        "block_JLiND7",
+        "block_GVyPqj",
+        "block_kRzCF6"
+      ],
+      "settings": {
+        "section_slug": "FAQ",
+        "section_title": "Frequently Asked Questions",
+        "section_description": "Welcome to the FAQs section of FinishSense! Here, we aim to address common questions and concerns you may have about our robotic system integration services. Whether you're exploring our offerings for the first time or seeking additional information, this section provides valuable insights into our processes, solutions, and support services.From understanding the industries we serve to learning about our quality assurance measures, our FAQs cover a wide range of topics to help you make informed decisions. We've curated this collection of frequently asked questions to provide clarity and transparency, ensuring that you have all the information you need to confidently partner with us.Browse through the questions below to find answers to inquiries about our services, industries served, support offerings, customization options, and more. If you don't find what you're looking for, feel free to reach out to our team for personalized assistance.At FinishSense, we're committed to excellence in every aspect of our business, and our FAQs section is just one way we demonstrate our dedication to customer satisfaction and transparency. Thank you for considering FinishSense for your robotic integration needs, and we look forward to assisting you on your journey towards enhanced productivity and efficiency.",
+        "section_button_text": "Contact Us",
+        "section_button_url": "shopify:\/\/pages\/contact"
       }
     },
     "service_grid_nY8bFH": {
       "type": "service-grid",
+      "blocks": {
+        "block_Th6GDJ": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/kawasaki_rs007l.jpg",
+            "title": "Solutions",
+            "button_text": "Explore",
+            "button_Link": "shopify:\/\/pages\/solutions"
+          }
+        },
+        "block_Y94KFD": {
+          "type": "block",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/abb-painting-robot.jpg",
+            "title": "Services",
+            "button_text": "Explore",
+            "button_Link": "shopify:\/\/pages\/services"
+          }
+        }
+      },
+      "block_order": [
+        "block_Th6GDJ",
+        "block_Y94KFD"
+      ],
       "settings": {
         "section_title": "",
         "section_description": ""
@@ -116,7 +294,7 @@
     "contact_section_9iin6V": {
       "type": "contact-section",
       "settings": {
-        "section_title": "Do you have a project? Lets Talk.",
+        "section_title": "Do you have a project?",
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
@@ -125,10 +303,11 @@
   },
   "order": [
     "hero_section_wF9Vgk",
+    "how_we_work_mx8bGg",
     "main",
-    "breadcrumbs_rNL8WW",
-    "project_aria_NHn8pe",
-    "testimonial_section_KM4a3W",
+    "testimonial_section_AfF8E4",
+    "image_with_text_39LK33",
+    "faq_section_g6eQFy",
     "service_grid_nY8bFH",
     "contact_section_9iin6V"
   ]

@@ -3,41 +3,41 @@
     "hero": {
       "type": "hero-section",
       "blocks": {
+        "block_MDhkf6": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/duerr-ecobell3e.jpg",
+            "hero_title": "Precision Painting, Perfected by Robots",
+            "hero_description": "Trust FinishSense to deliver comprehensive robotic solutions that redefine precision in industrial painting.",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": "shopify:\/\/pages\/company"
+          }
+        },
         "block_LaAjnt": {
           "type": "block",
           "settings": {
             "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
             "hero_title": "Close the Loop",
             "hero_description": "Explore the Future of Precision Coating with FinishSense's Control Solutions",
-            "hero_button_text": "Start Your Project",
+            "hero_button_text": "Learn More",
             "hero_button_Link": ""
           }
         },
         "block_UnAAQa": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/hero2.jpg",
-            "hero_title": "Design. Create. and Build.",
-            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
-            "hero_button_text": "Start Your Project",
-            "hero_button_Link": ""
-          }
-        },
-        "block_MDhkf6": {
-          "type": "block",
-          "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/hero3.jpg",
-            "hero_title": "Design. Create. and Build.",
-            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
-            "hero_button_text": "Start Your Project",
+            "hero_background_image": "shopify:\/\/shop_images\/duerr-ecobell.jpg",
+            "hero_title": "The Future of Painting, Today",
+            "hero_description": "Our innovative closed loop control systems leverage advanced technology to ensure unparalleled accuracy and consistency in liquid paint, powder coating, and high viscosity dispense applications.",
+            "hero_button_text": "Learn More",
             "hero_button_Link": ""
           }
         }
       },
       "block_order": [
+        "block_MDhkf6",
         "block_LaAjnt",
-        "block_UnAAQa",
-        "block_MDhkf6"
+        "block_UnAAQa"
       ],
       "settings": {
       }
@@ -46,8 +46,8 @@
       "type": "about-section",
       "settings": {
         "about_image": "shopify:\/\/shop_images\/BLACK.svg",
-        "about_title": "Custom Solutions for Custom Processes",
-        "about_description": "<p>Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.<\/p>",
+        "about_title": "At FinishSense, we take pride in our unwavering commitment to providing custom solutions tailored to meet the unique needs of every process.",
+        "about_description": "<p>With years of experience in the field of process automation, we understand that no two processes are exactly alike. That's why we go above and beyond to develop bespoke robotic integration solutions that address the specific challenges and requirements of each client.<\/p><p>From liquid paint applications to powder coating and high viscosity dispense processes, our team of experts is equipped with the knowledge, skills, and expertise needed to design and implement solutions that optimize efficiency, precision, and performance. We believe in a collaborative approach, working closely with our clients every step of the way to assess their needs, understand their goals, and develop innovative solutions that deliver tangible results.<\/p><p>At FinishSense, we recognize that success lies in our ability to adapt and innovate. That's why we stay at the forefront of technological advancements, continuously exploring new tools, techniques, and methodologies to enhance our capabilities and better serve our clients. Whether you're looking to streamline your production process, improve product quality, or reduce costs, you can trust that our custom solutions will meet your needs and exceed your expectations.<\/p><p>With FinishSense as your partner, you can rest assured that your process will receive the personalized attention and expertise it deserves. From concept to completion, we're committed to delivering superior outcomes that drive success and fuel growth for your business. Contact us today to learn more about how our custom solutions can help you achieve your goals.<\/p><p><\/p>",
         "about_button_text": "Learn More",
         "about_button_url": ""
       }
@@ -59,7 +59,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
-            "title": "Engineering & Design",
+            "title": "Consulting",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/hmi-scada-development"
           }
@@ -67,8 +67,8 @@
         "block_MtLX7M": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/GP-BoothLine-2.webp",
-            "title": "Installation",
+            "background_image": "shopify:\/\/shop_images\/robotic-programming-1-16x9.jpg",
+            "title": "Engineering and Design",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/onsite-service"
           }
@@ -77,7 +77,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
-            "title": "Commisioning",
+            "title": "Installation and Commissioning",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/programming"
           }
@@ -86,7 +86,7 @@
           "type": "block",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
-            "title": "After Sale Support",
+            "title": "Service and Support",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/remote-support"
           }
@@ -103,29 +103,16 @@
         "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications."
       }
     },
+    "project_aria_kJiMFx": {
+      "type": "project-aria",
+      "settings": {
+        "section_title": "Our Partners",
+        "section_description": "At FinishSense, we pride ourselves on our strategic partnerships with industry leaders and innovators. Our collaborations with top-tier suppliers and technology providers enable us to offer state-of-the-art robotic systems and software solutions. These valued partnerships enhance our capabilities in delivering exceptional liquid paint, powder coating, and high viscosity dispense applications. By working closely with our industry partners, we ensure that our clients receive cutting-edge solutions that drive efficiency, quality, and reliability in their production processes. Together, we are revolutionizing the world of industrial finishing."
+      }
+    },
     "project_aria_FhRgA3": {
       "type": "project-aria",
       "blocks": {
-        "block_ckpBG7": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1_d8f39878-818a-4f0b-b339-899fd7c72d10.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_VqfqCy": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2_e0151026-30c4-4430-bf11-f80095c33f4d.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
         "block_exP6yi": {
           "type": "block",
           "settings": {
@@ -138,10 +125,9 @@
         }
       },
       "block_order": [
-        "block_ckpBG7",
-        "block_VqfqCy",
         "block_exP6yi"
       ],
+      "disabled": true,
       "settings": {
         "section_title": "Our Work",
         "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
@@ -150,97 +136,108 @@
     "testimonial_section_zyPTMj": {
       "type": "testimonial-section",
       "blocks": {
-        "block_JUeP3Q": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/1.png",
-            "title": "Our Partners",
-            "description": "Since 2002, some of the top ranked Automotive, Aerospace and large industrial manufacturers have counted on Innovative Finishing Solutions Inc. for Quality, Value and Innovation. Renowned for bringing world leadership to the art and science of  painting & material application through robotic technology and superior engineered solutions. We will earn the trust of our Customer's as valued partners in productivity, profitability and performance.",
-            "designation": "Innovative Finishing Solutions"
-          }
-        },
         "block_94EtQL": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/5.png",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
+            "background_image": "shopify:\/\/shop_images\/FANUC-Logo.wine.svg",
+            "title": "Fanuc",
+            "description": "FANUC’s painting robots offer a wide range of reaches and handling capacities, including some models designed and certified to operate in hazardous environments. Whatever your painting and finishing requirements, there is a FANUC paint or dispensing robot to meet your needs.",
+            "designation": ""
           }
         },
-        "block_QGT4VD": {
+        "block_TqYwdp": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/6.png",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
+            "background_image": "shopify:\/\/shop_images\/Kawasaki_Logo_vert.svg",
+            "title": "Kawasaki Robotics",
+            "description": "Kawasaki used decades of experience to drive the design of the K series line of explosion-proof paint robots, resulting top-of-the-line performance, usability and finishes. Their paint robots are packed with features for easier integration and operation, like hollow-wrists for internal hoses and a paint-specific control panel. They’re also built to cover a wide range of small to large workpieces.",
+            "designation": ""
           }
         },
-        "block_Nqerbi": {
+        "block_CAfDGt": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/7.png",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
+            "background_image": "shopify:\/\/shop_images\/ABB_logo.svg",
+            "title": "ABB Robotics",
+            "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
+            "designation": ""
           }
         },
-        "brand_y96Ncm": {
-          "type": "brand",
+        "block_6pGyUT": {
+          "type": "block",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/cherkam-ltd-logo.png"
+            "background_image": "shopify:\/\/shop_images\/Yaskawa_logo.svg",
+            "title": "Yaskawa",
+            "description": "Yaskawa Motoman offers manufacturers a wide range of robotic painting products and technology. Their flexible, high-performance paint robots increase finishing quality, consistency and throughput, while dramatically lowering operating costs and decreasing wasted material.",
+            "designation": ""
           }
         },
-        "brand_b7Lihb": {
-          "type": "brand",
+        "block_JUeP3Q": {
+          "type": "block",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/1.png"
+            "background_image": "shopify:\/\/shop_images\/Durr_AG_logo.svg",
+            "title": "Dürr",
+            "description": "Dürr is the world leader in the planning and implementation of paint shops for the automotive industry and supplies solutions for every area, from pretreatment with electrocoating, through modern spray booth concepts with robots and application technology, to innovative oven-heating methods.",
+            "designation": ""
           }
         },
-        "brand_kNXfRK": {
-          "type": "brand",
+        "block_gpxAcW": {
+          "type": "block",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/4.png"
+            "background_image": "shopify:\/\/shop_images\/Logo_Sata_8adb128f-b598-450a-87ad-f678ced4542e.svg",
+            "title": "SATA",
+            "description": "SATA spray guns guarantee perfect finishes through their excellent precision and highest quality. Choose the most suitable technology according to your personal needs - their spray guns are available with RP as well as with HVLP technology.",
+            "designation": ""
           }
         },
-        "brand_aJE8VU": {
-          "type": "brand",
+        "block_qpVHJz": {
+          "type": "block",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/3.png"
+            "background_image": "shopify:\/\/shop_images\/binks-seeklogo_943c227f-90b5-482e-93eb-9649d435be9d.svg",
+            "title": "Binks",
+            "description": "Binks manufactures low and high pressure manual and automatic spray guns, accesories, airless and air-assisted airless spray packages used in many industrial applications.  Binks high and low pressure fluid handling pumps and regulators, pressure feed tanks, 2K electronic paint mixing machines, and paint circulating systems can also be found in many industrial and automotive facilities.",
+            "designation": ""
           }
         },
-        "brand_NPG7jh": {
-          "type": "brand",
+        "block_8zfTqq": {
+          "type": "block",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/2.png"
+            "background_image": "shopify:\/\/shop_images\/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
+            "title": "Sames",
+            "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
+            "designation": ""
           }
         },
-        "brand_aEqrUj": {
-          "type": "brand",
+        "block_WrrhNn": {
+          "type": "block",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/5.png"
+            "background_image": "shopify:\/\/shop_images\/Graco_logo__horizontal.svg",
+            "title": "Graco",
+            "description": "Improve production and boost your bottom line with high-performance meter and mix, paint kitchen, and spray booth equipment. Graco's industrial liquid coating systems advance fine finishing and automation for automotive, aerospace, electronic, heavy equipment, wood product, and general manufacturing applications.",
+            "designation": ""
           }
         },
-        "brand_3Qqzch": {
-          "type": "brand",
+        "block_dLWfjq": {
+          "type": "block",
           "settings": {
-            "brand_image": "shopify:\/\/shop_images\/6.png"
+            "background_image": "shopify:\/\/shop_images\/Ransburg-logo.svg-20.svg",
+            "title": "Ransburg",
+            "description": "Ransburg is a global leader in the design and manufacture of manual and automatic electrostatic finishing equipment.  As a leader in electrostatic spray finishing equipment for key industrial, manufacturing, and automotive Tier 1 markets, Ransburg continues to refine its most efficient electrostatic spray painting technology, aspiring to deliver a “Class A” finish to each and every customer’s product, while reducing VOC emissions and providing excellent transfer efficiency.",
+            "designation": ""
           }
         }
       },
       "block_order": [
-        "block_JUeP3Q",
         "block_94EtQL",
-        "block_QGT4VD",
-        "block_Nqerbi",
-        "brand_y96Ncm",
-        "brand_b7Lihb",
-        "brand_kNXfRK",
-        "brand_aJE8VU",
-        "brand_NPG7jh",
-        "brand_aEqrUj",
-        "brand_3Qqzch"
+        "block_TqYwdp",
+        "block_CAfDGt",
+        "block_6pGyUT",
+        "block_JUeP3Q",
+        "block_gpxAcW",
+        "block_qpVHJz",
+        "block_8zfTqq",
+        "block_WrrhNn",
+        "block_dLWfjq"
       ],
       "settings": {
       }
@@ -255,10 +252,19 @@
     "contact_section_tYgB37": {
       "type": "contact-section",
       "settings": {
-        "section_title": "What We Do",
-        "section_description": "FinishSense is a leading robotic system integrator specializing in liquid paint, powder coating, and high viscosity dispense applications.",
+        "section_title": "Do you have a project?",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
+      }
+    },
+    "single_hero_GBi6ie": {
+      "type": "single-hero",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/duerr-kawasaki-lackierroboter-2.jpg",
+        "section_title": "We’re looking for talented industry experts.",
+        "button_text": "Current Openings",
+        "button_link": ""
       }
     }
   },
@@ -266,9 +272,11 @@
     "hero",
     "about_section_h8Vka6",
     "service_aria_mDixD7",
+    "project_aria_kJiMFx",
     "project_aria_FhRgA3",
     "testimonial_section_zyPTMj",
     "blog_section_tw4eb4",
-    "contact_section_tYgB37"
+    "contact_section_tYgB37",
+    "single_hero_GBi6ie"
   ]
 }

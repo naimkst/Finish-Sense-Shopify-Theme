@@ -1,10 +1,57 @@
 {
   "sections": {
-    "breadcrumbs_HUecYk": {
-      "type": "breadcrumbs",
+    "hero_section_JxThMX": {
+      "type": "hero-section",
+      "blocks": {
+        "block_JQH7Gq": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify:\/\/shop_images\/duerr-kawasaki-lackierroboter-2.jpg",
+            "hero_title": "Custom Solutions For Every Processs",
+            "hero_description": "",
+            "hero_button_text": "Learn More",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_JQH7Gq"
+      ],
       "settings": {
-        "section_title": "Custom Solutions For Every Process",
-        "section_description": "Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production."
+      }
+    },
+    "why_choose_frjAyD": {
+      "type": "why-choose",
+      "blocks": {
+        "block_dmBqWP": {
+          "type": "block",
+          "settings": {
+            "title": "Process Centric Design",
+            "content": "Our team collaborates with you to design robotic systems that precisely match your specific operational requirements, ensuring seamless integration and functionality."
+          }
+        },
+        "block_FGgPpJ": {
+          "type": "block",
+          "settings": {
+            "title": "Adaptive Technology",
+            "content": "Utilizing advanced software and adaptive control systems, our solutions are flexible and scalable, allowing for easy adjustments and future upgrades."
+          }
+        }
+      },
+      "block_order": [
+        "block_dmBqWP",
+        "block_FGgPpJ"
+      ],
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/p-40ia-spray-coating-tail.jpg",
+        "how_we_work_title": "From Vision to Reality: Customized Paint Process Integration",
+        "how_we_work_content": "At FinishSense, we specialize in providing custom-tailored robotic solutions to meet the unique needs of each client. Our expertise ensures that every system we integrate is optimized for maximum efficiency and performance."
+      }
+    },
+    "text_section_XgVNY6": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<p>At <strong>FinishSense<\/strong>, we are dedicated to providing comprehensive end-to-end solution support for all your robotic integration needs. From the initial consultation and design phase through installation, testing, and commissioning, our expert team ensures every step is meticulously managed for optimal performance. We don't stop there—our commitment extends to ongoing maintenance, training, and technical support, ensuring your systems remain efficient and up-to-date. Trust <strong>FinishSense<\/strong> to deliver seamless, reliable, and high-quality support throughout the entire lifecycle of your robotic solutions.<\/p>"
       }
     },
     "service_grid_ULiJXT": {
@@ -13,8 +60,8 @@
         "block_b9d7Vx": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-            "title": "Material Supply Systems - Liquid",
+            "background_image": "shopify:\/\/shop_images\/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
+            "title": "Liquid  Coating Applications",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -22,8 +69,8 @@
         "block_YFnCQc": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Fluid Delivery - Liquid",
+            "background_image": "shopify:\/\/shop_images\/AdobeStock_111182072-scaled.webp",
+            "title": "Powder Coating Applications",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -31,107 +78,8 @@
         "block_4A9r66": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
-            "title": "Manual Application - Liquid",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_tKhMBb": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
-            "title": "Robotic Application - Liquid",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_PEBVwT": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-            "title": "Material Supply Systems - Powder",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_6YE837": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Fluid Delivery - Powder",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_g7cHVh": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-2.jpg",
-            "title": "Manual Application - Powder",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_wPyLMA": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
-            "title": "Robotic Application - Powder",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_efDgki": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-            "title": "Material Supply Systems - High Viscosity",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_9VAbT4": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Fluid Delivery - High Viscosity",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_9zBn4M": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
-            "title": "Manual Application - High Viscosity",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_UTHhRJ": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-            "title": "Robotic Application - High Viscosity",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_DLhKiR": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1.jpg",
-            "title": "Pre-Treatment",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_LXjEQT": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
-            "title": "Curing",
+            "background_image": "shopify:\/\/shop_images\/graco-dispensing-valve.jpg",
+            "title": "High Viscosity Applications",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -139,17 +87,8 @@
         "block_xHr9FR": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-4.jpg",
-            "title": "Software",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_w64TPP": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-3.jpg",
-            "title": "Conveyance",
+            "background_image": "shopify:\/\/shop_images\/simatic-hmi-operator-control-monitoring.jpg",
+            "title": "Software Solutions",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -159,29 +98,17 @@
         "block_b9d7Vx",
         "block_YFnCQc",
         "block_4A9r66",
-        "block_tKhMBb",
-        "block_PEBVwT",
-        "block_6YE837",
-        "block_g7cHVh",
-        "block_wPyLMA",
-        "block_efDgki",
-        "block_9VAbT4",
-        "block_9zBn4M",
-        "block_UTHhRJ",
-        "block_DLhKiR",
-        "block_LXjEQT",
-        "block_xHr9FR",
-        "block_w64TPP"
+        "block_xHr9FR"
       ],
       "settings": {
         "section_title": "Solutions",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
+        "section_description": "Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production."
       }
     },
     "contact_section_rFxpxe": {
       "type": "contact-section",
       "settings": {
-        "section_title": "Do you have a project? Lets Talk.",
+        "section_title": "Do you have a project?",
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below..."
@@ -189,7 +116,9 @@
     }
   },
   "order": [
-    "breadcrumbs_HUecYk",
+    "hero_section_JxThMX",
+    "why_choose_frjAyD",
+    "text_section_XgVNY6",
     "service_grid_ULiJXT",
     "contact_section_rFxpxe"
   ]
