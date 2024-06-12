@@ -1,12 +1,12 @@
 <section class="static-hero" style="background: url({{ section.settings.background_image | image_url: width: 1920 }}) no-repeat center center;  background-size: cover;">
-  {% if section.settings.video_url.sources[0].url != blank %}
+  {% if section.settings.video_url.sources[1].url != blank %}
     <video
       autoplay
       muted
       loop
       id="myVideo"
       class="bgVideo">
-      <source src="{{ section.settings.video_url.sources[0].url | image_url: width: 1920 }}" type="video/mp4">
+      <source src="{{ section.settings.video_url.sources[1].url }}" type="video/mp4">
     </video>
   {% endif %}
 
