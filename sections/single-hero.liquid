@@ -1,4 +1,15 @@
 <section class="static-hero" style="background: url({{ section.settings.background_image | image_url: width: 1920 }}) no-repeat center center;  background-size: cover;">
+  {% if section.settings.video_url != blank %}
+    <video
+      autoplay
+      muted
+      loop
+      id="myVideo"
+      class="bgVideo">
+      <source src="{{ section.settings.video_url | image_url: width: 1920 }}" type="video/mp4">
+    </video>
+  {% endif %}
+
   <div class="static-hero-text">
     <div class="slide-title">
       <h2>{{ section.settings.section_title }}</h2>
@@ -20,6 +31,11 @@
         "type": "image_picker",
         "id": "background_image",
         "label": "Background Image"
+      },
+      {
+        "type": "video",
+        "id": "video_url",
+        "label": "Background Video"
       },
       {
         "type": "text",
