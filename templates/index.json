@@ -274,16 +274,6 @@
         "form_title": "Complete the form below...",
         "section_color": "rgba(0,0,0,0)"
       }
-    },
-    "single_hero_GBi6ie": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/duerr-kawasaki-lackierroboter-2.jpg",
-        "video_url": "shopify:\/\/files\/videos\/A Human Hand Touching Prosthetic Arm · Free Stock Video.mp4",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
-        "button_link": "#"
-      }
     }
   },
   "order": [
@@ -294,7 +284,6 @@
     "project_aria_FhRgA3",
     "testimonial_section_zyPTMj",
     "blog_section_tw4eb4",
-    "contact_section_tYgB37",
-    "single_hero_GBi6ie"
+    "contact_section_tYgB37"
   ]
 }
