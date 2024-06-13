@@ -4,8 +4,8 @@
       "type": "single-hero",
       "settings": {
         "video_url": "shopify:\/\/files\/videos\/Sequence 01_1.mp4",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
+        "section_title": "",
+        "button_text": "",
         "button_link": ""
       }
     },
