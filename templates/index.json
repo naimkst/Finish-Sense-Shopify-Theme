@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "hero": {
@@ -147,7 +156,7 @@
             "title": "Fanuc",
             "description": "FANUC’s painting robots offer a wide range of reaches and handling capacities, including some models designed and certified to operate in hazardous environments. Whatever your painting and finishing requirements, there is a FANUC paint or dispensing robot to meet your needs.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/www.fanucamerica.com\/products\/robots\/series\/paint"
           }
         },
         "block_TqYwdp": {
