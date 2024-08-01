@@ -425,7 +425,7 @@ video#myVideo::before {
 }
 .static-hero .static-hero-text {
   z-index: 2;
-  position: relative;
+  position: absolute;
 }
 video#myVideo {
   width: 100%;
