@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "single_hero_bReLWM": {
@@ -11,6 +20,7 @@
     },
     "main": {
       "type": "not-found",
+      "disabled": true,
       "settings": {
       }
     },
@@ -19,7 +29,7 @@
       "settings": {
         "section_title": "Coming Soon!",
         "section_description": "<p>Stay tuned for the launch of our Resources Page, your go-to destination for valuable insights, guides, and tools to empower your robotic integration journey. Whether you're seeking industry trends, best practices, or technical know-how, our curated collection of resources will provide the knowledge and support you need to succeed.<\/p><p>From whitepapers and case studies to video tutorials and FAQs, our Resources Page will offer a wealth of information to help you make informed decisions and optimize your operations. Whether you're a seasoned professional or new to robotic integration, our goal is to provide valuable resources that inspire innovation and drive success.<\/p><p>Check back soon for updates and get ready to elevate your expertise with FinishSense.<\/p>",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "contact_section_9iin6V": {
@@ -29,7 +39,7 @@
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below...",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     }
   },
