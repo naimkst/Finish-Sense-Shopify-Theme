@@ -429,7 +429,7 @@ video#myVideo::before {
 }
 video#myVideo {
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
 }
 @media only screen and (max-width: 800px) {
   .p-100 {

@@ -2681,7 +2681,9 @@ img {
 }
 
 .static-hero {
-  height: 766px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
 }
 @media (max-width: 991px) {
   .static-hero {
