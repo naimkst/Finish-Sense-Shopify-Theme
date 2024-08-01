@@ -1679,7 +1679,7 @@ img {
   background: #000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   position: relative;
-  height: 50px;
+  height: 52.24px;
   z-index: 111;
 }
 @media (max-width: 991px) {
@@ -1719,7 +1719,7 @@ img {
   background-color: transparent;
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 52.24px;
   width: 100%;
   z-index: 11;
 }
@@ -1789,7 +1789,7 @@ img {
   position: relative;
   background: #000;
   z-index: 1;
-  padding: 10px 0 20px;
+  padding: 10px 0 18px;
   padding-right: 70px;
   padding-left: 30px;
   margin-left: -45px;
@@ -1805,7 +1805,7 @@ img {
 }
 .site-header .navbar-header .site-logo img {
   position: relative;
-  top: -16px;
+  top: -13px;
 }
 @media (max-width: 991px) {
   .site-header .navbar-header .site-logo img {

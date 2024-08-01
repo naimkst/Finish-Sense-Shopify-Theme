@@ -147,7 +147,7 @@
             "title": "Fanuc",
             "description": "FANUC’s painting robots offer a wide range of reaches and handling capacities, including some models designed and certified to operate in hazardous environments. Whatever your painting and finishing requirements, there is a FANUC paint or dispensing robot to meet your needs.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/www.fanucamerica.com\/products\/robots\/series\/paint"
           }
         },
         "block_TqYwdp": {
@@ -157,7 +157,7 @@
             "title": "Kawasaki Robotics",
             "description": "Kawasaki used decades of experience to drive the design of the K series line of explosion-proof paint robots, resulting top-of-the-line performance, usability and finishes. Their paint robots are packed with features for easier integration and operation, like hollow-wrists for internal hoses and a paint-specific control panel. They’re also built to cover a wide range of small to large workpieces.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/kawasakirobotics.com\/applications\/painting\/"
           }
         },
         "block_CAfDGt": {
@@ -167,7 +167,7 @@
             "title": "ABB Robotics",
             "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/new.abb.com\/products\/robotics\/robots\/paint-robots"
           }
         },
         "block_6pGyUT": {
@@ -177,7 +177,7 @@
             "title": "Yaskawa",
             "description": "Yaskawa Motoman offers manufacturers a wide range of robotic painting products and technology. Their flexible, high-performance paint robots increase finishing quality, consistency and throughput, while dramatically lowering operating costs and decreasing wasted material.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/www.motoman.com\/en-us\/applications\/painting-dispensing"
           }
         },
         "block_JUeP3Q": {
@@ -187,7 +187,7 @@
             "title": "Dürr",
             "description": "Dürr is the world leader in the planning and implementation of paint shops for the automotive industry and supplies solutions for every area, from pretreatment with electrocoating, through modern spray booth concepts with robots and application technology, to innovative oven-heating methods.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/www.durr.com\/en\/products\/paint-shop-application-technology"
           }
         },
         "block_gpxAcW": {
@@ -197,7 +197,7 @@
             "title": "SATA",
             "description": "SATA spray guns guarantee perfect finishes through their excellent precision and highest quality. Choose the most suitable technology according to your personal needs - their spray guns are available with RP as well as with HVLP technology.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/www.sata.com\/en-amn\/"
           }
         },
         "block_qpVHJz": {
@@ -207,7 +207,7 @@
             "title": "Binks",
             "description": "Binks manufactures low and high pressure manual and automatic spray guns, accesories, airless and air-assisted airless spray packages used in many industrial applications.  Binks high and low pressure fluid handling pumps and regulators, pressure feed tanks, 2K electronic paint mixing machines, and paint circulating systems can also be found in many industrial and automotive facilities.",
             "designation": "",
-            "icon_link": ""
+            "icon_link": "https:\/\/carlisleft.com\/brand\/binks\/"
           }
         },
         "block_8zfTqq": {
@@ -274,16 +274,6 @@
         "form_title": "Complete the form below...",
         "section_color": "rgba(0,0,0,0)"
       }
-    },
-    "single_hero_GBi6ie": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/duerr-kawasaki-lackierroboter-2.jpg",
-        "video_url": "shopify:\/\/files\/videos\/A Human Hand Touching Prosthetic Arm · Free Stock Video.mp4",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
-        "button_link": "#"
-      }
     }
   },
   "order": [
@@ -294,7 +284,6 @@
     "project_aria_FhRgA3",
     "testimonial_section_zyPTMj",
     "blog_section_tw4eb4",
-    "contact_section_tYgB37",
-    "single_hero_GBi6ie"
+    "contact_section_tYgB37"
   ]
 }
