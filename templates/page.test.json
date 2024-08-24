@@ -1,5 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "resources_manager_AVwNgH": {
+      "type": "resources-manager",
+      "settings": {
+      }
+    },
     "main": {
       "type": "not-found",
       "disabled": true,
@@ -54,7 +68,8 @@
         "expericent_text": "Year of Experience",
         "how_we_work_slug": "HOW WE WORK",
         "how_we_work_title": "Bringing Out the Potential in You",
-        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+        "section_color": "transparent"
       }
     },
     "what_we_do_UPBD8x": {
@@ -101,7 +116,8 @@
       ],
       "settings": {
         "title": "What We Do",
-        "description": "Best Exhibition Stall Designers in India, Europe and Poland"
+        "description": "Best Exhibition Stall Designers in India, Europe and Poland",
+        "section_color": "transparent"
       }
     },
     "about_section_HDN8qY": {
@@ -110,7 +126,8 @@
         "about_title": "Design, Create and Build bespoke Exhibition Stall",
         "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe.<\/p><p> We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. <\/p><p>Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
         "about_button_text": "Learn More",
-        "about_button_url": ""
+        "about_button_url": "",
+        "section_color": "transparent"
       }
     },
     "faq_section_KBzz7E": {
@@ -148,7 +165,8 @@
         "section_title": "Frequently Asked Questions",
         "section_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
         "section_button_text": "Contact Us",
-        "section_button_url": ""
+        "section_button_url": "",
+        "section_color": "#3693d9"
       }
     },
     "why_choose_ddF44a": {
@@ -184,7 +202,8 @@
       "settings": {
         "left_image": "shopify:\/\/shop_images\/6253d6cb20ab86a85649c6a3_home-intro-image.jpg",
         "how_we_work_title": "Bringing Out the Potential in You",
-        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+        "section_color": "transparent"
       }
     },
     "banner_section_YpDpF9": {
@@ -195,7 +214,8 @@
         "title": "Few Reasons Why You Should Choose Us",
         "description": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe.",
         "button_text": "Read More",
-        "button_Link": ""
+        "button_Link": "",
+        "section_color": "transparent"
       }
     },
     "image_with_text_Ha7U63": {
@@ -206,7 +226,9 @@
           "settings": {
             "left_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
             "title": "What You Can Expect",
-            "content": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.<\/p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>"
+            "content": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.<\/p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
+            "button_text": "Contact Us",
+            "button_Link": ""
           }
         },
         "block_THU3QM": {
@@ -214,7 +236,9 @@
           "settings": {
             "left_image": "shopify:\/\/shop_images\/GP-BoothLine-2.webp",
             "title": "How It Works",
-            "content": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.<\/p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>"
+            "content": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.<\/p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
+            "button_text": "Contact Us",
+            "button_Link": ""
           }
         },
         "block_ggzgKG": {
@@ -222,7 +246,9 @@
           "settings": {
             "left_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
             "title": "Why Choose Us",
-            "content": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.<\/p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>"
+            "content": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget.<\/p><p>We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.<\/p>",
+            "button_text": "Contact Us",
+            "button_Link": ""
           }
         }
       },
@@ -232,10 +258,12 @@
         "block_ggzgKG"
       ],
       "settings": {
+        "section_color": "transparent"
       }
     }
   },
   "order": [
+    "resources_manager_AVwNgH",
     "main",
     "single_hero_3G73Dn",
     "how_we_work_WqRzmA",
