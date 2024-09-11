@@ -9,6 +9,11 @@
 */
 {
   "sections": {
+    "resources_manager_NdMqJq": {
+      "type": "resources-manager",
+      "settings": {
+      }
+    },
     "how_we_work_WqRzmA": {
       "type": "how-we-work",
       "blocks": {
@@ -254,6 +259,7 @@
     }
   },
   "order": [
+    "resources_manager_NdMqJq",
     "how_we_work_WqRzmA",
     "main",
     "resources_manager_AVwNgH",
