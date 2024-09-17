@@ -558,42 +558,221 @@
       $(this).closest('.inner-accordion').find('.inner-accordion-content').not($innerContent).removeClass('active');
     });
   });
-
-  $(document).ready(function () {
-    // Show loading initially
-    let loading = true;
-    let error = null;
-    let productInfo = null;
-
-    // Display loading status
-    console.log('Loading...');
-
-    // Fetch data using jQuery
-    $.ajax({
-      url: `http://localhost:1337/api/resource-folders?populate=deep`,
-      method: 'GET',
-      success: function (data) {
-        // Data successfully fetched
-        productInfo = data;
-        console.log('Product Info:', productInfo);
-
-        // Stop loading
-        loading = false;
-      },
-      error: function (jqXHR, textStatus, errorThrown) {
-        // Handle errors
-        error = errorThrown;
-        console.error('Error:', error);
-
-        // Stop loading
-        loading = false;
-      },
-      complete: function () {
-        // Completed request
-        if (!loading) {
-          console.log('Request completed');
-        }
-      },
-    });
-  });
 })(window.jQuery);
+
+function formatDate(isoDate) {
+  // Create a new Date object from the ISO string
+  var date = new Date(isoDate);
+
+  // Extract day, month, and year from the Date object
+  var day = String(date.getDate()).padStart(2, '0'); // Add leading zero if necessary
+  var month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-based, so add 1
+  var year = date.getFullYear();
+
+  // Return the formatted date
+  return `${day}/${month}/${year}`;
+}
+
+$(document).ready(function () {
+  // Show loading initially
+  let loading = true;
+  let error = null;
+  let productInfo = null;
+
+  // Display loading status
+  console.log('Loading...');
+
+  // Fetch data using jQuery
+  $.ajax({
+    url: `http://localhost:1337/api/resource-folders?populate=resources,resource_sub_folders,resources.File,resources.resource_sub_folder,resources.resource_folders`,
+    method: 'GET',
+    success: function (data) {
+      // Data successfully fetched
+      productInfo = data;
+      console.log('Product Info:', productInfo);
+
+      // Loop through productInfo data
+      for (let i = 0; i < productInfo?.data?.length; i++) {
+        let product = productInfo?.data[i]?.attributes;
+
+        // Handle cases where product might not have the expected fields
+        let productName = product.FolderName || 'No Name';
+        let subFolderData = product?.resource_sub_folders?.data || [];
+        let updatedAt = product?.updatedAt || new Date();
+        var resourcesData = product.resources?.data || [];
+        console.log('Product##########', resourcesData);
+
+        let productHtml = `
+         <div class="main-box">
+            <div class="accordion-header" onclick="showFolder(this)">
+              <ul>
+                <li class="product">
+                  <div class="info">
+                    <div class="icon">
+                      <i class='fa fa-folder'></i>
+                    </div>
+                    <div class="text">
+                      <p>${productName}</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="date">
+                  <b>${formatDate(updatedAt)}</b>
+                  <span>Last Modified</span>
+                </li>
+                <li class="date"></li>
+              </ul>
+            </div>
+            <div class="accordion-content">
+            ${resourcesData.map((resource) => {
+              console.log('Resourc@@@@@@', resource);
+              if (resource?.attributes?.resource_sub_folder?.data == null) {
+                return `
+              <ul>
+                <li class="product">
+                  <div class="info">
+                    <div class="icon">
+                      <i class="fa fa-codepen" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                      <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
+                      <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="date">
+                  <b>${formatDate(updatedAt)}</b>
+                  <span>Last Modified</span>
+                </li>
+                <li class="download-btn" data-url="${resource?.attributes?.File?.data?.attributes?.url}">
+                  <button>
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                  </button>
+                </li>
+              </ul>`;
+              }
+            })}
+
+              <div class="inner-accordion">
+                <div class="inner-accordion-item">
+                  ${subFolderData?.map((folderName) => {
+                    return `<div class="inner-accordion-header" onclick="showSubFolder(this)">
+                      <ul>
+                        <li class="product">
+                          <div class="info">
+                            <div class="icon">
+                              <i class="fa fa-folder"></i>
+                            </div>
+                            <div class="text">
+                              <p>${folderName?.attributes?.SubFolderName}</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="date">
+                          <b>${formatDate(folderName?.attributes?.updatedAt)}</b>
+                          <span>Last Modified</span>
+                        </li>
+                        <li class="date"></li>
+                      </ul>
+                    </div>`;
+                  })}
+
+
+                  <div class="inner-accordion-content">
+
+                    ${resourcesData.map((resource) => {
+                      console.log('Resource', resource);
+                      if (resource?.attributes?.resource_sub_folder?.data != null) {
+                        return `
+                        <ul>
+                          <li class="product">
+                            <div class="info">
+                              <div class="icon">
+                                <i class="fa fa-codepen" aria-hidden="true"></i>
+                              </div>
+                              <div class="text">
+                                <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
+                                <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="date">
+                            <b>${formatDate(updatedAt)}</b>
+                            <span>Last Modified</span>
+                          </li>
+                          <li class="download-btn" data-url="${resource?.attributes?.File?.data?.attributes?.url}">
+                            <button>
+                              <i class="fa fa-download" aria-hidden="true"></i>
+                            </button>
+                          </li>
+                        </ul>`;
+                      }
+                    })}
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+
+        $('#folderContainer').append(productHtml);
+      }
+
+      // Stop loading
+      loading = false;
+    },
+    error: function (jqXHR, textStatus, errorThrown) {
+      // Handle errors
+      error = errorThrown;
+      console.error('Error:', error);
+
+      // Stop loading
+      loading = false;
+    },
+    complete: function () {
+      // Completed request
+      if (!loading) {
+        console.log('Request completed');
+      }
+    },
+  });
+});
+function showFolder(clickedElement) {
+  console.log(clickedElement, '=====');
+  // Add or remove 'active' class to the clicked accordion header
+  $(clickedElement).toggleClass('active');
+
+  // Find the next accordion content relative to the clicked header
+  var $content = $(clickedElement).next('.accordion-content');
+
+  // Toggle 'active' class on the corresponding accordion content
+  $content.toggleClass('active');
+
+  // Remove 'active' class from other accordion headers and contents
+  $('.accordion-header').not(clickedElement).removeClass('active');
+  $('.accordion-content').not($content).removeClass('active');
+}
+
+function showSubFolder(clickedElement) {
+  // Toggle 'active' class on the clicked inner accordion header
+  $(clickedElement).toggleClass('active');
+
+  // Find the next inner accordion content relative to the clicked header
+  var $innerContent = $(clickedElement).next('.inner-accordion-content');
+
+  // Toggle 'active' class on the corresponding inner accordion content
+  $innerContent.toggleClass('active');
+
+  // Remove 'active' class from all other inner headers and their contents within the same inner accordion
+  $(clickedElement)
+    .closest('.inner-accordion')
+    .find('.inner-accordion-header')
+    .not(clickedElement)
+    .removeClass('active');
+  $(clickedElement)
+    .closest('.inner-accordion')
+    .find('.inner-accordion-content')
+    .not($innerContent)
+    .removeClass('active');
+}
