@@ -532,4 +532,68 @@
       }, 200)
     );
   });
+
+  $(document).ready(function () {
+    // Outer accordion
+    $('.accordion-header').click(function () {
+      // Toggle the clicked header and its content
+      $(this).toggleClass('active');
+      var $content = $(this).next('.accordion-content');
+      $content.toggleClass('active');
+
+      // Remove the active class from all other headers and their contents
+      $('.accordion-header').not(this).removeClass('active');
+      $('.accordion-content').not($content).removeClass('active');
+    });
+
+    // Inner accordion
+    $('.inner-accordion-header').click(function () {
+      // Toggle the clicked inner header and its content
+      $(this).toggleClass('active');
+      var $innerContent = $(this).next('.inner-accordion-content');
+      $innerContent.toggleClass('active');
+
+      // Remove the active class from all other inner headers and their contents
+      $(this).closest('.inner-accordion').find('.inner-accordion-header').not(this).removeClass('active');
+      $(this).closest('.inner-accordion').find('.inner-accordion-content').not($innerContent).removeClass('active');
+    });
+  });
+
+  $(document).ready(function () {
+    // Show loading initially
+    let loading = true;
+    let error = null;
+    let productInfo = null;
+
+    // Display loading status
+    console.log('Loading...');
+
+    // Fetch data using jQuery
+    $.ajax({
+      url: `http://localhost:1337/api/resource-folders?populate=deep`,
+      method: 'GET',
+      success: function (data) {
+        // Data successfully fetched
+        productInfo = data;
+        console.log('Product Info:', productInfo);
+
+        // Stop loading
+        loading = false;
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        // Handle errors
+        error = errorThrown;
+        console.error('Error:', error);
+
+        // Stop loading
+        loading = false;
+      },
+      complete: function () {
+        // Completed request
+        if (!loading) {
+          console.log('Request completed');
+        }
+      },
+    });
+  });
 })(window.jQuery);
