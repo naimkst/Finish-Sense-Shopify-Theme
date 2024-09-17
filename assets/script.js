@@ -578,6 +578,7 @@ $(document).ready(function () {
   let loading = true;
   let error = null;
   let productInfo = null;
+  var baseUrl = 'http://localhost:1337';
 
   // Display loading status
   console.log('Loading...');
@@ -624,10 +625,11 @@ $(document).ready(function () {
               </ul>
             </div>
             <div class="accordion-content">
-            ${resourcesData.map((resource) => {
-              console.log('Resourc@@@@@@', resource);
-              if (resource?.attributes?.resource_sub_folder?.data == null) {
-                return `
+            ${resourcesData
+              .map((resource) => {
+                console.log('Resourc@@@@@@', resource);
+                if (resource?.attributes?.resource_sub_folder?.data == null) {
+                  return `
               <ul>
                 <li class="product">
                   <div class="info">
@@ -644,19 +646,23 @@ $(document).ready(function () {
                   <b>${formatDate(updatedAt)}</b>
                   <span>Last Modified</span>
                 </li>
-                <li class="download-btn" data-url="${resource?.attributes?.File?.data?.attributes?.url}">
-                  <button>
+                <li class="download-btn">
+                  <a href="${baseUrl + resource?.attributes?.File?.data?.attributes?.url}" target="_blank">
                     <i class="fa fa-download" aria-hidden="true"></i>
-                  </button>
+                  </a>
                 </li>
               </ul>`;
-              }
-            })}
+                } else {
+                  return ''; // Avoid returning `undefined`
+                }
+              })
+              .join('')}  <!-- Use .join('') to remove commas -->
 
               <div class="inner-accordion">
                 <div class="inner-accordion-item">
-                  ${subFolderData?.map((folderName) => {
-                    return `<div class="inner-accordion-header" onclick="showSubFolder(this)">
+                  ${subFolderData
+                    ?.map((folderName) => {
+                      return `<div class="inner-accordion-header" onclick="showSubFolder(this)">
                       <ul>
                         <li class="product">
                           <div class="info">
@@ -675,15 +681,15 @@ $(document).ready(function () {
                         <li class="date"></li>
                       </ul>
                     </div>`;
-                  })}
-
+                    })
+                    .join('')}  <!-- Use .join('') to remove commas -->
 
                   <div class="inner-accordion-content">
-
-                    ${resourcesData.map((resource) => {
-                      console.log('Resource', resource);
-                      if (resource?.attributes?.resource_sub_folder?.data != null) {
-                        return `
+                    ${resourcesData
+                      .map((resource) => {
+                        console.log('Resource', resource);
+                        if (resource?.attributes?.resource_sub_folder?.data != null) {
+                          return `
                         <ul>
                           <li class="product">
                             <div class="info">
@@ -700,15 +706,17 @@ $(document).ready(function () {
                             <b>${formatDate(updatedAt)}</b>
                             <span>Last Modified</span>
                           </li>
-                          <li class="download-btn" data-url="${resource?.attributes?.File?.data?.attributes?.url}">
-                            <button>
+                          <li class="download-btn">
+                            <a href="${baseUrl + resource?.attributes?.File?.data?.attributes?.url}" target="_blank">
                               <i class="fa fa-download" aria-hidden="true"></i>
-                            </button>
+                            </a>
                           </li>
                         </ul>`;
-                      }
-                    })}
-                  
+                        } else {
+                          return ''; // Avoid returning `undefined`
+                        }
+                      })
+                      .join('')}  <!-- Use .join('') to remove commas -->
                   </div>
                 </div>
               </div>
@@ -738,6 +746,7 @@ $(document).ready(function () {
     },
   });
 });
+
 function showFolder(clickedElement) {
   console.log(clickedElement, '=====');
   // Add or remove 'active' class to the clicked accordion header
