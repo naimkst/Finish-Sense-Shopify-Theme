@@ -32,11 +32,18 @@
         "form_title": "Complete the form below...",
         "section_color": "rgba(0,0,0,0)"
       }
+    },
+    "resources_manager_yHmfCU": {
+      "type": "resources-manager",
+      "settings": {
+        "title": "Resources"
+      }
     }
   },
   "order": [
     "main",
     "breadcrumbs_rNL8WW",
+    "resources_manager_yHmfCU",
     "contact_section_9iin6V"
   ]
 }
