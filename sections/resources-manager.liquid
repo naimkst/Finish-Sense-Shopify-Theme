@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <div class="top-title">
-            <h3>Resources</h3>
+            <h3>{{ section.settings.title }}</h3>
           </div>
         </div>
       </div>
@@ -23,3 +23,24 @@
     </div>
   </div>
 </div>
+
+
+{% schema %}
+  {
+    "name": "Resources Manager",
+    "settings": [
+
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Resources"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Resources Manager"
+      }
+    ]
+  }
+{% endschema %}
