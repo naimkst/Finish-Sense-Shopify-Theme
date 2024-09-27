@@ -570,9 +570,40 @@ function formatDate(isoDate) {
   var year = date.getFullYear();
 
   // Return the formatted date
-  return `${day}/${month}/${year}`;
+  return `${month}/${day}/${year}`;
 }
-
+function fileType(ext) {
+  console.log('Ext', ext);
+  switch (ext) {
+    case '.pdf':
+      return 'fa-file-pdf-o';
+    case '.doc':
+    case '.docx':
+      return 'fa-file-word-o';
+    case '.xls':
+    case '.xlsx':
+      return 'fa-file-excel-o';
+    case '.ppt':
+    case '.pptx':
+      return 'fa-file-powerpoint-o';
+    case '.zip':
+      return 'fa-file-archive-o';
+    case '.jpg':
+    case '.jpeg':
+    case '.png':
+    case '.gif':
+    case '.webp':
+      return 'fa-picture-o';
+    case '.txt':
+      return 'fa-file-text-o';
+    case '.mp4':
+      return 'fa-file-video-o';
+    case '.mp3':
+      return 'fa-music';
+    default:
+      return 'fa-file-o';
+  }
+}
 $(document).ready(function () {
   // Show loading initially
   let loading = true;
@@ -634,7 +665,9 @@ $(document).ready(function () {
                 <li class="product">
                   <div class="info">
                     <div class="icon">
-                      <i class="fa fa-codepen" aria-hidden="true"></i>
+                      <i class="fa ${fileType(
+                        resource?.attributes?.File?.data?.attributes?.ext
+                      )}" aria-hidden="true"></i>
                     </div>
                     <div class="text">
                       <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
@@ -694,7 +727,9 @@ $(document).ready(function () {
                           <li class="product">
                             <div class="info">
                               <div class="icon">
-                                <i class="fa fa-codepen" aria-hidden="true"></i>
+                                <i class="fa ${fileType(
+                                  resource?.attributes?.File?.data?.attributes?.ext
+                                )}" aria-hidden="true"></i>
                               </div>
                               <div class="text">
                                 <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
