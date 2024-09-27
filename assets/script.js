@@ -609,14 +609,14 @@ $(document).ready(function () {
   let loading = true;
   let error = null;
   let productInfo = null;
-  var baseUrl = 'http://localhost:1337';
+  var baseUrl = 'https://finishsense-strapi.devrisen.com';
 
   // Display loading status
   console.log('Loading...');
 
   // Fetch data using jQuery
   $.ajax({
-    url: `http://localhost:1337/api/resource-folders?populate=resources,resource_sub_folders,resources.File,resources.resource_sub_folder,resources.resource_folders`,
+    url: `https://finishsense-strapi.devrisen.com/api/resource-folders?populate=resources,resource_sub_folders,resources.File,resources.resource_sub_folder,resources.resource_folders`,
     method: 'GET',
     success: function (data) {
       // Data successfully fetched
