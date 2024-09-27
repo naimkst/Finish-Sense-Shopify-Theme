@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "text_section_YrnbQR": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<p>Stay tuned for the launch of our Resources Page, your go-to destination for valuable insights, guides, and tools to empower your robotic integration journey. Whether you're seeking industry trends, best practices, or technical know-how, our curated collection of resources will provide the knowledge and support you need to succeed.</p><p>From whitepapers and case studies to video tutorials and FAQs, our Resources Page will offer a wealth of information to help you make informed decisions and optimize your operations. Whether you're a seasoned professional or new to robotic integration, our goal is to provide valuable resources that inspire innovation and drive success.</p><p>Check back soon for updates and get ready to elevate your expertise with FinishSense.</p>",
+        "section_color": "transparent"
+      }
+    },
     "resources_manager_yHmfCU": {
       "type": "resources-manager",
       "settings": {
@@ -41,6 +48,7 @@
     }
   },
   "order": [
+    "text_section_YrnbQR",
     "resources_manager_yHmfCU",
     "main",
     "breadcrumbs_rNL8WW",
