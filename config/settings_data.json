@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -15,7 +24,7 @@
             "type": "block",
             "settings": {
               "address_name": "USA",
-              "address": "Ocheyedan, IA",
+              "address": "Iowa",
               "phone": "+1 712 720 0166",
               "email": "sales@finishsense.io"
             }
@@ -24,7 +33,7 @@
             "type": "block",
             "settings": {
               "address_name": "CANADA",
-              "address": "Peterborough, ON",
+              "address": "Ontario",
               "phone": "+1 705 876-9808",
               "email": "engineering@finishsense.io"
             }
@@ -33,21 +42,21 @@
             "type": "footer_menu",
             "settings": {
               "menu_title": "Terms of Use",
-              "menu_link": "shopify:\/\/pages\/terms-of-use"
+              "menu_link": "shopify://pages/terms-of-use"
             }
           },
           "footer_menu_GdXKUY": {
             "type": "footer_menu",
             "settings": {
               "menu_title": "Privacy Policy",
-              "menu_link": "shopify:\/\/pages\/privacy-policy"
+              "menu_link": "shopify://pages/privacy-policy"
             }
           },
           "footer_menu_9dGcGe": {
             "type": "footer_menu",
             "settings": {
               "menu_title": "Copyright Policy",
-              "menu_link": "shopify:\/\/pages\/copyright-policy"
+              "menu_link": "shopify://pages/copyright-policy"
             }
           }
         },
@@ -59,11 +68,11 @@
           "footer_menu_9dGcGe"
         ],
         "settings": {
-          "footer_logo": "shopify:\/\/shop_images\/Untitled-1.svg",
-          "footer_background": "shopify:\/\/shop_images\/footer-shape.png",
+          "footer_logo": "shopify://shop_images/Untitled-1.svg",
+          "footer_background": "shopify://shop_images/footer-shape.png",
           "facebook": "",
-          "linkedin": "https:\/\/linkedin.com",
-          "youtube": "https:\/\/youtube.com"
+          "linkedin": "https://linkedin.com",
+          "youtube": "https://youtube.com"
         }
       }
     },
