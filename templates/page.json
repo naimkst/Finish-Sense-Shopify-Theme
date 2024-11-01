@@ -9,15 +9,6 @@
  */
 {
   "sections": {
-    "single_hero_QJy9XQ": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "shopify://shop_images/kawasaki_rs007l.jpg",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
-        "button_link": ""
-      }
-    },
     "resources_manager_yHmfCU": {
       "type": "resources-manager",
       "settings": {
@@ -58,7 +49,6 @@
     }
   },
   "order": [
-    "single_hero_QJy9XQ",
     "resources_manager_yHmfCU",
     "text_section_YrnbQR",
     "main",
