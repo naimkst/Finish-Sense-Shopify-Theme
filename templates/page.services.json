@@ -17,8 +17,7 @@
       "block_order": [
         "block_WrcBJb"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "what_we_do_wrAGzP": {
       "type": "what-we-do",
@@ -64,7 +63,8 @@
       ],
       "settings": {
         "title": "Services",
-        "description": "At FinishSense, our service commitment goes beyond installation. We offer comprehensive maintenance and support services to keep your robotic systems operating at peak efficiency. Our dedicated team of experts provides regular system check-ups, rapid troubleshooting, and timely upgrades, ensuring minimal downtime and maximum productivity. With FinishSense, you can rely on uninterrupted performance and expert care every step of the way."
+        "description": "At FinishSense, our service commitment goes beyond installation. We offer comprehensive maintenance and support services to keep your robotic systems operating at peak efficiency. Our dedicated team of experts provides regular system check-ups, rapid troubleshooting, and timely upgrades, ensuring minimal downtime and maximum productivity. With FinishSense, you can rely on uninterrupted performance and expert care every step of the way.",
+        "section_color": "transparent"
       }
     },
     "service_grid_ULiJXT": {
@@ -91,7 +91,7 @@
         "block_KTEgrQ": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
+            "background_image": "shopify:\/\/shop_images\/Paint-Finishing-3.jpg",
             "title": "Installation and Commissioning",
             "button_text": "Learn More",
             "button_Link": "shopify:\/\/pages\/programming"
@@ -115,7 +115,8 @@
       ],
       "settings": {
         "section_title": "",
-        "section_description": ""
+        "section_description": "",
+        "section_color": "transparent"
       }
     },
     "contact_section_rFxpxe": {
@@ -124,7 +125,8 @@
         "section_title": "Do you have a project?",
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
-        "form_title": "Complete the form below..."
+        "form_title": "Complete the form below...",
+        "section_color": "transparent"
       }
     }
   },

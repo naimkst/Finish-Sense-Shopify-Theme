@@ -17,8 +17,7 @@
       "block_order": [
         "block_JQH7Gq"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "why_choose_frjAyD": {
       "type": "why-choose",
@@ -45,13 +44,15 @@
       "settings": {
         "left_image": "shopify:\/\/shop_images\/p-40ia-spray-coating-tail.jpg",
         "how_we_work_title": "From Vision to Reality: Customized Paint Process Integration",
-        "how_we_work_content": "At FinishSense, we specialize in providing custom-tailored robotic solutions to meet the unique needs of each client. Our expertise ensures that every system we integrate is optimized for maximum efficiency and performance."
+        "how_we_work_content": "At FinishSense, we specialize in providing custom-tailored robotic solutions to meet the unique needs of each client. Our expertise ensures that every system we integrate is optimized for maximum efficiency and performance.",
+        "section_color": "transparent"
       }
     },
     "text_section_XgVNY6": {
       "type": "text-section",
       "settings": {
-        "text_block": "<p>At <strong>FinishSense<\/strong>, we are dedicated to providing comprehensive end-to-end solution support for all your robotic integration needs. From the initial consultation and design phase through installation, testing, and commissioning, our expert team ensures every step is meticulously managed for optimal performance. We don't stop there—our commitment extends to ongoing maintenance, training, and technical support, ensuring your systems remain efficient and up-to-date. Trust <strong>FinishSense<\/strong> to deliver seamless, reliable, and high-quality support throughout the entire lifecycle of your robotic solutions.<\/p>"
+        "text_block": "<p>At <strong>FinishSense<\/strong>, we are dedicated to providing comprehensive end-to-end solution support for all your robotic integration needs. From the initial consultation and design phase through installation, testing, and commissioning, our expert team ensures every step is meticulously managed for optimal performance. We don't stop there—our commitment extends to ongoing maintenance, training, and technical support, ensuring your systems remain efficient and up-to-date. Trust <strong>FinishSense<\/strong> to deliver seamless, reliable, and high-quality support throughout the entire lifecycle of your robotic solutions.<\/p>",
+        "section_color": "transparent"
       }
     },
     "service_grid_ULiJXT": {
@@ -62,7 +63,7 @@
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
             "title": "Liquid  Coating Applications",
-            "button_text": "Learn More",
+            "button_text": "",
             "button_Link": ""
           }
         },
@@ -102,7 +103,8 @@
       ],
       "settings": {
         "section_title": "Solutions",
-        "section_description": "Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production."
+        "section_description": "Empowering industries through innovative robotic solutions and integrated software, enhancing liquid paint, powder coating, and high viscosity dispense applications for optimized efficiency and production.",
+        "section_color": "transparent"
       }
     },
     "contact_section_rFxpxe": {
@@ -111,7 +113,8 @@
         "section_title": "Do you have a project?",
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
-        "form_title": "Complete the form below..."
+        "form_title": "Complete the form below...",
+        "section_color": "transparent"
       }
     }
   },

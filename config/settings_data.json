@@ -15,7 +15,7 @@
             "type": "block",
             "settings": {
               "address_name": "USA",
-              "address": "Ocheyedan, IA",
+              "address": "Iowa",
               "phone": "+1 712 720 0166",
               "email": "sales@finishsense.io"
             }
@@ -24,7 +24,7 @@
             "type": "block",
             "settings": {
               "address_name": "CANADA",
-              "address": "Peterborough, ON",
+              "address": "Ontario",
               "phone": "+1 705 876-9808",
               "email": "engineering@finishsense.io"
             }
@@ -67,8 +67,6 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   }
 }
