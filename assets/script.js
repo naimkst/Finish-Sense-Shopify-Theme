@@ -614,166 +614,154 @@ $(document).ready(function () {
   // var baseUrl = 'https://finishsense-strapi.devrisen.com';
   var baseUrl = 'http://localhost:1337';
 
-  // Display loading status
-  console.log('Loading...');
+  const urls = [
+    `${baseUrl}/api/categories?populate[resources][populate]=*`,
+    `${baseUrl}/api/category-1s?populate[resources][populate]=*`,
+    `${baseUrl}/api/category-2s?populate[resources][populate]=*`,
+    `${baseUrl}/api/category-3s?populate[resources][populate]=*`,
+    `${baseUrl}/api/category-4s?populate[resources][populate]=*`,
+    `${baseUrl}/api/category-5s?populate[resources][populate]=*`,
+    // Add more URLs as needed
+  ];
 
-  // Fetch data using jQuery
-  $.ajax({
-    // url: `${baseUrl}/api/resource-folders?populate=resources,resource_sub_folders,resources.File,resources.resource_sub_folder,resources.resource_folders`,
-    // url: `${baseUrl}/api/resource-folders?populate[resource_sub_folder][populate][resource_sub_folder_2][populate][resource_sub_folder_3][populate][resource_sub_folder_4][populate][resource_sub_folder_5][populate]=*`,
-    url: `${baseUrl}/api/resource-folders?populate=resources,resource_sub_folders,resources.File,resources.resource_sub_folder,resources.resource_sub_folder_2,resources.resource_sub_folder_3,resources.resource_sub_folder_4,resources.resource_sub_folder_5`,
-    method: 'GET',
-    success: function (data) {
-      // Data successfully fetched
-      productInfo = data;
-      console.log('All data:', productInfo);
+  const requests = urls.map((url) =>
+    $.ajax({
+      url: url,
+      method: 'GET',
+    })
+  );
 
-      // Loop through productInfo data
-      for (let i = 0; i < productInfo?.data?.length; i++) {
-        let product = productInfo?.data[i]?.attributes;
+  Promise.all(requests)
+    .then((responses) => {
+      const categories = responses[0]?.data || [];
+      const category1s = responses[1]?.data || [];
+      const category2s = responses[2]?.data || [];
+      const category3s = responses[3]?.data || [];
+      const category4s = responses[4]?.data || [];
+      const category5s = responses[5]?.data || [];
 
-        // Handle cases where product might not have the expected fields
-        let productName = product.FolderName || 'No Name';
-        let subFolderData = product?.resource_sub_folders?.data || [];
-        let updatedAt = product?.updatedAt || new Date();
-        var resourcesData = product.resources?.data || [];
-        console.log('resourcesData##########', resourcesData);
-        console.log('subFolderData===========', subFolderData);
+      console.log('Categories:', categories);
+      console.log('Category 1s:', category1s);
+      console.log('Category 2s:', category2s);
+      console.log('Category 3s:', category3s);
+      console.log('Category 4s:', category4s);
+      console.log('Category 5s:', category5s);
 
-        let productHtml = `
-         <div class="main-box">
-            <div class="accordion-header" onclick="showFolder(this)">
-              <ul>
-                <li class="product">
-                  <div class="info">
-                    <div class="icon">
-                      <i class='fa fa-folder'></i>
-                    </div>
-                    <div class="text">
-                      <p>${productName}</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="date">
-                  <b>${formatDate(updatedAt)}</b>
-                  <span>Last Modified</span>
-                </li>
-                <li class="date"></li>
-              </ul>
-            </div>
-             <div class="accordion-content">
-              ${resourcesData
-                .map((resource) => {
-                  console.log('Resourc@@@@@@', resource);
-                  return `
+      categories?.forEach((product) => {
+        const productHtml = `
+               <div class="main-box">
+                        <div class="accordion-header" onclick="showFolder(this)">
                            <ul>
                               <li class="product">
                                  <div class="info">
                                     <div class="icon">
-                                         <i class="fa ${fileType(
-                                           resource?.attributes?.File?.data?.attributes?.ext
-                                         )}" aria-hidden="true"></i>
+                                       <i class='fa fa-folder'></i>
                                     </div>
                                     <div class="text">
-                                      <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
-                      <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
+                                       <p>${product?.attributes?.Name}</p>
                                     </div>
                                  </div>
                               </li>
                               <li class="date">
-                                 <b>${formatDate(updatedAt)}</b>
+                                 <b>${formatDate(product?.attributes?.updatedAt)}</b>
+                                 <span>Last Modified</span>
+                              </li>
+                              <li class="date"></li>
+                           </ul>
+                        </div>
+                        <div class="accordion-content">
+
+                        ${product?.attributes?.resources?.data
+                          .map((resource) => {
+                            return `
+                           <ul>
+                              <li class="product">
+                                 <div class="info">
+                                    <div class="icon">
+                                       <i class="fa ${fileType(
+                                         resource?.attributes?.File?.data?.attributes?.ext
+                                       )}" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                       <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
+                                       <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="date">
+                                 <b>${formatDate(resource?.attributes?.File?.data?.attributes?.updatedAt)}</b>
                                  <span>Last Modified</span>
                               </li>
                               <li class="download-btn">
-                                <a href="${
-                                  baseUrl + resource?.attributes?.File?.data?.attributes?.url
-                                }" target="_blank">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
+                                 <a href="${
+                                   baseUrl + resource?.attributes?.File?.data?.attributes?.url
+                                 }" target="_blank">
+                              <i class="fa fa-download" aria-hidden="true"></i>
+                            </a>
                               </li>
                            </ul>
-                           
-
-                           ${
-                             resource?.attributes?.resource_sub_folder !== null
-                               ? `
-                            <div class="inner-accordion">
+                           `;
+                          })
+                          .join('')}
+                           <div class="inner-accordion">
+                           ${category1s
+                             .map((product) => {
+                               return `
                               <div class="inner-accordion-item">
-                            
-                              ${
-                                resource?.attributes?.resource_sub_folder?.data !== null
-                                  ? `<div class="inner-accordion-header" onclick="showSubFolder(this)">
+                                 <div class="inner-accordion-header" onclick="showSubFolder(this)">
                                     <ul>
-                                      <li class="product">
-                                        <div class="info">
-                                          <div class="icon">
-                                            <i class="fa fa-folder"></i>
+                                       <li class="product">
+                                          <div class="info">
+                                             <div class="icon">
+                                                <i class='fa fa-folder'></i>
+                                             </div>
+                                             <div class="text">
+                                                <p>${product?.attributes?.Name}</p>
+                                             </div>
                                           </div>
-                                          <div class="text">
-                                            <p>${
-                                              resource?.attributes?.resource_sub_folder?.data?.attributes?.SubFolderName
-                                            }</p>
-                                          </div>
-                                        </div>
-                                      </li>
-                                      <li class="date">
-                                        <b>${formatDate(
-                                          resource?.attributes?.resource_sub_folder?.data?.attributes?.updatedAt
-                                        )}</b>
-                                        <span>Last Modified</span>
-                                      </li>
-                                      <li class="date"></li>
+                                       </li>
+                                       <li class="date">
+                                          <b>${formatDate(product?.attributes?.updatedAt)}</b>
+                                          <span>Last Modified</span>
+                                       </li>
+                                       <li class="date"></li>
                                     </ul>
-                                  </div>`
-                                  : ''
-                              }
-                                
-
+                                 </div>
                                  <div class="inner-accordion-content">
+                                 ${product?.attributes?.resources?.data
+                                   .map((resource) => {
+                                     return `
                                     <ul>
                                        <li class="product">
                                           <div class="info">
                                              <div class="icon">
-                                                <i class="fa fa-file-o" aria-hidden="true"></i>
+                                                <i class="fa ${fileType(
+                                                  resource?.attributes?.File?.data?.attributes?.ext
+                                                )}" aria-hidden="true"></i>
                                              </div>
                                              <div class="text">
-                                                <p>EcoPump9 Exploded View</p>
-                                                <span>.pdf</span>
+                                                <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
+                                                <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
                                              </div>
                                           </div>
                                        </li>
                                        <li class="date">
-                                          <b>09/21/2023</b>
+                                          <b>${formatDate(resource?.attributes?.File?.data?.attributes?.updatedAt)}</b>
                                           <span>Last Modified</span>
                                        </li>
                                        <li class="download-btn">
-                                          <button>
-                                             <i class="fa fa-download" aria-hidden="true"></i>
-                                          </button>
+                                          <a href="${
+                                            baseUrl + resource?.attributes?.File?.data?.attributes?.url
+                                          }" target="_blank">
+                              <i class="fa fa-download" aria-hidden="true"></i>
+                            </a>
                                        </li>
-                                    </ul>
-                                    <ul>
-                                       <li class="product">
-                                          <div class="info">
-                                             <div class="icon">
-                                                <i class="fa fa-picture-o" aria-hidden="true"></i>
-                                             </div>
-                                             <div class="text">
-                                                <p>EcoPump9 Product Photos</p>
-                                                <span>.png</span>
-                                             </div>
-                                          </div>
-                                       </li>
-                                       <li class="date">
-                                          <b>09/21/2023</b>
-                                          <span>Last Modified</span>
-                                       </li>
-                                       <li class="download-btn">
-                                          <button>
-                                             <i class="fa fa-download" aria-hidden="true"></i>
-                                          </button>
-                                       </li>
-                                    </ul>
+                                    </ul>  `;
+                                   })
+                                   .join('')}
+                                      ${category2s
+                                        .map((product) => {
+                                          return `
                                     <div class="inner-accordion-item">
                                        <div class="inner-inner-accordion-header">
                                           <ul>
@@ -783,62 +771,57 @@ $(document).ready(function () {
                                                       <i class='fa fa-folder'></i>
                                                    </div>
                                                    <div class="text">
-                                                      <p>EcoPump9 Placemat</p>
+                                                      <p>${product?.attributes?.Name}</p>
                                                    </div>
                                                 </div>
                                              </li>
                                              <li class="date">
-                                                <b>09/21/2023</b>
+                                                <b>${formatDate(product?.attributes?.updatedAt)}</b>
                                                 <span>Last Modified</span>
                                              </li>
                                              <li class="date"></li>
                                           </ul>
                                        </div>
                                        <div class="inner-accordion-content">
+                                                                        ${product?.attributes?.resources?.data
+                                                                          .map((resource) => {
+                                                                            return `
                                           <ul>
                                              <li class="product">
                                                 <div class="info">
                                                    <div class="icon">
-                                                      <i class="fa fa-file-o" aria-hidden="true"></i>
+                                                      <i class="fa ${fileType(
+                                                        resource?.attributes?.File?.data?.attributes?.ext
+                                                      )}" aria-hidden="true"></i>
                                                    </div>
                                                    <div class="text">
-                                                      <p>EcoPump9 Exploded View</p>
-                                                      <span>.pdf</span>
+                                                      <p>${resource?.attributes?.File?.data?.attributes?.name}</p>
+                                                      <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
                                                    </div>
                                                 </div>
                                              </li>
                                              <li class="date">
-                                                <b>09/21/2023</b>
+                                                <b>${formatDate(
+                                                  resource?.attributes?.File?.data?.attributes?.updatedAt
+                                                )}</b>
                                                 <span>Last Modified</span>
                                              </li>
                                              <li class="download-btn">
-                                                <button>
-                                                   <i class="fa fa-download" aria-hidden="true"></i>
-                                                </button>
+                                                <a href="${
+                                                  baseUrl + resource?.attributes?.File?.data?.attributes?.url
+                                                }" target="_blank">
+                              <i class="fa fa-download" aria-hidden="true"></i>
+                            </a>
                                              </li>
                                           </ul>
-                                          <ul>
-                                             <li class="product">
-                                                <div class="info">
-                                                   <div class="icon">
-                                                      <i class="fa fa-picture-o" aria-hidden="true"></i>
-                                                   </div>
-                                                   <div class="text">
-                                                      <p>EcoPump9 Product Photos</p>
-                                                      <span>.png</span>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li class="date">
-                                                <b>09/21/2023</b>
-                                                <span>Last Modified</span>
-                                             </li>
-                                             <li class="download-btn">
-                                                <button>
-                                                   <i class="fa fa-download" aria-hidden="true"></i>
-                                                </button>
-                                             </li>
-                                          </ul>
+                                         
+                                          `;
+                                                                          })
+                                                                          .join('')}
+                                                                          
+                                             ${category3s
+                                               .map((product) => {
+                                                 return `
                                           <div class="inner-accordion-item">
                                              <div class="inner-inner-accordion-header">
                                                 <ul>
@@ -848,62 +831,59 @@ $(document).ready(function () {
                                                             <i class='fa fa-folder'></i>
                                                          </div>
                                                          <div class="text">
-                                                            <p>EcoPump9 Placemat</p>
+                                                            <p>${product?.attributes?.Name}</p>
                                                          </div>
                                                       </div>
                                                    </li>
                                                    <li class="date">
-                                                      <b>09/21/2023</b>
+                                                      <b>${formatDate(product?.attributes?.updatedAt)}</b>
                                                       <span>Last Modified</span>
                                                    </li>
                                                    <li class="date"></li>
                                                 </ul>
                                              </div>
                                              <div class="inner-accordion-content">
+                                              ${product?.attributes?.resources?.data
+                                                .map((resource) => {
+                                                  return `
                                                 <ul>
                                                    <li class="product">
                                                       <div class="info">
                                                          <div class="icon">
-                                                            <i class="fa fa-file-o" aria-hidden="true"></i>
+                                                            <i class="fa ${fileType(
+                                                              resource?.attributes?.File?.data?.attributes?.ext
+                                                            )}" aria-hidden="true"></i>
                                                          </div>
                                                          <div class="text">
-                                                            <p>EcoPump9 Exploded View</p>
-                                                            <span>.pdf</span>
+                                                             <p>${
+                                                               resource?.attributes?.File?.data?.attributes?.name
+                                                             }</p>
+                                                <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
                                                          </div>
                                                       </div>
                                                    </li>
                                                    <li class="date">
-                                                      <b>09/21/2023</b>
+                                                      <b>${formatDate(
+                                                        resource?.attributes?.File?.data?.attributes?.updatedAt
+                                                      )}</b>
                                                       <span>Last Modified</span>
                                                    </li>
                                                    <li class="download-btn">
-                                                      <button>
-                                                         <i class="fa fa-download" aria-hidden="true"></i>
-                                                      </button>
+                                                     <a href="${
+                                                       baseUrl + resource?.attributes?.File?.data?.attributes?.url
+                                                     }" target="_blank">
+                              <i class="fa fa-download" aria-hidden="true"></i>
+                            </a>
                                                    </li>
                                                 </ul>
-                                                <ul>
-                                                   <li class="product">
-                                                      <div class="info">
-                                                         <div class="icon">
-                                                            <i class="fa fa-picture-o" aria-hidden="true"></i>
-                                                         </div>
-                                                         <div class="text">
-                                                            <p>EcoPump9 Product Photos</p>
-                                                            <span>.png</span>
-                                                         </div>
-                                                      </div>
-                                                   </li>
-                                                   <li class="date">
-                                                      <b>09/21/2023</b>
-                                                      <span>Last Modified</span>
-                                                   </li>
-                                                   <li class="download-btn">
-                                                      <button>
-                                                         <i class="fa fa-download" aria-hidden="true"></i>
-                                                      </button>
-                                                   </li>
-                                                </ul>
+                                               
+                                                 `;
+                                                })
+                                                .join('')}
+                                                
+                                                    ${category4s
+                                                      .map((product) => {
+                                                        return `
                                                 <div class="inner-accordion-item">
                                                    <div class="inner-inner-accordion-header">
                                                       <ul>
@@ -913,62 +893,65 @@ $(document).ready(function () {
                                                                   <i class='fa fa-folder'></i>
                                                                </div>
                                                                <div class="text">
-                                                                  <p>EcoPump9 Placemat</p>
+                                                                  <p>${product?.attributes?.Name}</p>
                                                                </div>
                                                             </div>
                                                          </li>
                                                          <li class="date">
-                                                            <b>09/21/2023</b>
+                                                            <b>${formatDate(product?.attributes?.updatedAt)}</b>
                                                             <span>Last Modified</span>
                                                          </li>
                                                          <li class="date"></li>
                                                       </ul>
                                                    </div>
                                                    <div class="inner-accordion-content">
+                                                    ${product?.attributes?.resources?.data
+                                                      .map((resource) => {
+                                                        return `
                                                       <ul>
                                                          <li class="product">
                                                             <div class="info">
                                                                <div class="icon">
-                                                                  <i class="fa fa-file-o" aria-hidden="true"></i>
+                                                                  <i class="fa ${fileType(
+                                                                    resource?.attributes?.File?.data?.attributes?.ext
+                                                                  )}" aria-hidden="true"></i>
                                                                </div>
                                                                <div class="text">
-                                                                  <p>EcoPump9 Exploded View</p>
-                                                                  <span>.pdf</span>
+                                                                                                                  <p>${
+                                                                                                                    resource
+                                                                                                                      ?.attributes
+                                                                                                                      ?.File
+                                                                                                                      ?.data
+                                                                                                                      ?.attributes
+                                                                                                                      ?.name
+                                                                                                                  }</p>
+                                                <span>${resource?.attributes?.File?.data?.attributes?.ext}</span>
                                                                </div>
                                                             </div>
                                                          </li>
                                                          <li class="date">
-                                                            <b>09/21/2023</b>
+                                                            <b>${formatDate(
+                                                              resource?.attributes?.File?.data?.attributes?.updatedAt
+                                                            )}</b>
                                                             <span>Last Modified</span>
                                                          </li>
                                                          <li class="download-btn">
-                                                            <button>
-                                                               <i class="fa fa-download" aria-hidden="true"></i>
-                                                            </button>
+                                                            <a href="${
+                                                              baseUrl +
+                                                              resource?.attributes?.File?.data?.attributes?.url
+                                                            }" target="_blank">
+                              <i class="fa fa-download" aria-hidden="true"></i>
+                            </a>
                                                          </li>
                                                       </ul>
-                                                      <ul>
-                                                         <li class="product">
-                                                            <div class="info">
-                                                               <div class="icon">
-                                                                  <i class="fa fa-picture-o" aria-hidden="true"></i>
-                                                               </div>
-                                                               <div class="text">
-                                                                  <p>EcoPump9 Product Photos</p>
-                                                                  <span>.png</span>
-                                                               </div>
-                                                            </div>
-                                                         </li>
-                                                         <li class="date">
-                                                            <b>09/21/2023</b>
-                                                            <span>Last Modified</span>
-                                                         </li>
-                                                         <li class="download-btn">
-                                                            <button>
-                                                               <i class="fa fa-download" aria-hidden="true"></i>
-                                                            </button>
-                                                         </li>
-                                                      </ul>
+                                                    
+                                                      `;
+                                                      })
+                                                      .join('')}
+                                                      
+                                                                                  ${category5s
+                                                                                    .map((product) => {
+                                                                                      return `
                                                       <div class="inner-accordion-item">
                                                          <div class="inner-inner-accordion-header">
                                                             <ul>
@@ -978,173 +961,99 @@ $(document).ready(function () {
                                                                         <i class='fa fa-folder'></i>
                                                                      </div>
                                                                      <div class="text">
-                                                                        <p>EcoPump9 Placemat</p>
+                                                                        <p>${product?.attributes?.Name}</p>
                                                                      </div>
                                                                   </div>
                                                                </li>
                                                                <li class="date">
-                                                                  <b>09/21/2023</b>
+                                                                  <b>${formatDate(product?.attributes?.updatedAt)}</b>
                                                                   <span>Last Modified</span>
                                                                </li>
                                                                <li class="date"></li>
                                                             </ul>
                                                          </div>
                                                          <div class="inner-accordion-content">
+                                                                                          ${product?.attributes?.resources?.data
+                                                                                            .map((resource) => {
+                                                                                              return `
                                                             <ul>
                                                                <li class="product">
                                                                   <div class="info">
                                                                      <div class="icon">
-                                                                        <i class="fa fa-file-o" aria-hidden="true"></i>
+                                                                        <i class="fa ${fileType(
+                                                                          resource?.attributes?.File?.data?.attributes
+                                                                            ?.ext
+                                                                        )}" aria-hidden="true"></i>
                                                                      </div>
                                                                      <div class="text">
-                                                                        <p>EcoPump9 Exploded View</p>
-                                                                        <span>.pdf</span>
+                                                                        <p>${
+                                                                          resource?.attributes?.File?.data?.attributes
+                                                                            ?.name
+                                                                        }</p>
+                                                                        <span>${
+                                                                          resource?.attributes?.File?.data?.attributes
+                                                                            ?.ext
+                                                                        }</span>
                                                                      </div>
                                                                   </div>
                                                                </li>
                                                                <li class="date">
-                                                                  <b>09/21/2023</b>
+                                                                  <b>${formatDate(
+                                                                    resource?.attributes?.File?.data?.attributes
+                                                                      ?.updatedAt
+                                                                  )}</b>
                                                                   <span>Last Modified</span>
                                                                </li>
                                                                <li class="download-btn">
-                                                                  <button>
-                                                                     <i class="fa fa-download" aria-hidden="true"></i>
-                                                                  </button>
+                                                                  <a href="${
+                                                                    baseUrl +
+                                                                    resource?.attributes?.File?.data?.attributes?.url
+                                                                  }" target="_blank">
+                              <i class="fa fa-download" aria-hidden="true"></i>
+                            </a>
                                                                </li>
                                                             </ul>
-                                                            <ul>
-                                                               <li class="product">
-                                                                  <div class="info">
-                                                                     <div class="icon">
-                                                                        <i class="fa fa-picture-o" aria-hidden="true"></i>
-                                                                     </div>
-                                                                     <div class="text">
-                                                                        <p>EcoPump9 Product Photos</p>
-                                                                        <span>.png</span>
-                                                                     </div>
-                                                                  </div>
-                                                               </li>
-                                                               <li class="date">
-                                                                  <b>09/21/2023</b>
-                                                                  <span>Last Modified</span>
-                                                               </li>
-                                                               <li class="download-btn">
-                                                                  <button>
-                                                                     <i class="fa fa-download" aria-hidden="true"></i>
-                                                                  </button>
-                                                               </li>
-                                                            </ul>
+                                                            
+                                                             `;
+                                                                                            })
+                                                                                            .join('')}
                                                          </div>
                                                       </div>
+                                                      `;
+                                                                                    })
+                                                                                    .join('')}
                                                    </div>
                                                 </div>
+                                                `;
+                                                      })
+                                                      .join('')}
                                              </div>
                                           </div>
-                                       </div>
-                                       <div class="inner-accordion-item">
-                                          <div class="inner-inner-accordion-header">
-                                             <ul>
-                                                <li class="product">
-                                                   <div class="info">
-                                                      <div class="icon">
-                                                         <i class='fa fa-folder'></i>
-                                                      </div>
-                                                      <div class="text">
-                                                         <p>EcoPump9 Placemat</p>
-                                                      </div>
-                                                   </div>
-                                                </li>
-                                                <li class="date">
-                                                   <b>09/21/2023</b>
-                                                   <span>Last Modified</span>
-                                                </li>
-                                                <li class="date"></li>
-                                             </ul>
-                                          </div>
-                                          <div class="inner-accordion-content">
-                                             <ul>
-                                                <li class="product">
-                                                   <div class="info">
-                                                      <div class="icon">
-                                                         <i class="fa fa-file-o" aria-hidden="true"></i>
-                                                      </div>
-                                                      <div class="text">
-                                                         <p>EcoPump9 Exploded View</p>
-                                                         <span>.pdf</span>
-                                                      </div>
-                                                   </div>
-                                                </li>
-                                                <li class="date">
-                                                   <b>09/21/2023</b>
-                                                   <span>Last Modified</span>
-                                                </li>
-                                                <li class="download-btn">
-                                                   <button>
-                                                      <i class="fa fa-download" aria-hidden="true"></i>
-                                                   </button>
-                                                </li>
-                                             </ul>
-                                             <ul>
-                                                <li class="product">
-                                                   <div class="info">
-                                                      <div class="icon">
-                                                         <i class="fa fa-picture-o" aria-hidden="true"></i>
-                                                      </div>
-                                                      <div class="text">
-                                                         <p>EcoPump9 Product Photos</p>
-                                                         <span>.png</span>
-                                                      </div>
-                                                   </div>
-                                                </li>
-                                                <li class="date">
-                                                   <b>09/21/2023</b>
-                                                   <span>Last Modified</span>
-                                                </li>
-                                                <li class="download-btn">
-                                                   <button>
-                                                      <i class="fa fa-download" aria-hidden="true"></i>
-                                                   </button>
-                                                </li>
-                                             </ul>
-                                          </div>
+                                          `;
+                                               })
+                                               .join('')}
                                        </div>
                                     </div>
+                                    `;
+                                        })
+                                        .join('')}
                                  </div>
                               </div>
-                           </div>`
-                               : ''
-                           }
-                           
-                           
-   `;
-                })
-                .join('')} 
-                           
+                              `;
+                             })
+                             .join('')}
+                           </div>
                         </div>
-          </div>
+                     </div>
         `;
-
         $('#folderContainer').append(productHtml);
-      }
+      });
 
-      // Stop loading
-      loading = false;
-    },
-    error: function (jqXHR, textStatus, errorThrown) {
-      // Handle errors
-      error = errorThrown;
-      console.error('Error:', error);
-
-      // Stop loading
-      loading = false;
-    },
-    complete: function () {
-      // Completed request
-      if (!loading) {
-        console.log('Request completed');
-      }
-    },
-  });
+      console.log('All data loaded!');
+    })
+    .catch((error) => {
+      console.error('Error fetching data:', error);
+    });
 });
 
 function showFolder(clickedElement) {
