@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -15,17 +15,17 @@
         "block_MDhkf6": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/duerr-ecobell3e.jpg",
+            "hero_background_image": "shopify://shop_images/duerr-ecobell3e.jpg",
             "hero_title": "Precision Painting, Perfected by Robots",
             "hero_description": "Trust FinishSense to deliver comprehensive robotic solutions that redefine precision in industrial painting.",
             "hero_button_text": "Start Your Project",
-            "hero_button_Link": "shopify:\/\/pages\/company"
+            "hero_button_Link": "shopify://pages/company"
           }
         },
         "block_LaAjnt": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/hero.jpg",
+            "hero_background_image": "shopify://shop_images/hero.jpg",
             "hero_title": "Close the Loop",
             "hero_description": "Explore the Future of Precision Coating with FinishSense's Control Solutions",
             "hero_button_text": "Learn More",
@@ -35,7 +35,7 @@
         "block_UnAAQa": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/duerr-ecobell.jpg",
+            "hero_background_image": "shopify://shop_images/duerr-ecobell.jpg",
             "hero_title": "The Future of Painting, Today",
             "hero_description": "Our innovative closed loop control systems leverage advanced technology to ensure unparalleled accuracy and consistency in liquid paint, powder coating, and high viscosity dispense applications.",
             "hero_button_text": "Learn More",
@@ -48,15 +48,14 @@
         "block_LaAjnt",
         "block_UnAAQa"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "about_section_h8Vka6": {
       "type": "about-section",
       "settings": {
-        "about_image": "shopify:\/\/shop_images\/BLACK.svg",
+        "about_image": "shopify://shop_images/BLACK.svg",
         "about_title": "At FinishSense, we take pride in our unwavering commitment to providing custom solutions tailored to meet the unique needs of every process.",
-        "about_description": "<p>With years of experience in the field of process automation, we understand that no two processes are exactly alike. That's why we go above and beyond to develop bespoke robotic integration solutions that address the specific challenges and requirements of each client.<\/p><p>From liquid paint applications to powder coating and high viscosity dispense processes, our team of experts is equipped with the knowledge, skills, and expertise needed to design and implement solutions that optimize efficiency, precision, and performance. We believe in a collaborative approach, working closely with our clients every step of the way to assess their needs, understand their goals, and develop innovative solutions that deliver tangible results.<\/p><p>At FinishSense, we recognize that success lies in our ability to adapt and innovate. That's why we stay at the forefront of technological advancements, continuously exploring new tools, techniques, and methodologies to enhance our capabilities and better serve our clients. Whether you're looking to streamline your production process, improve product quality, or reduce costs, you can trust that our custom solutions will meet your needs and exceed your expectations.<\/p><p>With FinishSense as your partner, you can rest assured that your process will receive the personalized attention and expertise it deserves. From concept to completion, we're committed to delivering superior outcomes that drive success and fuel growth for your business. Contact us today to learn more about how our custom solutions can help you achieve your goals.<\/p><p><\/p>",
+        "about_description": "<p>With years of experience in the field of process automation, we understand that no two processes are exactly alike. That's why we go above and beyond to develop bespoke robotic integration solutions that address the specific challenges and requirements of each client.</p><p>From liquid paint applications to powder coating and high viscosity dispense processes, our team of experts is equipped with the knowledge, skills, and expertise needed to design and implement solutions that optimize efficiency, precision, and performance. We believe in a collaborative approach, working closely with our clients every step of the way to assess their needs, understand their goals, and develop innovative solutions that deliver tangible results.</p><p>At FinishSense, we recognize that success lies in our ability to adapt and innovate. That's why we stay at the forefront of technological advancements, continuously exploring new tools, techniques, and methodologies to enhance our capabilities and better serve our clients. Whether you're looking to streamline your production process, improve product quality, or reduce costs, you can trust that our custom solutions will meet your needs and exceed your expectations.</p><p>With FinishSense as your partner, you can rest assured that your process will receive the personalized attention and expertise it deserves. From concept to completion, we're committed to delivering superior outcomes that drive success and fuel growth for your business. Contact us today to learn more about how our custom solutions can help you achieve your goals.</p><p></p>",
         "about_button_text": "Learn More",
         "about_button_url": "",
         "section_color": "rgba(0,0,0,0)"
@@ -68,37 +67,37 @@
         "block_9ehDBc": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
+            "background_image": "shopify://shop_images/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
             "title": "Consulting",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/hmi-scada-development"
+            "button_Link": "shopify://pages/consulting"
           }
         },
         "block_MtLX7M": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/robotic-programming-1-16x9.jpg",
+            "background_image": "shopify://shop_images/robotic-programming-1-16x9.jpg",
             "title": "Engineering and Design",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/onsite-service"
+            "button_Link": "shopify://pages/onsite-service"
           }
         },
         "block_KTEgrQ": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
+            "background_image": "shopify://shop_images/lackierroboter-von-duerr.jpg",
             "title": "Installation and Commissioning",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/programming"
+            "button_Link": "shopify://pages/programming"
           }
         },
         "block_zbrg9a": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
+            "background_image": "shopify://shop_images/Benefits-CustomerService-Photo.jpg",
             "title": "Service and Support",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/remote-support"
+            "button_Link": "shopify://pages/remote-support"
           }
         }
       },
@@ -128,9 +127,9 @@
         "block_exP6yi": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/img-1_d8f39878-818a-4f0b-b339-899fd7c72d10.jpg",
+            "background_image": "shopify://shop_images/img-1_d8f39878-818a-4f0b-b339-899fd7c72d10.jpg",
             "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany <\/p>",
+            "description": "<p>Exhibition:  Dusseldorf, Germany </p>",
             "button_text": "Learn More",
             "button_Link": ""
           }
@@ -152,77 +151,77 @@
         "block_94EtQL": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/FANUC-Logo.wine.svg",
+            "background_image": "shopify://shop_images/FANUC-Logo.wine.svg",
             "title": "Fanuc",
             "description": "FANUC’s painting robots offer a wide range of reaches and handling capacities, including some models designed and certified to operate in hazardous environments. Whatever your painting and finishing requirements, there is a FANUC paint or dispensing robot to meet your needs.",
             "designation": "",
-            "icon_link": "https:\/\/www.fanucamerica.com\/products\/robots\/series\/paint"
+            "icon_link": "https://www.fanucamerica.com/products/robots/series/paint"
           }
         },
         "block_TqYwdp": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Kawasaki_Logo_vert.svg",
+            "background_image": "shopify://shop_images/Kawasaki_Logo_vert.svg",
             "title": "Kawasaki Robotics",
             "description": "Kawasaki used decades of experience to drive the design of the K series line of explosion-proof paint robots, resulting top-of-the-line performance, usability and finishes. Their paint robots are packed with features for easier integration and operation, like hollow-wrists for internal hoses and a paint-specific control panel. They’re also built to cover a wide range of small to large workpieces.",
             "designation": "",
-            "icon_link": "https:\/\/kawasakirobotics.com\/applications\/painting\/"
+            "icon_link": "https://kawasakirobotics.com/applications/painting/"
           }
         },
         "block_CAfDGt": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/ABB_logo.svg",
+            "background_image": "shopify://shop_images/ABB_logo.svg",
             "title": "ABB Robotics",
             "description": "A complete range of paint robots to help you increase the productivity and quality of your paint shop operations. Designed for automotive interior & exterior painting, tiers, and general small & medium parts painting applications.",
             "designation": "",
-            "icon_link": "https:\/\/new.abb.com\/products\/robotics\/robots\/paint-robots"
+            "icon_link": "https://new.abb.com/products/robotics/robots/paint-robots"
           }
         },
         "block_6pGyUT": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Yaskawa_logo.svg",
+            "background_image": "shopify://shop_images/Yaskawa_logo.svg",
             "title": "Yaskawa",
             "description": "Yaskawa Motoman offers manufacturers a wide range of robotic painting products and technology. Their flexible, high-performance paint robots increase finishing quality, consistency and throughput, while dramatically lowering operating costs and decreasing wasted material.",
             "designation": "",
-            "icon_link": "https:\/\/www.motoman.com\/en-us\/applications\/painting-dispensing"
+            "icon_link": "https://www.motoman.com/en-us/applications/painting-dispensing"
           }
         },
         "block_JUeP3Q": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Durr_AG_logo.svg",
+            "background_image": "shopify://shop_images/Durr_AG_logo.svg",
             "title": "Dürr",
             "description": "Dürr is the world leader in the planning and implementation of paint shops for the automotive industry and supplies solutions for every area, from pretreatment with electrocoating, through modern spray booth concepts with robots and application technology, to innovative oven-heating methods.",
             "designation": "",
-            "icon_link": "https:\/\/www.durr.com\/en\/products\/paint-shop-application-technology"
+            "icon_link": "https://www.durr.com/en/products/paint-shop-application-technology"
           }
         },
         "block_gpxAcW": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Logo_Sata_8adb128f-b598-450a-87ad-f678ced4542e.svg",
+            "background_image": "shopify://shop_images/Logo_Sata_8adb128f-b598-450a-87ad-f678ced4542e.svg",
             "title": "SATA",
             "description": "SATA spray guns guarantee perfect finishes through their excellent precision and highest quality. Choose the most suitable technology according to your personal needs - their spray guns are available with RP as well as with HVLP technology.",
             "designation": "",
-            "icon_link": "https:\/\/www.sata.com\/en-amn\/"
+            "icon_link": "https://www.sata.com/en-amn/"
           }
         },
         "block_qpVHJz": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/binks-seeklogo_943c227f-90b5-482e-93eb-9649d435be9d.svg",
+            "background_image": "shopify://shop_images/binks-seeklogo_943c227f-90b5-482e-93eb-9649d435be9d.svg",
             "title": "Binks",
             "description": "Binks manufactures low and high pressure manual and automatic spray guns, accesories, airless and air-assisted airless spray packages used in many industrial applications.  Binks high and low pressure fluid handling pumps and regulators, pressure feed tanks, 2K electronic paint mixing machines, and paint circulating systems can also be found in many industrial and automotive facilities.",
             "designation": "",
-            "icon_link": "https:\/\/carlisleft.com\/brand\/binks\/"
+            "icon_link": "https://carlisleft.com/brand/binks/"
           }
         },
         "block_8zfTqq": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
+            "background_image": "shopify://shop_images/3a5f68261a62a8655bc6e53d852ca917f92aeaa261aeadb19270b6d423b2af6a1aadb8f18b9fd2f69143a9f68108e4cdb117e10c4ab3a575671dbf1bc10c1680_6b41d8a0-8cbb-4024-8e8a-3388ee0f14d3.svg",
             "title": "Sames",
             "description": "For nearly a century, Sames has been providing services and equipment for the application of liquid and powder paints, adhesives and sealants adhesives and sealants to bond, protect and beautify all types of surfaces.",
             "designation": "",
@@ -232,7 +231,7 @@
         "block_WrrhNn": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Graco_logo__horizontal.svg",
+            "background_image": "shopify://shop_images/Graco_logo__horizontal.svg",
             "title": "Graco",
             "description": "Improve production and boost your bottom line with high-performance meter and mix, paint kitchen, and spray booth equipment. Graco's industrial liquid coating systems advance fine finishing and automation for automotive, aerospace, electronic, heavy equipment, wood product, and general manufacturing applications.",
             "designation": "",
@@ -242,7 +241,7 @@
         "block_dLWfjq": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Ransburg-logo.svg-20.svg",
+            "background_image": "shopify://shop_images/Ransburg-logo.svg-20.svg",
             "title": "Ransburg",
             "description": "Ransburg is a global leader in the design and manufacture of manual and automatic electrostatic finishing equipment.  As a leader in electrostatic spray finishing equipment for key industrial, manufacturing, and automotive Tier 1 markets, Ransburg continues to refine its most efficient electrostatic spray painting technology, aspiring to deliver a “Class A” finish to each and every customer’s product, while reducing VOC emissions and providing excellent transfer efficiency.",
             "designation": "",
@@ -270,7 +269,7 @@
       "type": "blog-section",
       "settings": {
         "section_title": "Latest Blogs",
-        "section_description": "Our latest Blogs\/News",
+        "section_description": "Our latest Blogs/News",
         "section_color": "rgba(0,0,0,0)"
       }
     },
