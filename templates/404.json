@@ -17,15 +17,6 @@
     "hero_section_EmFmiz": {
       "type": "hero-section",
       "blocks": {
-        "block_WYh9rp": {
-          "type": "block",
-          "settings": {
-            "hero_title": "Design. Create. and Build.",
-            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
-            "hero_button_text": "Start Your Project",
-            "hero_button_Link": ""
-          }
-        },
         "block_UMtJN9": {
           "type": "block",
           "settings": {
@@ -38,7 +29,6 @@
         }
       },
       "block_order": [
-        "block_WYh9rp",
         "block_UMtJN9"
       ],
       "settings": {}
