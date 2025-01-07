@@ -33,16 +33,6 @@
       ],
       "settings": {}
     },
-    "about_section_cVVWDA": {
-      "type": "about-section",
-      "settings": {
-        "about_title": "Design, Create and Build bespoke Exhibition Stall",
-        "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>",
-        "about_button_text": "Learn More",
-        "about_button_url": "",
-        "section_color": "transparent"
-      }
-    },
     "how_we_work_QFYXr9": {
       "type": "how-we-work",
       "blocks": {
@@ -76,13 +66,34 @@
         "form_title": "Complete the form below...",
         "section_color": "transparent"
       }
+    },
+    "what_we_do_UjGTRB": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_ypnANA": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Bild-7.jpg",
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        }
+      },
+      "block_order": [
+        "block_ypnANA"
+      ],
+      "settings": {
+        "title": "What We Do",
+        "description": "Best Exhibition Stall Designers in India, Europe and Poland",
+        "section_color": "transparent"
+      }
     }
   },
   "order": [
     "main",
     "hero_section_EmFmiz",
-    "about_section_cVVWDA",
     "how_we_work_QFYXr9",
-    "contact_section_PQL9rQ"
+    "contact_section_PQL9rQ",
+    "what_we_do_UjGTRB"
   ]
 }
