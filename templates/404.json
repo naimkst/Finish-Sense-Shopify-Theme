@@ -1,10 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "single_hero_yjKUWF": {
+      "type": "single-hero",
+      "settings": {
+        "background_image": "shopify://shop_images/Paint-Finishing-3.jpg",
+        "section_title": "We’re looking for talented industry experts.",
+        "button_text": "Current Openings",
+        "button_link": ""
+      }
+    },
+    "about_section_cVVWDA": {
+      "type": "about-section",
+      "settings": {
+        "about_title": "Design, Create and Build bespoke Exhibition Stall",
+        "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>",
+        "about_button_text": "Learn More",
+        "about_button_url": "",
+        "section_color": "transparent"
+      }
+    },
     "main": {
-      "type": "not-found"
+      "type": "not-found",
+      "settings": {}
+    },
+    "how_we_work_QFYXr9": {
+      "type": "how-we-work",
+      "blocks": {
+        "block_kET94e": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        }
+      },
+      "block_order": [
+        "block_kET94e"
+      ],
+      "settings": {
+        "expericent_time": "25+",
+        "expericent_text": "Year of Experience",
+        "how_we_work_slug": "",
+        "how_we_work_title": "Consulting Services",
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+        "section_color": "transparent"
+      }
+    },
+    "contact_section_PQL9rQ": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below...",
+        "section_color": "transparent"
+      }
     }
   },
   "order": [
-    "main"
+    "single_hero_yjKUWF",
+    "main",
+    "about_section_cVVWDA",
+    "how_we_work_QFYXr9",
+    "contact_section_PQL9rQ"
   ]
 }
