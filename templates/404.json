@@ -9,14 +9,39 @@
  */
 {
   "sections": {
-    "single_hero_yjKUWF": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "shopify://shop_images/Paint-Finishing-3.jpg",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
-        "button_link": ""
-      }
+    "main": {
+      "type": "not-found",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero_section_EmFmiz": {
+      "type": "hero-section",
+      "blocks": {
+        "block_WYh9rp": {
+          "type": "block",
+          "settings": {
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        },
+        "block_UMtJN9": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/pci0819-ABB-Lead-900.jpg",
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_WYh9rp",
+        "block_UMtJN9"
+      ],
+      "settings": {}
     },
     "about_section_cVVWDA": {
       "type": "about-section",
@@ -27,10 +52,6 @@
         "about_button_url": "",
         "section_color": "transparent"
       }
-    },
-    "main": {
-      "type": "not-found",
-      "settings": {}
     },
     "how_we_work_QFYXr9": {
       "type": "how-we-work",
@@ -68,8 +89,8 @@
     }
   },
   "order": [
-    "single_hero_yjKUWF",
     "main",
+    "hero_section_EmFmiz",
     "about_section_cVVWDA",
     "how_we_work_QFYXr9",
     "contact_section_PQL9rQ"
