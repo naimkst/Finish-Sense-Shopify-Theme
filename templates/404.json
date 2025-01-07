@@ -39,7 +39,7 @@
         "block_kET94e": {
           "type": "block",
           "settings": {
-            "process_number": "01",
+            "process_number": "1",
             "title": "Feasibility Studies",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
@@ -47,7 +47,7 @@
         "block_bxmD4i": {
           "type": "block",
           "settings": {
-            "process_number": "02",
+            "process_number": "2",
             "title": "Project Management",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
@@ -55,7 +55,7 @@
         "block_xCpUba": {
           "type": "block",
           "settings": {
-            "process_number": "03",
+            "process_number": "3",
             "title": "Documentation",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
@@ -63,7 +63,7 @@
         "block_KDm6DX": {
           "type": "block",
           "settings": {
-            "process_number": "04",
+            "process_number": "4",
             "title": "Problem Solving",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
@@ -71,16 +71,16 @@
         "block_ECLFn4": {
           "type": "block",
           "settings": {
-            "process_number": "01",
-            "title": "Apply for the Jobs",
+            "process_number": "5",
+            "title": "Training",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
         },
-        "block_6nWhNG": {
+        "block_gJJrMF": {
           "type": "block",
           "settings": {
-            "process_number": "01",
-            "title": "Apply for the Jobs",
+            "process_number": "6",
+            "title": "Optimization",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
         }
@@ -91,7 +91,7 @@
         "block_xCpUba",
         "block_KDm6DX",
         "block_ECLFn4",
-        "block_6nWhNG"
+        "block_gJJrMF"
       ],
       "settings": {
         "left_image": "shopify://shop_images/hn-6a.jpg",
