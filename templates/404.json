@@ -103,6 +103,13 @@
         "section_color": "transparent"
       }
     },
+    "text_section_WjrYLY": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "",
+        "section_color": "transparent"
+      }
+    },
     "contact_section_PQL9rQ": {
       "type": "contact-section",
       "settings": {
@@ -118,6 +125,7 @@
     "main",
     "hero_section_EmFmiz",
     "how_we_work_QFYXr9",
+    "text_section_WjrYLY",
     "contact_section_PQL9rQ"
   ]
 }
