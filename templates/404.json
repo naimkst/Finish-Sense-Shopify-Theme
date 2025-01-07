@@ -49,6 +49,7 @@
         "block_kET94e"
       ],
       "settings": {
+        "left_image": "shopify://shop_images/hn-6a.jpg",
         "expericent_time": "25+",
         "expericent_text": "Year of Experience",
         "how_we_work_slug": "",
@@ -70,6 +71,13 @@
     "what_we_do_UjGTRB": {
       "type": "what-we-do",
       "blocks": {
+        "block_33VCcV": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
         "block_ypnANA": {
           "type": "block",
           "settings": {
@@ -80,6 +88,7 @@
         }
       },
       "block_order": [
+        "block_33VCcV",
         "block_ypnANA"
       ],
       "settings": {
