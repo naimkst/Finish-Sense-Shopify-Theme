@@ -40,18 +40,63 @@
           "type": "block",
           "settings": {
             "process_number": "01",
+            "title": "Feasibility Studies",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_bxmD4i": {
+          "type": "block",
+          "settings": {
+            "process_number": "02",
+            "title": "Project Management",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_xCpUba": {
+          "type": "block",
+          "settings": {
+            "process_number": "03",
+            "title": "Documentation",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_KDm6DX": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_ECLFn4": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_6nWhNG": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
             "title": "Apply for the Jobs",
             "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
           }
         }
       },
       "block_order": [
-        "block_kET94e"
+        "block_kET94e",
+        "block_bxmD4i",
+        "block_xCpUba",
+        "block_KDm6DX",
+        "block_ECLFn4",
+        "block_6nWhNG"
       ],
       "settings": {
         "left_image": "shopify://shop_images/hn-6a.jpg",
-        "expericent_time": "25+",
-        "expericent_text": "Year of Experience",
+        "expericent_time": "50+",
+        "expericent_text": "Years of Experience",
         "how_we_work_slug": "",
         "how_we_work_title": "Consulting Services",
         "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
@@ -67,42 +112,12 @@
         "form_title": "Complete the form below...",
         "section_color": "transparent"
       }
-    },
-    "what_we_do_UjGTRB": {
-      "type": "what-we-do",
-      "blocks": {
-        "block_33VCcV": {
-          "type": "block",
-          "settings": {
-            "title": "Job Portal",
-            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
-          }
-        },
-        "block_ypnANA": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/Bild-7.jpg",
-            "title": "Job Portal",
-            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
-          }
-        }
-      },
-      "block_order": [
-        "block_33VCcV",
-        "block_ypnANA"
-      ],
-      "settings": {
-        "title": "What We Do",
-        "description": "Best Exhibition Stall Designers in India, Europe and Poland",
-        "section_color": "transparent"
-      }
     }
   },
   "order": [
     "main",
     "hero_section_EmFmiz",
     "how_we_work_QFYXr9",
-    "contact_section_PQL9rQ",
-    "what_we_do_UjGTRB"
+    "contact_section_PQL9rQ"
   ]
 }
