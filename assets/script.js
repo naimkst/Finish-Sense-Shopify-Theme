@@ -675,6 +675,26 @@ function getCat4(cat, name) {
   }
 }
 
+function getCat5(cat, name) {
+  console.log('==========', name);
+
+  // Ensure `cat` is an array before calling map
+  if (!Array.isArray(cat)) {
+    console.error('Error: cat is not an array or is undefined');
+    return false;
+  }
+
+  const data = cat.map((category) => category?.attributes?.Name);
+
+  // Check if `data` is not empty before accessing the first element
+  const index = data?.[0];
+  if (index === name) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 $(document).ready(function () {
   // Show loading initially
   let loading = true;
@@ -899,7 +919,7 @@ $(document).ready(function () {
 
                                                   ${
                                                     (console.log('cat2===', cat3),
-                                                    getCat3(cat3?.attributes?.category_1s?.data, cat2?.attributes?.Name)
+                                                    getCat3(cat3?.attributes?.category_2s?.data, cat2?.attributes?.Name)
                                                       ? `<div class="inner-accordion-item">
                                              <div class="inner-inner-accordion-header">
                                                 <ul>
@@ -965,7 +985,7 @@ $(document).ready(function () {
                                                         ${
                                                           (console.log('cat2===', cat4),
                                                           getCat4(
-                                                            cat4?.attributes?.category_1s?.data,
+                                                            cat4?.attributes?.category_3s?.data,
                                                             cat3?.attributes?.Name
                                                           )
                                                             ? `<div class="inner-accordion-item">
@@ -1034,9 +1054,16 @@ $(document).ready(function () {
                                                       .join('')}
                                                       
                                                                                   ${category5s
-                                                                                    .map((product) => {
+                                                                                    .map((cat5) => {
                                                                                       return `
-                                                      <div class="inner-accordion-item">
+                                                                                      ${
+                                                                                        (console.log('cat2===', cat4),
+                                                                                        getCat4(
+                                                                                          cat5?.attributes?.category_4s
+                                                                                            ?.data,
+                                                                                          cat4?.attributes?.Name
+                                                                                        )
+                                                                                          ? `<div class="inner-accordion-item">
                                                          <div class="inner-inner-accordion-header">
                                                             <ul>
                                                                <li class="product">
@@ -1045,19 +1072,19 @@ $(document).ready(function () {
                                                                         <i class='fa fa-folder'></i>
                                                                      </div>
                                                                      <div class="text">
-                                                                        <p>${product?.attributes?.Name}</p>
+                                                                        <p>${cat5?.attributes?.Name}</p>
                                                                      </div>
                                                                   </div>
                                                                </li>
                                                                <li class="date">
-                                                                  <b>${formatDate(product?.attributes?.updatedAt)}</b>
+                                                                  <b>${formatDate(cat5?.attributes?.updatedAt)}</b>
                                                                   <span>Last Modified</span>
                                                                </li>
                                                                <li class="date"></li>
                                                             </ul>
                                                          </div>
                                                          <div class="inner-accordion-content">
-                                                                                          ${product?.attributes?.resources?.data
+                                                                                          ${cat5?.attributes?.resources?.data
                                                                                             .map((resource) => {
                                                                                               return `
                                                             <ul>
@@ -1102,7 +1129,10 @@ $(document).ready(function () {
                                                                                             })
                                                                                             .join('')}
                                                          </div>
-                                                      </div>
+                                                      </div>`
+                                                                                          : ``)
+                                                                                      }
+                                                      
                                                       `;
                                                                                     })
                                                                                     .join('')}
