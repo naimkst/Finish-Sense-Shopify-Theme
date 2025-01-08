@@ -574,7 +574,6 @@ function formatDate(isoDate) {
   return `${month}/${day}/${year}`;
 }
 function fileType(ext) {
-  console.log('Ext', ext);
   switch (ext) {
     case '.pdf':
       return 'fa-file-pdf-o';
@@ -606,6 +605,76 @@ function fileType(ext) {
   }
 }
 
+function getCat1(cat, name) {
+  const data = cat?.map((category) => category?.attributes?.Name);
+  const index = data[0];
+  if (index === name) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function getCat2(cat, name) {
+  console.log('==========', name);
+
+  // Ensure `cat` is an array before calling map
+  if (!Array.isArray(cat)) {
+    console.error('Error: cat is not an array or is undefined');
+    return false;
+  }
+
+  const data = cat.map((category) => category?.attributes?.Name);
+
+  // Check if `data` is not empty before accessing the first element
+  const index = data?.[0];
+  if (index === name) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function getCat3(cat, name) {
+  console.log('==========', name);
+
+  // Ensure `cat` is an array before calling map
+  if (!Array.isArray(cat)) {
+    console.error('Error: cat is not an array or is undefined');
+    return false;
+  }
+
+  const data = cat.map((category) => category?.attributes?.Name);
+
+  // Check if `data` is not empty before accessing the first element
+  const index = data?.[0];
+  if (index === name) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function getCat4(cat, name) {
+  console.log('==========', name);
+
+  // Ensure `cat` is an array before calling map
+  if (!Array.isArray(cat)) {
+    console.error('Error: cat is not an array or is undefined');
+    return false;
+  }
+
+  const data = cat.map((category) => category?.attributes?.Name);
+
+  // Check if `data` is not empty before accessing the first element
+  const index = data?.[0];
+  if (index === name) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 $(document).ready(function () {
   // Show loading initially
   let loading = true;
@@ -616,11 +685,11 @@ $(document).ready(function () {
 
   const urls = [
     `${baseUrl}/api/categories?populate[resources][populate]=*`,
-    `${baseUrl}/api/category-1s?populate[resources][populate]=*`,
-    `${baseUrl}/api/category-2s?populate[resources][populate]=*`,
-    `${baseUrl}/api/category-3s?populate[resources][populate]=*`,
-    `${baseUrl}/api/category-4s?populate[resources][populate]=*`,
-    `${baseUrl}/api/category-5s?populate[resources][populate]=*`,
+    `${baseUrl}/api/category-1s?populate[resources][populate]=*&populate[categories]=*`,
+    `${baseUrl}/api/category-2s?populate[resources][populate]=*&populate[category_1s]=*`,
+    `${baseUrl}/api/category-3s?populate[resources][populate]=*&populate[category_2s]=*`,
+    `${baseUrl}/api/category-4s?populate[resources][populate]=*&populate[category_3s]=*`,
+    `${baseUrl}/api/category-5s?populate[resources][populate]=*&populate[category_4s]=*`,
     // Add more URLs as needed
   ];
 
@@ -705,9 +774,11 @@ $(document).ready(function () {
                           .join('')}
                            <div class="inner-accordion">
                            ${category1s
-                             .map((product) => {
+                             .map((cat1) => {
                                return `
-                              <div class="inner-accordion-item">
+                               ${
+                                 getCat1(cat1?.attributes?.categories?.data, product?.attributes?.Name)
+                                   ? `<div class="inner-accordion-item">
                                  <div class="inner-accordion-header" onclick="showSubFolder(this)">
                                     <ul>
                                        <li class="product">
@@ -716,19 +787,19 @@ $(document).ready(function () {
                                                 <i class='fa fa-folder'></i>
                                              </div>
                                              <div class="text">
-                                                <p>${product?.attributes?.Name}</p>
+                                                <p>${cat1?.attributes?.Name}</p>
                                              </div>
                                           </div>
                                        </li>
                                        <li class="date">
-                                          <b>${formatDate(product?.attributes?.updatedAt)}</b>
+                                          <b>${formatDate(cat1?.attributes?.updatedAt)}</b>
                                           <span>Last Modified</span>
                                        </li>
                                        <li class="date"></li>
                                     </ul>
                                  </div>
                                  <div class="inner-accordion-content">
-                                 ${product?.attributes?.resources?.data
+                                 ${cat1?.attributes?.resources?.data
                                    .map((resource) => {
                                      return `
                                     <ul>
@@ -760,9 +831,12 @@ $(document).ready(function () {
                                    })
                                    .join('')}
                                       ${category2s
-                                        .map((product) => {
+                                        .map((cat2) => {
                                           return `
-                                    <div class="inner-accordion-item">
+                                          ${
+                                            (console.log('cat2===', cat2),
+                                            getCat2(cat2?.attributes?.category_1s?.data, cat1?.attributes?.Name)
+                                              ? `<div class="inner-accordion-item">
                                        <div class="inner-inner-accordion-header">
                                           <ul>
                                              <li class="product">
@@ -771,19 +845,19 @@ $(document).ready(function () {
                                                       <i class='fa fa-folder'></i>
                                                    </div>
                                                    <div class="text">
-                                                      <p>${product?.attributes?.Name}</p>
+                                                      <p>${cat2?.attributes?.Name}</p>
                                                    </div>
                                                 </div>
                                              </li>
                                              <li class="date">
-                                                <b>${formatDate(product?.attributes?.updatedAt)}</b>
+                                                <b>${formatDate(cat2?.attributes?.updatedAt)}</b>
                                                 <span>Last Modified</span>
                                              </li>
                                              <li class="date"></li>
                                           </ul>
                                        </div>
                                        <div class="inner-accordion-content">
-                                                                        ${product?.attributes?.resources?.data
+                                                                        ${cat2?.attributes?.resources?.data
                                                                           .map((resource) => {
                                                                             return `
                                           <ul>
@@ -820,9 +894,13 @@ $(document).ready(function () {
                                                                           .join('')}
                                                                           
                                              ${category3s
-                                               .map((product) => {
+                                               .map((cat3) => {
                                                  return `
-                                          <div class="inner-accordion-item">
+
+                                                  ${
+                                                    (console.log('cat2===', cat3),
+                                                    getCat3(cat3?.attributes?.category_1s?.data, cat2?.attributes?.Name)
+                                                      ? `<div class="inner-accordion-item">
                                              <div class="inner-inner-accordion-header">
                                                 <ul>
                                                    <li class="product">
@@ -831,19 +909,19 @@ $(document).ready(function () {
                                                             <i class='fa fa-folder'></i>
                                                          </div>
                                                          <div class="text">
-                                                            <p>${product?.attributes?.Name}</p>
+                                                            <p>${cat3?.attributes?.Name}</p>
                                                          </div>
                                                       </div>
                                                    </li>
                                                    <li class="date">
-                                                      <b>${formatDate(product?.attributes?.updatedAt)}</b>
+                                                      <b>${formatDate(cat3?.attributes?.updatedAt)}</b>
                                                       <span>Last Modified</span>
                                                    </li>
                                                    <li class="date"></li>
                                                 </ul>
                                              </div>
                                              <div class="inner-accordion-content">
-                                              ${product?.attributes?.resources?.data
+                                              ${cat3?.attributes?.resources?.data
                                                 .map((resource) => {
                                                   return `
                                                 <ul>
@@ -882,9 +960,15 @@ $(document).ready(function () {
                                                 .join('')}
                                                 
                                                     ${category4s
-                                                      .map((product) => {
+                                                      .map((cat4) => {
                                                         return `
-                                                <div class="inner-accordion-item">
+                                                        ${
+                                                          (console.log('cat2===', cat4),
+                                                          getCat4(
+                                                            cat4?.attributes?.category_1s?.data,
+                                                            cat3?.attributes?.Name
+                                                          )
+                                                            ? `<div class="inner-accordion-item">
                                                    <div class="inner-inner-accordion-header">
                                                       <ul>
                                                          <li class="product">
@@ -893,19 +977,19 @@ $(document).ready(function () {
                                                                   <i class='fa fa-folder'></i>
                                                                </div>
                                                                <div class="text">
-                                                                  <p>${product?.attributes?.Name}</p>
+                                                                  <p>${cat4?.attributes?.Name}</p>
                                                                </div>
                                                             </div>
                                                          </li>
                                                          <li class="date">
-                                                            <b>${formatDate(product?.attributes?.updatedAt)}</b>
+                                                            <b>${formatDate(cat4?.attributes?.updatedAt)}</b>
                                                             <span>Last Modified</span>
                                                          </li>
                                                          <li class="date"></li>
                                                       </ul>
                                                    </div>
                                                    <div class="inner-accordion-content">
-                                                    ${product?.attributes?.resources?.data
+                                                    ${cat4?.attributes?.resources?.data
                                                       .map((resource) => {
                                                         return `
                                                       <ul>
@@ -1023,22 +1107,34 @@ $(document).ready(function () {
                                                                                     })
                                                                                     .join('')}
                                                    </div>
-                                                </div>
+                                                </div>`
+                                                            : ``)
+                                                        }
+                                                
                                                 `;
                                                       })
                                                       .join('')}
                                              </div>
-                                          </div>
+                                          </div>`
+                                                      : ``)
+                                                  }
+                                          
                                           `;
                                                })
                                                .join('')}
                                        </div>
-                                    </div>
+                                    </div>`
+                                              : ``)
+                                          }
+                                    
                                     `;
                                         })
                                         .join('')}
                                  </div>
-                              </div>
+                              </div>`
+                                   : ''
+                               }
+                              
                               `;
                              })
                              .join('')}
