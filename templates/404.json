@@ -1,10 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "not-found"
+      "type": "not-found",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero_section_EmFmiz": {
+      "type": "hero-section",
+      "blocks": {
+        "block_UMtJN9": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/pci0819-ABB-Lead-900.jpg",
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_UMtJN9"
+      ],
+      "settings": {}
+    },
+    "how_we_work_QFYXr9": {
+      "type": "how-we-work",
+      "blocks": {
+        "block_kET94e": {
+          "type": "block",
+          "settings": {
+            "process_number": "1",
+            "title": "Feasibility Studies",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_bxmD4i": {
+          "type": "block",
+          "settings": {
+            "process_number": "2",
+            "title": "Project Management",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_xCpUba": {
+          "type": "block",
+          "settings": {
+            "process_number": "3",
+            "title": "Documentation",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_KDm6DX": {
+          "type": "block",
+          "settings": {
+            "process_number": "4",
+            "title": "Problem Solving",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_ECLFn4": {
+          "type": "block",
+          "settings": {
+            "process_number": "5",
+            "title": "Training",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_gJJrMF": {
+          "type": "block",
+          "settings": {
+            "process_number": "6",
+            "title": "Optimization",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        }
+      },
+      "block_order": [
+        "block_kET94e",
+        "block_bxmD4i",
+        "block_xCpUba",
+        "block_KDm6DX",
+        "block_ECLFn4",
+        "block_gJJrMF"
+      ],
+      "settings": {
+        "left_image": "shopify://shop_images/hn-6a.jpg",
+        "expericent_time": "50+",
+        "expericent_text": "Years of Experience",
+        "how_we_work_slug": "",
+        "how_we_work_title": "Consulting Services",
+        "how_we_work_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+        "section_color": "transparent"
+      }
+    },
+    "text_section_WjrYLY": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "",
+        "section_color": "transparent"
+      }
+    },
+    "contact_section_PQL9rQ": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below...",
+        "section_color": "transparent"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_section_EmFmiz",
+    "how_we_work_QFYXr9",
+    "text_section_WjrYLY",
+    "contact_section_PQL9rQ"
   ]
 }
