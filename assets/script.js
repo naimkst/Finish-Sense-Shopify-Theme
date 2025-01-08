@@ -701,7 +701,7 @@ $(document).ready(function () {
   let error = null;
   let productInfo = null;
   // var baseUrl = 'https://finishsense-strapi.devrisen.com';
-  var baseUrl = 'http://localhost:1337';
+  var baseUrl = 'https://api.finishsense.io';
 
   const urls = [
     `${baseUrl}/api/categories?populate[resources][populate]=*`,
