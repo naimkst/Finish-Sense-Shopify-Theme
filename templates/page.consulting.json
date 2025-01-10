@@ -26,13 +26,6 @@
             "content": "Empower your team with the skills they need to operate and maintain your coating systems effectively. Our customized training programs focus on hands-on learning and practical application for maximum impact."
           }
         },
-        "block_m7qXfV": {
-          "type": "block",
-          "settings": {
-            "title": "Documentation",
-            "content": "Clear and comprehensive documentation is key to project success. We provide detailed technical and operational documentation to ensure compliance, facilitate maintenance, and support long-term system reliability."
-          }
-        },
         "block_f6xTQ6": {
           "type": "block",
           "settings": {
@@ -47,11 +40,11 @@
             "content": "Choosing the right materials and equipment is vital for achieving optimal results. We guide you through the selection process, considering factors like application requirements, environmental impact, and cost-efficiency to ensure the best fit for your operations."
           }
         },
-        "block_pMrW8h": {
+        "block_AttUBE": {
           "type": "block",
           "settings": {
-            "title": "Color Matching and Quality Assurance",
-            "content": "Achieve perfect color consistency with our color matching and quality assurance services. We use advanced tools and techniques to ensure your finishes meet exact specifications, enhancing product appeal and reducing rework."
+            "title": "Factory Audits",
+            "content": "Optimize your painting operations with our expert paint shop audits. We evaluate your current processes, equipment, and overall performance to identify inefficiencies and opportunities for improvement. Our detailed audit reports include actionable recommendations to enhance quality, reduce costs, and maximize throughput."
           }
         },
         "block_iAyEaR": {
@@ -61,23 +54,30 @@
             "content": "Reduce unplanned downtime with our preventative maintenance and downtime analysis services. We identify potential failure points, implement preventative measures, and help establish maintenance schedules to keep your operations running smoothly."
           }
         },
-        "block_AttUBE": {
+        "block_pMrW8h": {
           "type": "block",
           "settings": {
-            "title": "Factory Audits",
-            "content": "Optimize your painting operations with our expert paint shop audits. We evaluate your current processes, equipment, and overall performance to identify inefficiencies and opportunities for improvement. Our detailed audit reports include actionable recommendations to enhance quality, reduce costs, and maximize throughput."
+            "title": "Color Matching and Quality Assurance",
+            "content": "Achieve perfect color consistency with our color matching and quality assurance services. We use advanced tools and techniques to ensure your finishes meet exact specifications, enhancing product appeal and reducing rework."
+          }
+        },
+        "block_m7qXfV": {
+          "type": "block",
+          "settings": {
+            "title": "Documentation",
+            "content": "Clear and comprehensive documentation is key to project success. We provide detailed technical and operational documentation to ensure compliance, facilitate maintenance, and support long-term system reliability."
           }
         }
       },
       "block_order": [
         "block_3hDQXV",
         "block_x3XE8L",
-        "block_m7qXfV",
         "block_f6xTQ6",
         "block_XnAFMX",
-        "block_pMrW8h",
+        "block_AttUBE",
         "block_iAyEaR",
-        "block_AttUBE"
+        "block_pMrW8h",
+        "block_m7qXfV"
       ],
       "settings": {
         "title": "Independent Consulting Services",
