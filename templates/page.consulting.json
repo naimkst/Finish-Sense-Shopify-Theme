@@ -88,9 +88,10 @@
     "banner_section_Bkyxci": {
       "type": "banner-section",
       "settings": {
+        "left_image": "shopify://shop_images/Paint-Finishing-3.jpg",
         "title": "Why You Should Choose Us",
         "description": "With FinishSense Consulting Services, you gain a trusted partner dedicated to your success. Let us help you navigate the complexities of robotic integration and achieve exceptional results tailored to your business needs.",
-        "button_text": "Read More",
+        "button_text": "Our Project Procedure",
         "button_Link": "",
         "section_color": "transparent"
       }
