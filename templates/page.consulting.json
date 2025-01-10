@@ -17,8 +17,8 @@
           "settings": {
             "hero_background_image": "shopify://shop_images/pci0819-ABB-Lead-900.jpg",
             "hero_title": "Boost Efficiency and Maximize Profit",
-            "hero_description": "At FinishSense, our consulting services are designed to streamline your operations, reduce waste, and optimize performance. By leveraging our expertise in process analysis, advanced automation technologies, and customized solutions, we help you achieve significant efficiency gains and cost savings. Whether it's enhancing production workflows, minimizing downtime, or improving resource utilization, our goal is to empower your business to operate at peak performance while maximizing profitability. Partner with FinishSense to unlock your full potential and stay ahead in today's competitive market.",
-            "hero_button_text": "Start Your Project",
+            "hero_description": "By leveraging our expertise in process analysis, advanced automation technologies, and customized solutions, we help you achieve significant efficiency gains and cost savings.",
+            "hero_button_text": "",
             "hero_button_Link": ""
           }
         }
