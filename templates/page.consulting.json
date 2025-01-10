@@ -15,15 +15,15 @@
         "block_3hDQXV": {
           "type": "block",
           "settings": {
-            "title": "Job Portal",
-            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+            "title": "Process Optimization",
+            "content": "Unlock the full potential of your operations with our process optimization services. We analyze your workflows and identify opportunities to enhance efficiency, reduce waste, and improve overall productivity."
           }
         },
         "block_x3XE8L": {
           "type": "block",
           "settings": {
-            "title": "Job Portal",
-            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+            "title": "Training",
+            "content": "Empower your team with the skills they need to operate and maintain your coating systems effectively. Our customized training programs focus on hands-on learning and practical application for maximum impact."
           }
         },
         "block_m7qXfV": {
@@ -40,10 +40,31 @@
             "content": "We ensure your project stays on track, on budget, and aligned with your goals. Our project management experts coordinate timelines, resources, and communication to ensure a smooth and efficient implementation process."
           }
         },
+        "block_XnAFMX": {
+          "type": "block",
+          "settings": {
+            "title": "Material and Equipment Selection",
+            "content": "Choosing the right materials and equipment is vital for achieving optimal results. We guide you through the selection process, considering factors like application requirements, environmental impact, and cost-efficiency to ensure the best fit for your operations."
+          }
+        },
+        "block_pMrW8h": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
+        "block_iAyEaR": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
         "block_AttUBE": {
           "type": "block",
           "settings": {
-            "title": "Paint Shop Audits",
+            "title": "Factory Audits",
             "content": "Optimize your painting operations with our expert paint shop audits. We evaluate your current processes, equipment, and overall performance to identify inefficiencies and opportunities for improvement. Our detailed audit reports include actionable recommendations to enhance quality, reduce costs, and maximize throughput."
           }
         }
@@ -53,6 +74,9 @@
         "block_x3XE8L",
         "block_m7qXfV",
         "block_f6xTQ6",
+        "block_XnAFMX",
+        "block_pMrW8h",
+        "block_iAyEaR",
         "block_AttUBE"
       ],
       "settings": {
