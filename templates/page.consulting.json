@@ -39,13 +39,21 @@
             "title": "Project Management",
             "content": "We ensure your project stays on track, on budget, and aligned with your goals. Our project management experts coordinate timelines, resources, and communication to ensure a smooth and efficient implementation process."
           }
+        },
+        "block_AttUBE": {
+          "type": "block",
+          "settings": {
+            "title": "Paint Shop Audits",
+            "content": "Optimize your painting operations with our expert paint shop audits. We evaluate your current processes, equipment, and overall performance to identify inefficiencies and opportunities for improvement. Our detailed audit reports include actionable recommendations to enhance quality, reduce costs, and maximize throughput."
+          }
         }
       },
       "block_order": [
         "block_3hDQXV",
         "block_x3XE8L",
         "block_m7qXfV",
-        "block_f6xTQ6"
+        "block_f6xTQ6",
+        "block_AttUBE"
       ],
       "settings": {
         "title": "Consulting Services",
