@@ -95,14 +95,6 @@
             "content": "Enhance material flow with expertly installed paint kitchens and circulation systems. Our team ensures these systems deliver consistent material supply for high-quality finishes, reduced waste, and efficient operation."
           }
         },
-        "block_Dw67iw": {
-          "type": "block",
-          "settings": {
-            "process_number": "01",
-            "title": "Apply for the Jobs",
-            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
-          }
-        },
         "block_3Vp4k9": {
           "type": "block",
           "settings": {
@@ -120,7 +112,6 @@
         "block_MAGnXb",
         "block_hfAVij",
         "block_Uagqb7",
-        "block_Dw67iw",
         "block_3Vp4k9"
       ],
       "settings": {
