@@ -36,14 +36,6 @@
         "section_color": "transparent"
       }
     },
-    "breadcrumbs_rQcJta": {
-      "type": "breadcrumbs",
-      "settings": {
-        "section_title": "Installation and Commissioning",
-        "section_description": "<p>At FinishSense, we provide comprehensive installation and commissioning services to ensure your systems are implemented with precision and efficiency. With our expertise and attention to detail, we ensure that every component of your operation is installed, tested, and optimized for peak performance. From initial setup to final calibration, our team is dedicated to delivering solutions that integrate seamlessly into your production process and meet your operational goals.</p><p></p>",
-        "section_color": "rgba(0,0,0,0)"
-      }
-    },
     "how_we_work_grf8hw": {
       "type": "how-we-work",
       "blocks": {
@@ -165,7 +157,6 @@
   "order": [
     "hero_section_nweCQG",
     "what_we_do_CmEDt7",
-    "breadcrumbs_rQcJta",
     "how_we_work_grf8hw",
     "banner_section_Bkyxci",
     "blog_section_8X6Gqb",
