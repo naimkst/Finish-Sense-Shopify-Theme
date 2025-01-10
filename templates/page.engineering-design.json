@@ -34,57 +34,29 @@
         "block_3hDQXV": {
           "type": "block",
           "settings": {
-            "title": "Process Optimization",
-            "content": "Unlock the full potential of your operations with our process optimization services. We analyze your workflows and identify opportunities to enhance efficiency, reduce waste, and improve overall productivity."
+            "title": "3D Simulations",
+            "content": "Using advanced 3D modeling and simulation software, we provide a visual and functional representation of your system before implementation. This approach minimizes risks, optimizes performance, and ensures the design meets your expectations."
           }
         },
         "block_x3XE8L": {
           "type": "block",
           "settings": {
-            "title": "Training",
-            "content": "Empower your team with the skills they need to operate and maintain your coating systems effectively. Our customized training programs focus on hands-on learning and practical application for maximum impact."
+            "title": "System Design",
+            "content": "We design tailored systems that align with your specific requirements, considering factors such as throughput, application precision, material compatibility, and space constraints. Our goal is to deliver solutions that integrate seamlessly into your production environment."
           }
         },
         "block_f6xTQ6": {
           "type": "block",
           "settings": {
-            "title": "Project Management",
-            "content": "We ensure your project stays on track, on budget, and aligned with your goals. Our project management experts coordinate timelines, resources, and communication to ensure a smooth and efficient implementation process."
+            "title": "Process Engineering",
+            "content": "We analyze and refine your painting and coating processes to achieve peak efficiency. From spray patterns to curing cycles, we engineer solutions that reduce waste, improve quality, and maximize productivity."
           }
         },
         "block_XnAFMX": {
           "type": "block",
           "settings": {
-            "title": "Material and Equipment Selection",
-            "content": "Choosing the right materials and equipment is vital for achieving optimal results. We guide you through the selection process, considering factors like application requirements, environmental impact, and cost-efficiency to ensure the best fit for your operations."
-          }
-        },
-        "block_AttUBE": {
-          "type": "block",
-          "settings": {
-            "title": "Factory Audits",
-            "content": "Optimize your painting operations with our expert paint shop audits. We evaluate your current processes, equipment, and overall performance to identify inefficiencies and opportunities for improvement. Our detailed audit reports include actionable recommendations to enhance quality, reduce costs, and maximize throughput."
-          }
-        },
-        "block_iAyEaR": {
-          "type": "block",
-          "settings": {
-            "title": "Downtime Analysis and Preventative Maintenance",
-            "content": "Reduce unplanned downtime with our preventative maintenance and downtime analysis services. We identify potential failure points, implement preventative measures, and help establish maintenance schedules to keep your operations running smoothly."
-          }
-        },
-        "block_pMrW8h": {
-          "type": "block",
-          "settings": {
-            "title": "Color Matching and Quality Assurance",
-            "content": "Achieve perfect color consistency with our color matching and quality assurance services. We use advanced tools and techniques to ensure your finishes meet exact specifications, enhancing product appeal and reducing rework."
-          }
-        },
-        "block_m7qXfV": {
-          "type": "block",
-          "settings": {
-            "title": "Documentation",
-            "content": "Clear and comprehensive documentation is key to project success. We provide detailed technical and operational documentation to ensure compliance, facilitate maintenance, and support long-term system reliability."
+            "title": "Prototyping",
+            "content": "We bring concepts to life through prototyping and thorough testing, ensuring your systems meet performance expectations before full-scale implementation."
           }
         }
       },
@@ -92,16 +64,12 @@
         "block_3hDQXV",
         "block_x3XE8L",
         "block_f6xTQ6",
-        "block_XnAFMX",
-        "block_AttUBE",
-        "block_iAyEaR",
-        "block_pMrW8h",
-        "block_m7qXfV"
+        "block_XnAFMX"
       ],
       "settings": {
-        "title": "Independent Consulting Services",
-        "description": "At FinishSense, our consulting services are designed to provide unparalleled support at every stage of your robotic integration journey. We understand that each project is unique, and our team of experts is committed to delivering solutions tailored to your specific needs. By combining technical expertise with industry best practices, we help clients overcome challenges, optimize processes, and achieve operational excellence. Whether you're planning a new project, seeking to enhance existing systems, or looking to train your team, FinishSense offers a comprehensive suite of services to guide you every step of the way.",
-        "section_color": "transparent"
+        "title": "Engineering and Design Services",
+        "description": "At FinishSense, we understand that success in today’s competitive manufacturing environment depends on precision, innovation, and efficiency. That’s why our engineering and design services are tailored to deliver solutions that meet the unique demands of your painting and coating operations. From concept to implementation, we leverage our deep expertise and cutting-edge technology to design systems that enhance productivity, reduce waste, and improve overall performance.Our team of highly skilled engineers collaborates with you to understand your specific challenges and goals. Whether you’re launching a new production line, integrating advanced robotics, or optimizing an existing process, we bring a fresh perspective and unparalleled technical knowledge to every project. By blending innovative design with proven methodologies, we ensure your operation is equipped with the tools it needs to thrive.At FinishSense, engineering and design are more than just services—they’re a partnership. We work closely with you to deliver systems that not only meet your requirements but also exceed your expectations. With a focus on quality, sustainability, and long-term success, we’re here to transform your vision into reality.",
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "banner_section_Bkyxci": {
@@ -112,7 +80,7 @@
         "description": "With FinishSense Consulting Services, you gain a trusted partner dedicated to your success. Let us help you navigate the complexities of robotic integration and achieve exceptional results tailored to your business needs.",
         "button_text": "Our Project Procedure",
         "button_Link": "",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "blog_section_8X6Gqb": {
@@ -120,7 +88,7 @@
       "settings": {
         "section_title": "Latest Blogs",
         "section_description": "Our latest Blogs/News",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "contact_section_VHfYB4": {
@@ -130,7 +98,7 @@
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below...",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     }
   },
