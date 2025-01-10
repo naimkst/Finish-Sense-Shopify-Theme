@@ -12,20 +12,51 @@
     "what_we_do_ebbCC4": {
       "type": "what-we-do",
       "blocks": {
-        "block_f6xTQ6": {
+        "block_3hDQXV": {
           "type": "block",
           "settings": {
             "title": "Job Portal",
             "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
           }
+        },
+        "block_x3XE8L": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
+        "block_m7qXfV": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        },
+        "block_f6xTQ6": {
+          "type": "block",
+          "settings": {
+            "title": "Project Management",
+            "content": "We ensure your project stays on track, on budget, and aligned with your goals. Our project management experts coordinate timelines, resources, and communication to ensure a smooth and efficient implementation process."
+          }
         }
       },
       "block_order": [
+        "block_3hDQXV",
+        "block_x3XE8L",
+        "block_m7qXfV",
         "block_f6xTQ6"
       ],
       "settings": {
-        "title": "Consulting",
-        "description": "Best Exhibition Stall Designers in India, Europe and Poland",
+        "title": "Consulting Services",
+        "description": "At FinishSense, our consulting services are designed to provide unparalleled support at every stage of your robotic integration journey. We understand that each project is unique, and our team of experts is committed to delivering solutions tailored to your specific needs. By combining technical expertise with industry best practices, we help clients overcome challenges, optimize processes, and achieve operational excellence. Whether you're planning a new project, seeking to enhance existing systems, or looking to train your team, FinishSense offers a comprehensive suite of services to guide you every step of the way.",
+        "section_color": "transparent"
+      }
+    },
+    "text_section_TFe8Tx": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<p>With FinishSense Consulting Services, you gain a trusted partner dedicated to your success. Let us help you navigate the complexities of robotic integration and achieve exceptional results tailored to your business needs.</p>",
         "section_color": "transparent"
       }
     },
@@ -44,13 +75,6 @@
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below...",
-        "section_color": "transparent"
-      }
-    },
-    "text_section_TFe8Tx": {
-      "type": "text-section",
-      "settings": {
-        "text_block": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>",
         "section_color": "transparent"
       }
     }
