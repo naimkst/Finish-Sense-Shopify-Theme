@@ -28,48 +28,37 @@
       ],
       "settings": {}
     },
-    "what_we_do_ebbCC4": {
-      "type": "what-we-do",
+    "breadcrumbs_rQcJta": {
+      "type": "breadcrumbs",
+      "settings": {
+        "section_title": "Installation and Commissioning",
+        "section_description": "<p>At FinishSense, we provide comprehensive installation and commissioning services to ensure your systems are implemented with precision and efficiency. With our expertise and attention to detail, we ensure that every component of your operation is installed, tested, and optimized for peak performance. From initial setup to final calibration, our team is dedicated to delivering solutions that integrate seamlessly into your production process and meet your operational goals.</p><p></p>",
+        "section_color": "transparent"
+      }
+    },
+    "how_we_work_grf8hw": {
+      "type": "how-we-work",
       "blocks": {
-        "block_3hDQXV": {
+        "block_3Vp4k9": {
           "type": "block",
           "settings": {
-            "title": "3D Simulations",
-            "content": "Using advanced 3D modeling and simulation software, we provide a visual and functional representation of your system before implementation. This approach minimizes risks, optimizes performance, and ensures the design meets your expectations."
-          }
-        },
-        "block_x3XE8L": {
-          "type": "block",
-          "settings": {
-            "title": "System Design",
-            "content": "We design tailored systems that align with your specific requirements, considering factors such as throughput, application precision, material compatibility, and space constraints. Our goal is to deliver solutions that integrate seamlessly into your production environment."
-          }
-        },
-        "block_f6xTQ6": {
-          "type": "block",
-          "settings": {
-            "title": "Process Engineering",
-            "content": "We analyze and refine your painting and coating processes to achieve peak efficiency. From spray patterns to curing cycles, we engineer solutions that reduce waste, improve quality, and maximize productivity."
-          }
-        },
-        "block_XnAFMX": {
-          "type": "block",
-          "settings": {
-            "title": "Prototyping",
-            "content": "We bring concepts to life through prototyping and thorough testing, ensuring your systems meet performance expectations before full-scale implementation."
+            "process_number": "+",
+            "title": "Spray Booths",
+            "content": "Ensure consistent and high-quality finishes with properly installed spray booths designed for performance and compliance."
           }
         }
       },
       "block_order": [
-        "block_3hDQXV",
-        "block_x3XE8L",
-        "block_f6xTQ6",
-        "block_XnAFMX"
+        "block_3Vp4k9"
       ],
       "settings": {
-        "title": "Engineering and Design Services",
-        "description": "At FinishSense, we understand that success in today’s competitive manufacturing environment depends on precision, innovation, and efficiency. That’s why our engineering and design services are tailored to deliver solutions that meet the unique demands of your painting and coating operations. From concept to implementation, we leverage our deep expertise and cutting-edge technology to design systems that enhance productivity, reduce waste, and improve overall performance.Our team of highly skilled engineers collaborates with you to understand your specific challenges and goals. Whether you’re launching a new production line, integrating advanced robotics, or optimizing an existing process, we bring a fresh perspective and unparalleled technical knowledge to every project. By blending innovative design with proven methodologies, we ensure your operation is equipped with the tools it needs to thrive.At FinishSense, engineering and design are more than just services—they’re a partnership. We work closely with you to deliver systems that not only meet your requirements but also exceed your expectations. With a focus on quality, sustainability, and long-term success, we’re here to transform your vision into reality.",
-        "section_color": "rgba(0,0,0,0)"
+        "left_image": "shopify://shop_images/csm_duerr-hao_5bb5b0da22.jpg",
+        "expericent_time": "25+",
+        "expericent_text": "Year of Experience",
+        "how_we_work_slug": "",
+        "how_we_work_title": "Our Capabilities",
+        "how_we_work_content": "Our installation and commissioning services are guided by industry best practices and a commitment to excellence. We ensure every system is installed safely, operates efficiently, and integrates seamlessly with your existing processes. With FinishSense as your partner, you gain access to expert support, minimized downtime, and peace of mind knowing your systems are ready to deliver outstanding performance from day one.",
+        "section_color": "transparent"
       }
     },
     "banner_section_Bkyxci": {
@@ -77,7 +66,7 @@
       "settings": {
         "left_image": "shopify://shop_images/Paint-Finishing-3.jpg",
         "title": "Why You Should Choose Us",
-        "description": "With FinishSense Engineering and Design Services, you gain a trusted partner dedicated to your success. Let us help you navigate the complexities of robotic integration and achieve exceptional results tailored to your business needs.",
+        "description": "With FinishSense Installation and Commissioning Services, you gain a trusted partner dedicated to your success. Let us help you navigate the complexities of robotic integration and achieve exceptional results tailored to your business needs.",
         "button_text": "Our Project Procedure",
         "button_Link": "",
         "section_color": "rgba(0,0,0,0)"
@@ -104,7 +93,8 @@
   },
   "order": [
     "hero_section_nweCQG",
-    "what_we_do_ebbCC4",
+    "breadcrumbs_rQcJta",
+    "how_we_work_grf8hw",
     "banner_section_Bkyxci",
     "blog_section_8X6Gqb",
     "contact_section_VHfYB4"
