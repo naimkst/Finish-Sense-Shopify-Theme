@@ -88,7 +88,7 @@
             "background_image": "shopify://shop_images/lackierroboter-von-duerr.jpg",
             "title": "Installation and Commissioning",
             "button_text": "Learn More",
-            "button_Link": "shopify://pages/programming"
+            "button_Link": "shopify://pages/installation"
           }
         },
         "block_zbrg9a": {
@@ -273,7 +273,7 @@
         "description": "At FinishSense, we combine expertise, innovation, and a customer-centric approach to deliver tailored robotic solutions that optimize your operations. With a commitment to quality, brand-agnostic technology selection, and end-to-end support, we are your trusted partner for precision and performance.",
         "button_text": "Read More",
         "button_Link": "shopify://pages/company",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "blog_section_tw4eb4": {
