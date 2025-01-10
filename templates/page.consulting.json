@@ -9,34 +9,23 @@
  */
 {
   "sections": {
-    "single_hero_nd4fTJ": {
-      "type": "single-hero",
+    "what_we_do_ebbCC4": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_f6xTQ6": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        }
+      },
+      "block_order": [
+        "block_f6xTQ6"
+      ],
       "settings": {
-        "background_image": "shopify://shop_images/pci0819-ABB-Lead-900.jpg",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
-        "button_link": ""
-      }
-    },
-    "banner_section_phhdAf": {
-      "type": "banner-section",
-      "settings": {
-        "left_image": "shopify://shop_images/pci0819-ABB-Lead-900.jpg",
-        "baner_icon": "shopify://shop_images/Paint-Finishing-3.jpg",
-        "title": "Few Reasons Why You Should Choose Us",
-        "description": "In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and  offering you Exclusive Range of Exhibition Stall and  Stand Design in India, Poland, Germany and Europe.",
-        "button_text": "Read More",
-        "button_Link": "",
-        "section_color": "transparent"
-      }
-    },
-    "about_section_JxD3X7": {
-      "type": "about-section",
-      "settings": {
-        "about_title": "Design, Create and Build bespoke Exhibition Stall",
-        "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>",
-        "about_button_text": "Learn More",
-        "about_button_url": "",
+        "title": "Consulting",
+        "description": "Best Exhibition Stall Designers in India, Europe and Poland",
         "section_color": "transparent"
       }
     },
@@ -57,12 +46,18 @@
         "form_title": "Complete the form below...",
         "section_color": "transparent"
       }
+    },
+    "text_section_TFe8Tx": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>",
+        "section_color": "transparent"
+      }
     }
   },
   "order": [
-    "single_hero_nd4fTJ",
-    "banner_section_phhdAf",
-    "about_section_JxD3X7",
+    "what_we_do_ebbCC4",
+    "text_section_TFe8Tx",
     "blog_section_8X6Gqb",
     "contact_section_VHfYB4"
   ]
