@@ -28,12 +28,20 @@
       ],
       "settings": {}
     },
+    "what_we_do_CmEDt7": {
+      "type": "what-we-do",
+      "settings": {
+        "title": "Installation and Commissioning",
+        "description": "At FinishSense, we provide comprehensive installation and commissioning services to ensure your systems are implemented with precision and efficiency. With our expertise and attention to detail, we ensure that every component of your operation is installed, tested, and optimized for peak performance. From initial setup to final calibration, our team is dedicated to delivering solutions that integrate seamlessly into your production process and meet your operational goals.",
+        "section_color": "transparent"
+      }
+    },
     "breadcrumbs_rQcJta": {
       "type": "breadcrumbs",
       "settings": {
         "section_title": "Installation and Commissioning",
         "section_description": "<p>At FinishSense, we provide comprehensive installation and commissioning services to ensure your systems are implemented with precision and efficiency. With our expertise and attention to detail, we ensure that every component of your operation is installed, tested, and optimized for peak performance. From initial setup to final calibration, our team is dedicated to delivering solutions that integrate seamlessly into your production process and meet your operational goals.</p><p></p>",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "how_we_work_grf8hw": {
@@ -121,7 +129,7 @@
         "how_we_work_slug": "",
         "how_we_work_title": "Our Capabilities",
         "how_we_work_content": "Our installation and commissioning services are guided by industry best practices and a commitment to excellence. We ensure every system is installed safely, operates efficiently, and integrates seamlessly with your existing processes. With FinishSense as your partner, you gain access to expert support, minimized downtime, and peace of mind knowing your systems are ready to deliver outstanding performance from day one.",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "banner_section_Bkyxci": {
@@ -156,6 +164,7 @@
   },
   "order": [
     "hero_section_nweCQG",
+    "what_we_do_CmEDt7",
     "breadcrumbs_rQcJta",
     "how_we_work_grf8hw",
     "banner_section_Bkyxci",
