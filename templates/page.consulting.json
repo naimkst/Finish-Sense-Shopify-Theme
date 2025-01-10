@@ -9,6 +9,25 @@
  */
 {
   "sections": {
+    "hero_section_nweCQG": {
+      "type": "hero-section",
+      "blocks": {
+        "block_qkKFra": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/pci0819-ABB-Lead-900.jpg",
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_qkKFra"
+      ],
+      "settings": {}
+    },
     "what_we_do_ebbCC4": {
       "type": "what-we-do",
       "blocks": {
@@ -116,6 +135,7 @@
     }
   },
   "order": [
+    "hero_section_nweCQG",
     "what_we_do_ebbCC4",
     "banner_section_Bkyxci",
     "blog_section_8X6Gqb",
