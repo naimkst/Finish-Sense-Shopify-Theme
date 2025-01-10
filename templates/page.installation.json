@@ -63,6 +63,14 @@
             "content": "Achieve precise curing with ovens installed and calibrated to meet your specific coating requirements."
           }
         },
+        "block_JnLGgP": {
+          "type": "block",
+          "settings": {
+            "process_number": "+",
+            "title": "Conveyors",
+            "content": "Streamline material flow with custom-installed conveyor systems designed for smooth operation and maximum efficiency."
+          }
+        },
         "block_MAGnXb": {
           "type": "block",
           "settings": {
@@ -108,6 +116,7 @@
         "block_qgegMn",
         "block_K6PwYM",
         "block_pcdBAM",
+        "block_JnLGgP",
         "block_MAGnXb",
         "block_hfAVij",
         "block_Uagqb7",
