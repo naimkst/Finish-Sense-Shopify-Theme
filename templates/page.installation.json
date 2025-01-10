@@ -39,6 +39,62 @@
     "how_we_work_grf8hw": {
       "type": "how-we-work",
       "blocks": {
+        "block_qgegMn": {
+          "type": "block",
+          "settings": {
+            "process_number": "+",
+            "title": "Powder Booths",
+            "content": "Optimize your powder coating processes with expert installation of powder booths for even application and minimal waste."
+          }
+        },
+        "block_K6PwYM": {
+          "type": "block",
+          "settings": {
+            "process_number": "+",
+            "title": "Blast Booths",
+            "content": "Create efficient surface preparation setups with blast booths that are built for durability and superior performance."
+          }
+        },
+        "block_pcdBAM": {
+          "type": "block",
+          "settings": {
+            "process_number": "+",
+            "title": "Ovens",
+            "content": "Achieve precise curing with ovens installed and calibrated to meet your specific coating requirements."
+          }
+        },
+        "block_MAGnXb": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_hfAVij": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_Uagqb7": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
+        "block_Dw67iw": {
+          "type": "block",
+          "settings": {
+            "process_number": "01",
+            "title": "Apply for the Jobs",
+            "content": "Integer pharetra lectus eget dui porttitor mattis. Etiam ut ante vestibulum nisl hendrerit gravida."
+          }
+        },
         "block_3Vp4k9": {
           "type": "block",
           "settings": {
@@ -49,6 +105,13 @@
         }
       },
       "block_order": [
+        "block_qgegMn",
+        "block_K6PwYM",
+        "block_pcdBAM",
+        "block_MAGnXb",
+        "block_hfAVij",
+        "block_Uagqb7",
+        "block_Dw67iw",
         "block_3Vp4k9"
       ],
       "settings": {
