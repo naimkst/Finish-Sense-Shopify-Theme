@@ -66,6 +66,7 @@
         "block_AttUBE": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/audit.svg",
             "title": "Factory Audits",
             "content": "Optimize your painting operations with our expert paint shop audits. We evaluate your current processes, equipment, and overall performance to identify inefficiencies and opportunities for improvement. Our detailed audit reports include actionable recommendations to enhance quality, reduce costs, and maximize throughput."
           }
@@ -73,6 +74,7 @@
         "block_iAyEaR": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/downtime.svg",
             "title": "Downtime Analysis and Preventative Maintenance",
             "content": "Reduce unplanned downtime with our preventative maintenance and downtime analysis services. We identify potential failure points, implement preventative measures, and help establish maintenance schedules to keep your operations running smoothly."
           }
@@ -80,6 +82,7 @@
         "block_pMrW8h": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/quality.svg",
             "title": "Color Matching and Quality Assurance",
             "content": "Achieve perfect color consistency with our color matching and quality assurance services. We use advanced tools and techniques to ensure your finishes meet exact specifications, enhancing product appeal and reducing rework."
           }
@@ -87,6 +90,7 @@
         "block_m7qXfV": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/documentation.svg",
             "title": "Documentation",
             "content": "Clear and comprehensive documentation is key to project success. We provide detailed technical and operational documentation to ensure compliance, facilitate maintenance, and support long-term system reliability."
           }
