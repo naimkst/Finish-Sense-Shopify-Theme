@@ -1,16 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "text_section_YrnbQR": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<p>Welcome to our Resources Page, your go-to destination for valuable insights, guides, and tools to empower your robotic integration journey. Whether you're seeking industry trends, best practices, or technical know-how, our curated collection of resources will provide the knowledge and support you need to succeed.</p><p>From whitepapers and case studies to video tutorials and FAQs, our Resources Page will offer a wealth of information to help you make informed decisions and optimize your operations. Whether you're a seasoned professional or new to robotic integration, our goal is to provide valuable resources that inspire innovation and drive success.</p><p><strong>Check back soon for updates and get ready to elevate your expertise with FinishSense.</strong></p>",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
     "resources_manager_yHmfCU": {
       "type": "resources-manager",
       "settings": {
         "title": "Resources"
-      }
-    },
-    "text_section_YrnbQR": {
-      "type": "text-section",
-      "settings": {
-        "text_block": "<p>Welcome to our Resources Page, your go-to destination for valuable insights, guides, and tools to empower your robotic integration journey. Whether you're seeking industry trends, best practices, or technical know-how, our curated collection of resources will provide the knowledge and support you need to succeed.<\/p><p>From whitepapers and case studies to video tutorials and FAQs, our Resources Page will offer a wealth of information to help you make informed decisions and optimize your operations. Whether you're a seasoned professional or new to robotic integration, our goal is to provide valuable resources that inspire innovation and drive success.<\/p><p><strong>Check back soon for updates and get ready to elevate your expertise with FinishSense.<\/strong><\/p>",
-        "section_color": "rgba(0,0,0,0)"
       }
     },
     "main": {
@@ -23,7 +32,7 @@
       "disabled": true,
       "settings": {
         "section_title": "Coming Soon!",
-        "section_description": "<p>Stay tuned for the launch of our Resources Page, your go-to destination for valuable insights, guides, and tools to empower your robotic integration journey. Whether you're seeking industry trends, best practices, or technical know-how, our curated collection of resources will provide the knowledge and support you need to succeed.<\/p><p>From whitepapers and case studies to video tutorials and FAQs, our Resources Page will offer a wealth of information to help you make informed decisions and optimize your operations. Whether you're a seasoned professional or new to robotic integration, our goal is to provide valuable resources that inspire innovation and drive success.<\/p><p>Check back soon for updates and get ready to elevate your expertise with FinishSense.<\/p>",
+        "section_description": "<p>Stay tuned for the launch of our Resources Page, your go-to destination for valuable insights, guides, and tools to empower your robotic integration journey. Whether you're seeking industry trends, best practices, or technical know-how, our curated collection of resources will provide the knowledge and support you need to succeed.</p><p>From whitepapers and case studies to video tutorials and FAQs, our Resources Page will offer a wealth of information to help you make informed decisions and optimize your operations. Whether you're a seasoned professional or new to robotic integration, our goal is to provide valuable resources that inspire innovation and drive success.</p><p>Check back soon for updates and get ready to elevate your expertise with FinishSense.</p>",
         "section_color": "rgba(0,0,0,0)"
       }
     },
@@ -39,8 +48,8 @@
     }
   },
   "order": [
-    "resources_manager_yHmfCU",
     "text_section_YrnbQR",
+    "resources_manager_yHmfCU",
     "main",
     "breadcrumbs_rNL8WW",
     "contact_section_9iin6V"
