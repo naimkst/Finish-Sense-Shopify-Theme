@@ -29,15 +29,6 @@
               "email": "sales@finishsense.io"
             }
           },
-          "block_Aa9tw4": {
-            "type": "block",
-            "settings": {
-              "address_name": "CANADA",
-              "address": "Ontario",
-              "phone": "+1 705 876-9808",
-              "email": "engineering@finishsense.io"
-            }
-          },
           "footer_menu_KAxqrd": {
             "type": "footer_menu",
             "settings": {
@@ -62,7 +53,6 @@
         },
         "block_order": [
           "block_rm3VnJ",
-          "block_Aa9tw4",
           "footer_menu_KAxqrd",
           "footer_menu_GdXKUY",
           "footer_menu_9dGcGe"
