@@ -9,222 +9,41 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "single-hero",
-      "settings": {
-        "background_image": "shopify://shop_images/hero.jpg",
-        "section_title": "We’re looking for talented industry experts.",
-        "button_text": "Current Openings",
-        "button_link": ""
-      }
+    "hero_section_8xapJH": {
+      "type": "hero-section",
+      "blocks": {
+        "block_NhBYGp": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/simatic-hmi-operator-control-monitoring.jpg",
+            "hero_title": "Design. Create. and Build.",
+            "hero_description": "Aliquam quam quis massa urna, venenatis sollicitudin lorem risus sociis tortor euismod facilisi sit vulputate",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_NhBYGp"
+      ],
+      "settings": {}
     },
     "about_section_JxD3X7": {
       "type": "about-section",
       "settings": {
-        "about_image": "shopify://shop_images/logo-2_91938a10-6af5-45e4-998a-9628d976453e.png",
         "about_title": "Design, Create and Build bespoke Exhibition Stall",
         "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>",
         "about_button_text": "Learn More",
-        "about_button_url": ""
+        "about_button_url": "",
+        "section_color": "transparent"
       }
-    },
-    "service_aria_YD8jfD": {
-      "type": "service-aria",
-      "blocks": {
-        "block_TGi3tN": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-1.jpg",
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_atdkKd": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-3.jpg",
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_YtGKyJ": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-2.jpg",
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_gdNDq8": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-4.jpg",
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        }
-      },
-      "block_order": [
-        "block_TGi3tN",
-        "block_atdkKd",
-        "block_YtGKyJ",
-        "block_gdNDq8"
-      ],
-      "settings": {
-        "section_title": "What We Do",
-        "section_description": "Best Exhibition Stall Designers in India, Europe and Poland"
-      }
-    },
-    "project_aria_bjakr6": {
-      "type": "project-aria",
-      "blocks": {
-        "block_HfpHVM": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-1_448ba710-1886-4a7d-81f8-21642f10250c.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany </p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_fqha4y": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-2_76c97cf7-626d-45ca-8d4f-70cecdd1b6c6.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany </p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
-        "block_y9LqMi": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-3_368beb93-4b2a-433d-960c-094da00c2203.jpg",
-            "title": "Engineering & Design",
-            "description": "<p>Exhibition:  Dusseldorf, Germany </p>",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        }
-      },
-      "block_order": [
-        "block_HfpHVM",
-        "block_fqha4y",
-        "block_y9LqMi"
-      ],
-      "settings": {
-        "section_title": "Our Work",
-        "section_description": "We are specialists in multi-use, sustainable exhibition stands and event environments."
-      }
-    },
-    "testimonial_section_JWbMUp": {
-      "type": "testimonial-section",
-      "blocks": {
-        "block_qxHPQa": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-3_ca419631-6018-42f9-a41f-70556d4b0018.jpg",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
-        "block_MHJFjg": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-2_f6dafcfc-e2cb-42c2-aaf8-d5900fd4276e.jpg",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
-        "block_RQ4in3": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-1_6ba44cbf-53ec-4d18-ad4f-94c70a085330.jpg",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
-        "block_gtj3rx": {
-          "type": "block",
-          "settings": {
-            "background_image": "shopify://shop_images/img-4_2877ac88-3086-4225-bbbe-881405c2e4f4.jpg",
-            "title": "You are amazing! You worked so hard for Cady's wedding.",
-            "description": "You are amazing! You worked so hard for Cady's wedding. You had every little detail under control you need to run my life!",
-            "designation": "Shivinder Sing - Founder"
-          }
-        },
-        "brand_YFfHab": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify://shop_images/5.png"
-          }
-        },
-        "brand_9DbFMV": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify://shop_images/2.png"
-          }
-        },
-        "brand_NWAVi3": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify://shop_images/1.png"
-          }
-        },
-        "brand_ChchaK": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify://shop_images/7.png"
-          }
-        },
-        "brand_jbC8fH": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify://shop_images/4.png"
-          }
-        },
-        "brand_LbBWaK": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify://shop_images/3.png"
-          }
-        },
-        "brand_NX7F3c": {
-          "type": "brand",
-          "settings": {
-            "brand_image": "shopify://shop_images/6.png"
-          }
-        }
-      },
-      "block_order": [
-        "block_qxHPQa",
-        "block_MHJFjg",
-        "block_RQ4in3",
-        "block_gtj3rx",
-        "brand_YFfHab",
-        "brand_9DbFMV",
-        "brand_NWAVi3",
-        "brand_ChchaK",
-        "brand_jbC8fH",
-        "brand_LbBWaK",
-        "brand_NX7F3c"
-      ],
-      "settings": {}
     },
     "blog_section_8X6Gqb": {
       "type": "blog-section",
       "settings": {
         "section_title": "Latest Blogs",
-        "section_description": "Our latest Blogs/News"
+        "section_description": "Our latest Blogs/News",
+        "section_color": "transparent"
       }
     },
     "contact_section_VHfYB4": {
@@ -233,16 +52,14 @@
         "section_title": "Do you have a project? Lets Talk.",
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
-        "form_title": "Complete the form below..."
+        "form_title": "Complete the form below...",
+        "section_color": "transparent"
       }
     }
   },
   "order": [
-    "main",
+    "hero_section_8xapJH",
     "about_section_JxD3X7",
-    "service_aria_YD8jfD",
-    "project_aria_bjakr6",
-    "testimonial_section_JWbMUp",
     "blog_section_8X6Gqb",
     "contact_section_VHfYB4"
   ]
