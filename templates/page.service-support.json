@@ -69,25 +69,7 @@
       "settings": {
         "title": "Service and Support",
         "description": "At FinishSense, we understand that your success relies on reliable systems and prompt support. That’s why we offer comprehensive service and support solutions to ensure your operations run smoothly and efficiently. From on-site maintenance to remote assistance, our dedicated team is here to help you minimize downtime, optimize performance, and keep your production on track.",
-        "section_color": "transparent"
-      }
-    },
-    "blog_section_8X6Gqb": {
-      "type": "blog-section",
-      "settings": {
-        "section_title": "Latest Blogs",
-        "section_description": "Our latest Blogs/News",
-        "section_color": "transparent"
-      }
-    },
-    "contact_section_VHfYB4": {
-      "type": "contact-section",
-      "settings": {
-        "section_title": "Do you have a project? Lets Talk.",
-        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
-        "email_address": "sales@finishsense.io",
-        "form_title": "Complete the form below...",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "banner_section_erQTxD": {
@@ -97,8 +79,26 @@
         "title": "Online Ordering and Documentation Made Easy",
         "description": "FinishSense’s online ordering and documentation software is your one-stop solution for managing your equipment and parts needs. With just a few clicks, you can find spare parts, order replacements, track shipments, access equipment manuals, download CAD files, and stay updated with the latest software releases. Designed for convenience and efficiency, our platform streamlines your operations and ensures you have everything you need to keep your systems running smoothly. Simplify your workflow and gain instant access to critical resources with FinishSense’s powerful online tools.",
         "button_text": "Customer Login",
-        "button_Link": "shopify://pages/customer-login",
-        "section_color": "transparent"
+        "button_Link": "https://admin.finishsense.io/login",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog_section_8X6Gqb": {
+      "type": "blog-section",
+      "settings": {
+        "section_title": "Latest Blogs",
+        "section_description": "Our latest Blogs/News",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact_section_VHfYB4": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below...",
+        "section_color": "rgba(0,0,0,0)"
       }
     }
   },
