@@ -28,13 +28,47 @@
       ],
       "settings": {}
     },
-    "about_section_JxD3X7": {
-      "type": "about-section",
+    "what_we_do_tKXeFX": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_ygVEFC": {
+          "type": "block",
+          "settings": {
+            "title": "Preventative Maintenance",
+            "content": "Avoid unexpected breakdowns with our preventative maintenance programs. Our team performs regular system checks, diagnostics, and tune-ups to ensure optimal performance and extend the life of your equipment."
+          }
+        },
+        "block_nVVn7W": {
+          "type": "block",
+          "settings": {
+            "title": "Emergency Support",
+            "content": "When the unexpected happens, you can rely on FinishSense for fast, expert support. Our technicians are available to provide on-site and remote assistance, helping you resolve issues and minimize production delays."
+          }
+        },
+        "block_8pnweL": {
+          "type": "block",
+          "settings": {
+            "title": "Training",
+            "content": "Empower your team with the knowledge and skills they need to operate and maintain your systems effectively. We provide customized training programs and detailed documentation for seamless knowledge transfer."
+          }
+        },
+        "block_dgFiUU": {
+          "type": "block",
+          "settings": {
+            "title": "Spare Parts",
+            "content": "Get the parts and supplies you need quickly and efficiently through our streamlined ordering process. We offer a full range of spare parts and consumables to keep your operation running at peak performance."
+          }
+        }
+      },
+      "block_order": [
+        "block_ygVEFC",
+        "block_nVVn7W",
+        "block_8pnweL",
+        "block_dgFiUU"
+      ],
       "settings": {
-        "about_title": "Design, Create and Build bespoke Exhibition Stall",
-        "about_description": "<p>In the 20 Years of experience in Exhibition Stall Design and Installation field. Know we are own startup and offering you Exclusive Range of Exhibition Stall and Stand Design in India, Poland, Germany and Europe. We have built our business by taking the time to understand our clients objectives and creating a stand out solution in line with brand & budget. We pride ourselves in providing a totally project-managed service, from start to finish. Our on-site team are able to install your unique stand before the show, ensuring that it achieves maximum impact and captivates your target market.</p>",
-        "about_button_text": "Learn More",
-        "about_button_url": "",
+        "title": "Service and Support",
+        "description": "At FinishSense, we understand that your success relies on reliable systems and prompt support. That’s why we offer comprehensive service and support solutions to ensure your operations run smoothly and efficiently. From on-site maintenance to remote assistance, our dedicated team is here to help you minimize downtime, optimize performance, and keep your production on track.",
         "section_color": "transparent"
       }
     },
@@ -55,11 +89,23 @@
         "form_title": "Complete the form below...",
         "section_color": "transparent"
       }
+    },
+    "banner_section_erQTxD": {
+      "type": "banner-section",
+      "settings": {
+        "left_image": "shopify://shop_images/robotic-programming-1-16x9.jpg",
+        "title": "Online Ordering and Documentation Made Easy",
+        "description": "FinishSense’s online ordering and documentation software is your one-stop solution for managing your equipment and parts needs. With just a few clicks, you can find spare parts, order replacements, track shipments, access equipment manuals, download CAD files, and stay updated with the latest software releases. Designed for convenience and efficiency, our platform streamlines your operations and ensures you have everything you need to keep your systems running smoothly. Simplify your workflow and gain instant access to critical resources with FinishSense’s powerful online tools.",
+        "button_text": "Customer Login",
+        "button_Link": "shopify://pages/customer-login",
+        "section_color": "transparent"
+      }
     }
   },
   "order": [
     "hero_section_8xapJH",
-    "about_section_JxD3X7",
+    "what_we_do_tKXeFX",
+    "banner_section_erQTxD",
     "blog_section_8X6Gqb",
     "contact_section_VHfYB4"
   ]
