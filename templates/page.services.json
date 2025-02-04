@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_section_cLqKxk": {
@@ -6,7 +15,7 @@
         "block_WrcBJb": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/csm_duerr-paintrobots-interior-painting_c4cf50ad3a.webp",
+            "hero_background_image": "shopify://shop_images/csm_duerr-paintrobots-interior-painting_c4cf50ad3a.webp",
             "hero_title": "Keep Your System Running Smoothly",
             "hero_description": "",
             "hero_button_text": "Learn More",
@@ -25,7 +34,7 @@
         "block_gAaHVc": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Maintenance_Icon_5a65234a-66d5-45ee-93bd-b0bfcf9c32e8.svg",
+            "image": "shopify://shop_images/Maintenance_Icon_5a65234a-66d5-45ee-93bd-b0bfcf9c32e8.svg",
             "title": "Maintenance",
             "content": "Our tailored maintenance plans are designed to keep your robotic systems operating at peak efficiency. Regular check-ups and preventive care help identify and resolve potential issues before they impact your production."
           }
@@ -33,7 +42,7 @@
         "block_XgFrqY": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Troubleshooting_Icon_12f9b6cf-c9f4-4a3b-9546-2d37229ca245.svg",
+            "image": "shopify://shop_images/Troubleshooting_Icon_12f9b6cf-c9f4-4a3b-9546-2d37229ca245.svg",
             "title": "Troubleshooting",
             "content": "Our expert technicians provide quick and effective troubleshooting and repair services to minimize downtime. We ensure that any disruptions to your operations are promptly addressed, restoring functionality as quickly as possible."
           }
@@ -41,7 +50,7 @@
         "block_YGfxWY": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Optimization_Icon_149fc954-39cf-4ab9-9697-f0c720a648e3.svg",
+            "image": "shopify://shop_images/Optimization_Icon_149fc954-39cf-4ab9-9697-f0c720a648e3.svg",
             "title": "Optimization",
             "content": "Stay ahead with our continuous improvement and upgrade services. We help you integrate the latest technologies and optimize your existing systems to enhance performance and extend the lifespan of your equipment."
           }
@@ -49,7 +58,7 @@
         "block_rVXX3Y": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Training_Icon_8ff24995-1c20-44c0-b760-c9118aeefade.svg",
+            "image": "shopify://shop_images/Training_Icon_8ff24995-1c20-44c0-b760-c9118aeefade.svg",
             "title": "Training",
             "content": "Empower your team with our comprehensive training programs. Our ongoing technical support ensures your staff can effectively operate and maintain the systems, enhancing overall productivity and efficiency."
           }
@@ -64,7 +73,7 @@
       "settings": {
         "title": "Services",
         "description": "At FinishSense, our service commitment goes beyond installation. We offer comprehensive maintenance and support services to keep your robotic systems operating at peak efficiency. Our dedicated team of experts provides regular system check-ups, rapid troubleshooting, and timely upgrades, ensuring minimal downtime and maximum productivity. With FinishSense, you can rely on uninterrupted performance and expert care every step of the way.",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "service_grid_ULiJXT": {
@@ -73,37 +82,37 @@
         "block_9ehDBc": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
+            "background_image": "shopify://shop_images/360_F_292341430_qGtNmxVKgAx4OieUQYNwpMlIbc0ABgVs.jpg",
             "title": "Consulting",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/hmi-scada-development"
+            "button_Link": "shopify://pages/consulting"
           }
         },
         "block_MtLX7M": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/robotic-programming-1-16x9.jpg",
+            "background_image": "shopify://shop_images/robotic-programming-1-16x9.jpg",
             "title": "Engineering and Design",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/onsite-service"
+            "button_Link": "shopify://pages/engineering-design"
           }
         },
         "block_KTEgrQ": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Paint-Finishing-3.jpg",
+            "background_image": "shopify://shop_images/Paint-Finishing-3.jpg",
             "title": "Installation and Commissioning",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/programming"
+            "button_Link": "shopify://pages/installation"
           }
         },
         "block_zbrg9a": {
           "type": "block",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Benefits-CustomerService-Photo.jpg",
+            "background_image": "shopify://shop_images/Benefits-CustomerService-Photo.jpg",
             "title": "Service and Support",
             "button_text": "Learn More",
-            "button_Link": "shopify:\/\/pages\/remote-support"
+            "button_Link": "shopify://pages/service-support"
           }
         }
       },
@@ -116,7 +125,7 @@
       "settings": {
         "section_title": "",
         "section_description": "",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     },
     "contact_section_rFxpxe": {
@@ -126,7 +135,7 @@
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below...",
-        "section_color": "transparent"
+        "section_color": "rgba(0,0,0,0)"
       }
     }
   },
