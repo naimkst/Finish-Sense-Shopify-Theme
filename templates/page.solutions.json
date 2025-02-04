@@ -73,6 +73,14 @@
             "background_image": "shopify://shop_images/Robot-Rotary-atomizer-DURR-1200x900_jpg.webp",
             "title": "Liquid  Coating Applications",
             "button_text": "Learn More",
+            "button_Link": "shopify://pages/liquid-finishing-solutions"
+          }
+        },
+        "block_axnXGF": {
+          "type": "block",
+          "settings": {
+            "title": "Engineering & Design",
+            "button_text": "Learn More",
             "button_Link": ""
           }
         },
@@ -82,7 +90,7 @@
             "background_image": "shopify://shop_images/AdobeStock_111182072-scaled.webp",
             "title": "Powder Coating Applications",
             "button_text": "Learn More",
-            "button_Link": ""
+            "button_Link": "shopify://pages/powder-coating-solutions"
           }
         },
         "block_4A9r66": {
@@ -91,7 +99,7 @@
             "background_image": "shopify://shop_images/graco-dispensing-valve.jpg",
             "title": "High Viscosity Applications",
             "button_text": "Learn More",
-            "button_Link": ""
+            "button_Link": "shopify://pages/high-viscosity-applications"
           }
         },
         "block_xHr9FR": {
@@ -106,6 +114,7 @@
       },
       "block_order": [
         "block_b9d7Vx",
+        "block_axnXGF",
         "block_YFnCQc",
         "block_4A9r66",
         "block_xHr9FR"
