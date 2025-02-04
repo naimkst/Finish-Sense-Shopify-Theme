@@ -28,6 +28,34 @@
       ],
       "settings": {}
     },
+    "what_we_do_MybHWc": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_D76hp4": {
+          "type": "block",
+          "settings": {
+            "title": "Manual",
+            "content": "Our manual systems are designed for flexibility and precision, allowing operators to manage intricate details and achieve consistent finishes. These solutions are ideal for small production runs, custom coatings, and complex components where hands-on control is critical."
+          }
+        },
+        "block_fCF878": {
+          "type": "block",
+          "settings": {
+            "title": "Job Portal",
+            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+          }
+        }
+      },
+      "block_order": [
+        "block_D76hp4",
+        "block_fCF878"
+      ],
+      "settings": {
+        "title": "Liquid Finishing Solutions by FinishSense",
+        "description": "At FinishSense, we offer a comprehensive range of liquid finishing solutions designed to meet the diverse needs of modern manufacturing and production environments. Whether you require manual precision or fully automated systems, our solutions ensure high-quality finishes with optimal efficiency. From equipment and system design to full-scale integration, we are your trusted partner for all things liquid finishing.",
+        "section_color": "transparent"
+      }
+    },
     "about_section_MNVpxQ": {
       "type": "about-section",
       "settings": {
@@ -77,6 +105,7 @@
   },
   "order": [
     "hero_section_8xapJH",
+    "what_we_do_MybHWc",
     "about_section_MNVpxQ",
     "text_section_gnHEq4",
     "banner_section_erQTxD",
