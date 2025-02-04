@@ -34,6 +34,7 @@
         "block_D76hp4": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/manual.svg",
             "title": "Manual",
             "content": "Our manual systems are designed for flexibility and precision, allowing operators to manage intricate details and achieve consistent finishes. These solutions are ideal for small production runs, custom coatings, and complex components where hands-on control is critical."
           }
@@ -41,6 +42,7 @@
         "block_fCF878": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/automatic.svg",
             "title": "Automated",
             "content": "For high-volume operations, our automated systems provide unparalleled speed, accuracy, and repeatability. Leveraging robotics and advanced control technologies, we deliver solutions that reduce waste, improve throughput, and maintain superior coating quality."
           }
