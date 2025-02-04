@@ -35,14 +35,14 @@
           "type": "block",
           "settings": {
             "title": "Manual",
-            "content": "Our manual systems are designed for flexibility and precision, allowing operators to manage intricate details and achieve consistent finishes. These solutions are ideal for small production runs, custom coatings, and complex components where hands-on control is critical."
+            "content": "Ideal for small production runs, custom applications, or intricate components, our manual systems provide operators with full control over bead placement, flow rate, and material usage, ensuring precise and accurate results."
           }
         },
         "block_fCF878": {
           "type": "block",
           "settings": {
             "title": "Automated",
-            "content": "For high-volume operations, our automated systems provide unparalleled speed, accuracy, and repeatability. Leveraging robotics and advanced control technologies, we deliver solutions that reduce waste, improve throughput, and maintain superior coating quality."
+            "content": "For high-volume and complex production environments, our automated solutions deliver unmatched accuracy, speed, and repeatability. Robotic integration and advanced control systems reduce material waste, improve productivity, and maintain consistent application quality."
           }
         }
       },
@@ -51,8 +51,8 @@
         "block_fCF878"
       ],
       "settings": {
-        "title": "Powder Coating Solutions by FinishSense",
-        "description": "FinishSense offers a complete range of powder coating solutions tailored to meet the diverse needs of manufacturers and production facilities. Whether you require manual precision or fully automated systems, our expert solutions help you achieve durable, high-quality finishes with maximum efficiency and minimal waste. From custom system design to seamless integration, we provide everything you need to optimize your powder coating operations.",
+        "title": "High Viscosity Solutions by FinishSense",
+        "description": "FinishSense offers advanced solutions for high-viscosity applications, including gluing, sealing, gasketing, potting, and encapsulation processes. With a focus on precision, efficiency, and durability, our systems are designed to meet the complex demands of modern manufacturing environments. Whether you require manual application systems or fully automated solutions, FinishSense provides the technology and expertise to ensure consistent and reliable results.",
         "section_color": "rgba(0,0,0,0)"
       }
     },
