@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_section_8xapJH": {
+      "type": "hero-section",
+      "blocks": {
+        "block_NhBYGp": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/simatic-hmi-operator-control-monitoring.jpg",
+            "hero_title": "Expert Support, Seamless Solutions",
+            "hero_description": "At FinishSense, we provide expert support to keep your operations running smoothly. From troubleshooting and maintenance to upgrades and training, our seamless solutions ensure your systems are always optimized for performance and reliability.",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_NhBYGp"
+      ],
+      "settings": {}
+    },
+    "what_we_do_MybHWc": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_D76hp4": {
+          "type": "block",
+          "settings": {
+            "title": "Manual",
+            "content": "Ideal for small production runs, custom applications, or intricate components, our manual systems provide operators with full control over bead placement, flow rate, and material usage, ensuring precise and accurate results."
+          }
+        },
+        "block_fCF878": {
+          "type": "block",
+          "settings": {
+            "title": "Automated",
+            "content": "For high-volume and complex production environments, our automated solutions deliver unmatched accuracy, speed, and repeatability. Robotic integration and advanced control systems reduce material waste, improve productivity, and maintain consistent application quality."
+          }
+        }
+      },
+      "block_order": [
+        "block_D76hp4",
+        "block_fCF878"
+      ],
+      "settings": {
+        "title": "High Viscosity Solutions by FinishSense",
+        "description": "FinishSense offers advanced solutions for high-viscosity applications, including gluing, sealing, gasketing, potting, and encapsulation processes. With a focus on precision, efficiency, and durability, our systems are designed to meet the complex demands of modern manufacturing environments. Whether you require manual application systems or fully automated solutions, FinishSense provides the technology and expertise to ensure consistent and reliable results.",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_section_gnHEq4": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<h3><strong>Key Components and Solutions</strong></h3><ul><li><strong>Dispense Booths and Work Cells</strong><br/>Designed for safety and cleanliness, our enclosed dispense booths provide a controlled environment for gluing and sealing processes, capturing excess material and maintaining a safe workspace.</li><li><strong>Conveyance Systems</strong><br/>Streamline part handling with conveyor systems that integrate seamlessly into your high-viscosity application line. We offer custom solutions, including overhead and floor-based systems, to optimize workflow and enhance productivity.</li><li><strong>Curing Ovens and Systems</strong><br/>Ensure reliable curing for adhesives and sealants with batch and continuous conveyor ovens. Our ovens maintain precise temperature control to accommodate a wide variety of high-viscosity materials.</li><li><strong>Application Equipment</strong><br/>We provide a comprehensive range of application systems to suit different needs.  </li><li>Manual Dispense Guns: Provide precise control for custom applications and intricate bead placements.</li><li>Automated Dispense Systems: Deliver consistent, high-efficiency material application for large production runs.</li><li>Robotic Dispense Solutions: Achieve precise, repeatable results with robotic systems that handle complex patterns and part geometries.</li><li><strong>Material Pumping and Circulation Systems</strong><br/>Ensure consistent material flow with custom-engineered pumping and circulation systems designed to handle high-viscosity adhesives, sealants, and coatings.</li><li><strong>Sealing and Gasketing Solutions</strong><br/>From flexible bead application to rigid seals, our solutions are tailored to meet the specific needs of various industrial applications, ensuring leak-proof and durable bonds.</li><li><strong>Material Handling Solutions</strong><br/>From simple transfer carts to fully automated material handling systems, we provide solutions that ensure seamless part movement through every stage of the application process.</li><li><strong>Robotic Integration</strong><br/>Maximize precision and efficiency with robotic systems for high-viscosity applications. Our experts ensure seamless integration and programming for complex sealing and bonding tasks.</li><li><strong>Quality Control and Inspection Systems</strong><br/>Maintain the highest standards with automated inspection systems that verify bead accuracy, flow consistency, and material placement for superior product quality.</li><li><strong>Ventilation and Safety Systems</strong><br/>Maintain a safe working environment with advanced ventilation and fume extraction systems designed for high-viscosity material applications.</li></ul><p></p>",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "banner_section_erQTxD": {
+      "type": "banner-section",
+      "settings": {
+        "left_image": "shopify://shop_images/robotic-programming-1-16x9.jpg",
+        "title": "Why Choose FinishSense for High Viscosity Applications?",
+        "description": "FinishSense understands the unique challenges involved in gluing, sealing, and other high-viscosity processes. Our fully customizable solutions are engineered to deliver consistent, precise results while improving efficiency and reducing material waste.From initial system design and installation to training and ongoing support, FinishSense provides comprehensive solutions that help you achieve superior bonding and sealing results with optimized operational performance.",
+        "button_text": "Learn More",
+        "button_Link": "shopify://pages/company",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog_section_8X6Gqb": {
+      "type": "blog-section",
+      "settings": {
+        "section_title": "Latest Blogs",
+        "section_description": "Our latest Blogs/News",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact_section_VHfYB4": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below...",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "hero_section_8xapJH",
+    "what_we_do_MybHWc",
+    "text_section_gnHEq4",
+    "banner_section_erQTxD",
+    "blog_section_8X6Gqb",
+    "contact_section_VHfYB4"
+  ]
+}
