@@ -34,6 +34,7 @@
         "block_D76hp4": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/plc.svg",
             "title": "Control Systems",
             "content": "Our advanced control systems provide precise management of all finishing processes, including paint application, material delivery, curing, and automation. By integrating sophisticated logic and algorithms, we help you maintain consistent process performance and quality standards."
           }
@@ -41,6 +42,7 @@
         "block_fCF878": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/hmi.svg",
             "title": "Human Machine Interfaces (HMI)",
             "content": "We design intuitive and customizable HMIs that offer real-time insights into system operations. Operators gain easy access to actionable data, process status updates, and control functions, simplifying system management and decision-making."
           }
@@ -48,6 +50,7 @@
         "block_pFBeJd": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/data.svg",
             "title": "Process Monitoring & Data Analytics",
             "content": "Harness the power of data to drive continuous improvement. Our software solutions capture, analyze, and visualize critical production metrics, enabling predictive maintenance, process optimization, and data-driven insights."
           }
@@ -55,6 +58,7 @@
         "block_7dWTPJ": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/software.svg",
             "title": "Custom Software Development",
             "content": "At FinishSense, we recognize that every manufacturing environment is unique. We offer custom software development tailored to your specific needs, ensuring the right solution for your challenges."
           }
