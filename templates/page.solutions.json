@@ -76,14 +76,6 @@
             "button_Link": "shopify://pages/liquid-finishing-solutions"
           }
         },
-        "block_axnXGF": {
-          "type": "block",
-          "settings": {
-            "title": "Engineering & Design",
-            "button_text": "Learn More",
-            "button_Link": ""
-          }
-        },
         "block_YFnCQc": {
           "type": "block",
           "settings": {
@@ -114,7 +106,6 @@
       },
       "block_order": [
         "block_b9d7Vx",
-        "block_axnXGF",
         "block_YFnCQc",
         "block_4A9r66",
         "block_xHr9FR"
