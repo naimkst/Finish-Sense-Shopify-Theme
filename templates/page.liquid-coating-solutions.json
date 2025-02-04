@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_section_8xapJH": {
+      "type": "hero-section",
+      "blocks": {
+        "block_NhBYGp": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/simatic-hmi-operator-control-monitoring.jpg",
+            "hero_title": "Expert Support, Seamless Solutions",
+            "hero_description": "At FinishSense, we provide expert support to keep your operations running smoothly. From troubleshooting and maintenance to upgrades and training, our seamless solutions ensure your systems are always optimized for performance and reliability.",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_NhBYGp"
+      ],
+      "settings": {}
+    },
+    "what_we_do_tKXeFX": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_ygVEFC": {
+          "type": "block",
+          "settings": {
+            "title": "Preventative Maintenance",
+            "content": "Avoid unexpected breakdowns with our preventative maintenance programs. Our team performs regular system checks, diagnostics, and tune-ups to ensure optimal performance and extend the life of your equipment."
+          }
+        },
+        "block_nVVn7W": {
+          "type": "block",
+          "settings": {
+            "title": "Emergency Support",
+            "content": "When the unexpected happens, you can rely on FinishSense for fast, expert support. Our technicians are available to provide on-site and remote assistance, helping you resolve issues and minimize production delays."
+          }
+        },
+        "block_8pnweL": {
+          "type": "block",
+          "settings": {
+            "title": "Training",
+            "content": "Empower your team with the knowledge and skills they need to operate and maintain your systems effectively. We provide customized training programs and detailed documentation for seamless knowledge transfer."
+          }
+        },
+        "block_dgFiUU": {
+          "type": "block",
+          "settings": {
+            "title": "Spare Parts",
+            "content": "Get the parts and supplies you need quickly and efficiently through our streamlined ordering process. We offer a full range of spare parts and consumables to keep your operation running at peak performance."
+          }
+        }
+      },
+      "block_order": [
+        "block_ygVEFC",
+        "block_nVVn7W",
+        "block_8pnweL",
+        "block_dgFiUU"
+      ],
+      "settings": {
+        "title": "Service and Support",
+        "description": "At FinishSense, we understand that your success relies on reliable systems and prompt support. That’s why we offer comprehensive service and support solutions to ensure your operations run smoothly and efficiently. From on-site maintenance to remote assistance, our dedicated team is here to help you minimize downtime, optimize performance, and keep your production on track.",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "banner_section_erQTxD": {
+      "type": "banner-section",
+      "settings": {
+        "left_image": "shopify://shop_images/robotic-programming-1-16x9.jpg",
+        "title": "Online Ordering and Documentation Made Easy",
+        "description": "FinishSense’s online ordering and documentation software is your one-stop solution for managing your equipment and parts needs. With just a few clicks, you can find spare parts, order replacements, track shipments, access equipment manuals, download CAD files, and stay updated with the latest software releases. Designed for convenience and efficiency, our platform streamlines your operations and ensures you have everything you need to keep your systems running smoothly. Simplify your workflow and gain instant access to critical resources with FinishSense’s powerful online tools.",
+        "button_text": "Customer Login",
+        "button_Link": "https://admin.finishsense.io/login",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog_section_8X6Gqb": {
+      "type": "blog-section",
+      "settings": {
+        "section_title": "Latest Blogs",
+        "section_description": "Our latest Blogs/News",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact_section_VHfYB4": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below...",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "hero_section_8xapJH",
+    "what_we_do_tKXeFX",
+    "banner_section_erQTxD",
+    "blog_section_8X6Gqb",
+    "contact_section_VHfYB4"
+  ]
+}
