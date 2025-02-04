@@ -41,8 +41,8 @@
         "block_fCF878": {
           "type": "block",
           "settings": {
-            "title": "Job Portal",
-            "content": "In the 20 Years of experience in there Exhibition Stall Design and for the Installation field."
+            "title": "Automated",
+            "content": "For high-volume operations, our automated systems provide unparalleled speed, accuracy, and repeatability. Leveraging robotics and advanced control technologies, we deliver solutions that reduce waste, improve throughput, and maintain superior coating quality."
           }
         }
       },
@@ -53,16 +53,6 @@
       "settings": {
         "title": "Liquid Finishing Solutions by FinishSense",
         "description": "At FinishSense, we offer a comprehensive range of liquid finishing solutions designed to meet the diverse needs of modern manufacturing and production environments. Whether you require manual precision or fully automated systems, our solutions ensure high-quality finishes with optimal efficiency. From equipment and system design to full-scale integration, we are your trusted partner for all things liquid finishing.",
-        "section_color": "transparent"
-      }
-    },
-    "about_section_MNVpxQ": {
-      "type": "about-section",
-      "settings": {
-        "about_title": "Liquid Finishing Solutions by FinishSense",
-        "about_description": "<p>At FinishSense, we offer a comprehensive range of liquid finishing solutions designed to meet the diverse needs of modern manufacturing and production environments. Whether you require manual precision or fully automated systems, our solutions ensure high-quality finishes with optimal efficiency. From equipment and system design to full-scale integration, we are your trusted partner for all things liquid finishing.</p>",
-        "about_button_text": "Learn More",
-        "about_button_url": "",
         "section_color": "transparent"
       }
     },
@@ -106,7 +96,6 @@
   "order": [
     "hero_section_8xapJH",
     "what_we_do_MybHWc",
-    "about_section_MNVpxQ",
     "text_section_gnHEq4",
     "banner_section_erQTxD",
     "blog_section_8X6Gqb",
