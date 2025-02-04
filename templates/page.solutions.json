@@ -100,7 +100,7 @@
             "background_image": "shopify://shop_images/simatic-hmi-operator-control-monitoring.jpg",
             "title": "Software Solutions",
             "button_text": "Learn More",
-            "button_Link": ""
+            "button_Link": "shopify://pages/software-solutions"
           }
         }
       },
