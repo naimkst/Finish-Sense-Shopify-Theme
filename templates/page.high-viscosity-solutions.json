@@ -34,6 +34,7 @@
         "block_D76hp4": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/manual.svg",
             "title": "Manual",
             "content": "Ideal for small production runs, custom applications, or intricate components, our manual systems provide operators with full control over bead placement, flow rate, and material usage, ensuring precise and accurate results."
           }
@@ -41,6 +42,7 @@
         "block_fCF878": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/automatic.svg",
             "title": "Automated",
             "content": "For high-volume and complex production environments, our automated solutions deliver unmatched accuracy, speed, and repeatability. Robotic integration and advanced control systems reduce material waste, improve productivity, and maintain consistent application quality."
           }
