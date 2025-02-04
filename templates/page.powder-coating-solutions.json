@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_section_8xapJH": {
+      "type": "hero-section",
+      "blocks": {
+        "block_NhBYGp": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/simatic-hmi-operator-control-monitoring.jpg",
+            "hero_title": "Expert Support, Seamless Solutions",
+            "hero_description": "At FinishSense, we provide expert support to keep your operations running smoothly. From troubleshooting and maintenance to upgrades and training, our seamless solutions ensure your systems are always optimized for performance and reliability.",
+            "hero_button_text": "Start Your Project",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_NhBYGp"
+      ],
+      "settings": {}
+    },
+    "what_we_do_MybHWc": {
+      "type": "what-we-do",
+      "blocks": {
+        "block_D76hp4": {
+          "type": "block",
+          "settings": {
+            "title": "Manual",
+            "content": "Our manual systems are designed for flexibility and precision, allowing operators to manage intricate details and achieve consistent finishes. These solutions are ideal for small production runs, custom coatings, and complex components where hands-on control is critical."
+          }
+        },
+        "block_fCF878": {
+          "type": "block",
+          "settings": {
+            "title": "Automated",
+            "content": "For high-volume operations, our automated systems provide unparalleled speed, accuracy, and repeatability. Leveraging robotics and advanced control technologies, we deliver solutions that reduce waste, improve throughput, and maintain superior coating quality."
+          }
+        }
+      },
+      "block_order": [
+        "block_D76hp4",
+        "block_fCF878"
+      ],
+      "settings": {
+        "title": "Liquid Finishing Solutions by FinishSense",
+        "description": "At FinishSense, we offer a comprehensive range of liquid finishing solutions designed to meet the diverse needs of modern manufacturing and production environments. Whether you require manual precision or fully automated systems, our solutions ensure high-quality finishes with optimal efficiency. From equipment and system design to full-scale integration, we are your trusted partner for all things liquid finishing.",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_section_gnHEq4": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "<h3><strong>Key Components and Solutions</strong></h3><ul><li><strong>Spray Booths</strong><br/>Engineered for efficiency and compliance, our spray booths ensure a clean and controlled environment for applying liquid coatings. Available in various configurations, including open-face and enclosed models, we provide custom solutions to fit your production needs.</li><li><strong>Conveyance Systems</strong><br/>Streamline material handling with custom conveyor systems designed to integrate seamlessly with your liquid finishing operation. From overhead tracks to floor-based conveyors, we offer solutions that enhance workflow and productivity.</li><li><strong>Curing Ovens</strong><br/>Achieve consistent and reliable curing with ovens precisely calibrated for your coating requirements. We provide both batch and continuous ovens with temperature control features to ensure perfect results every time.</li><li><strong>Application Equipment</strong><br/>We offer a wide range of application equipment to suit different coating needs:</li><li><strong>Fluid Delivery Systems</strong><br/>Our custom-designed paint kitchens and circulation systems ensure consistent material supply, reducing downtime and maintaining coating quality throughout the process.</li><li><strong>Material Handling Solutions</strong><br/>From simple carts to automated material transport systems, we provide solutions to efficiently move components through the finishing process.</li><li><strong>Robotic Integration</strong><br/>Enhance productivity and precision with robotic solutions tailored for liquid finishing applications. Our experts ensure seamless integration with your existing systems for optimized performance.</li><li><strong>Dust Collection and Ventilation Systems</strong><br/>Maintain a clean and safe environment with advanced dust collection and ventilation solutions designed to capture airborne particles and ensure regulatory compliance.</li></ul>",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "banner_section_erQTxD": {
+      "type": "banner-section",
+      "settings": {
+        "left_image": "shopify://shop_images/robotic-programming-1-16x9.jpg",
+        "title": "Why Choose FinishSense for Liquid Finishing?",
+        "description": "At FinishSense, we understand that every production environment is unique. That’s why we offer fully customized solutions designed to meet your specific requirements. Our expertise in both manual and automated systems ensures that you receive the right combination of tools, equipment, and technology to achieve superior results.From design and installation to ongoing support, FinishSense is your partner for comprehensive liquid finishing solutions that deliver unmatched efficiency, quality, and value.",
+        "button_text": "Learn More",
+        "button_Link": "shopify://pages/company",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog_section_8X6Gqb": {
+      "type": "blog-section",
+      "settings": {
+        "section_title": "Latest Blogs",
+        "section_description": "Our latest Blogs/News",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact_section_VHfYB4": {
+      "type": "contact-section",
+      "settings": {
+        "section_title": "Do you have a project? Lets Talk.",
+        "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
+        "email_address": "sales@finishsense.io",
+        "form_title": "Complete the form below...",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "hero_section_8xapJH",
+    "what_we_do_MybHWc",
+    "text_section_gnHEq4",
+    "banner_section_erQTxD",
+    "blog_section_8X6Gqb",
+    "contact_section_VHfYB4"
+  ]
+}
