@@ -34,6 +34,7 @@
         "block_3hDQXV": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/3d.svg",
             "title": "3D Simulations",
             "content": "Using advanced 3D modeling and simulation software, we provide a visual and functional representation of your system before implementation. This approach minimizes risks, optimizes performance, and ensures the design meets your expectations."
           }
@@ -41,6 +42,7 @@
         "block_x3XE8L": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/systemdesign.svg",
             "title": "System Design",
             "content": "We design tailored systems that align with your specific requirements, considering factors such as throughput, application precision, material compatibility, and space constraints. Our goal is to deliver solutions that integrate seamlessly into your production environment."
           }
@@ -48,6 +50,7 @@
         "block_f6xTQ6": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/processeng.svg",
             "title": "Process Engineering",
             "content": "We analyze and refine your painting and coating processes to achieve peak efficiency. From spray patterns to curing cycles, we engineer solutions that reduce waste, improve quality, and maximize productivity."
           }
@@ -55,6 +58,7 @@
         "block_XnAFMX": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/prototyping.svg",
             "title": "Prototyping",
             "content": "We bring concepts to life through prototyping and thorough testing, ensuring your systems meet performance expectations before full-scale implementation."
           }

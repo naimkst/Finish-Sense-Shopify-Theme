@@ -34,6 +34,7 @@
         "block_ygVEFC": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/pm.svg",
             "title": "Preventative Maintenance",
             "content": "Avoid unexpected breakdowns with our preventative maintenance programs. Our team performs regular system checks, diagnostics, and tune-ups to ensure optimal performance and extend the life of your equipment."
           }
@@ -41,6 +42,7 @@
         "block_nVVn7W": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/emergency.svg",
             "title": "Emergency Support",
             "content": "When the unexpected happens, you can rely on FinishSense for fast, expert support. Our technicians are available to provide on-site and remote assistance, helping you resolve issues and minimize production delays."
           }
@@ -48,6 +50,7 @@
         "block_8pnweL": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/training.svg",
             "title": "Training",
             "content": "Empower your team with the knowledge and skills they need to operate and maintain your systems effectively. We provide customized training programs and detailed documentation for seamless knowledge transfer."
           }
@@ -55,6 +58,7 @@
         "block_dgFiUU": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/spartparts.svg",
             "title": "Spare Parts",
             "content": "Get the parts and supplies you need quickly and efficiently through our streamlined ordering process. We offer a full range of spare parts and consumables to keep your operation running at peak performance."
           }
