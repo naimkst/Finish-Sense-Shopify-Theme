@@ -270,7 +270,7 @@
     "single_hero_aNy3QN": {
       "type": "single-hero",
       "settings": {
-        "video_url": "shopify://files/videos/Sequence 01_1.mp4",
+        "background_image": "shopify://shop_images/csm_duerr-hao_5bb5b0da22.jpg",
         "section_title": "We’re looking for talented industry experts.",
         "button_text": "Current Openings",
         "button_link": ""
