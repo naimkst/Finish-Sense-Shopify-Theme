@@ -1,5 +1,5 @@
 <!-- about-area-start -->
-<section class="text-block-section section-padding" style="background-color: {{ section.settings.section_color }};">
+<section class="text-block-section" style="background-color: {{ section.settings.section_color }}; padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -28,6 +28,24 @@
         "id": "section_color",
         "label": "Section Color",
         "default": "transparent"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding Top",
+        "default": 50,
+        "min": 0,
+        "max": 200,
+        "step": 5
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding Bottom",
+        "default": 50,
+        "min": 0,
+        "max": 200,
+        "step": 5
       }
 
     ],

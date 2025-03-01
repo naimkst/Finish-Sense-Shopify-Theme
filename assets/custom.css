@@ -405,6 +405,9 @@ a.read-more.linkBlack:hover {
 .rowOrder {
   order: 1 !important;
 }
+.static-hero {
+  height: 80dvh;
+}
 section.static-hero:before {
   content: '';
   width: 100%;
@@ -426,10 +429,17 @@ video#myVideo::before {
 .static-hero .static-hero-text {
   z-index: 2;
   position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 video#myVideo {
   width: 100%;
   /* position: absolute; */
+}
+.resorce-area {
+  padding-bottom: 80px;
 }
 @media only screen and (max-width: 800px) {
   .p-100 {
@@ -453,6 +463,10 @@ video#myVideo {
   }
   .title-white {
     font-size: 30px;
+  }
+  video#myVideo {
+    object-fit: cover;
+    height: 100%;
   }
 }
 @media only screen and (max-width: 500px) {
