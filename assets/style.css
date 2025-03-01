@@ -1794,7 +1794,7 @@ img {
   padding-left: 30px;
   margin-left: -45px;
   margin-top: -40px;
-  clip-path: polygon(0 0, 100% 0, 82% 100%, 0% 100%);
+  clip-path: polygon(0 -20%, 100% 0, 82% 100%, 0% 100%);
 }
 @media (max-width: 991px) {
   .site-header .navbar-header .site-logo {
