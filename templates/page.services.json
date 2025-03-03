@@ -34,7 +34,7 @@
         "block_gAaHVc": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/Maintenance_Icon_5a65234a-66d5-45ee-93bd-b0bfcf9c32e8.svg",
+            "image": "shopify://shop_images/pm.svg",
             "title": "Maintenance",
             "content": "Our tailored maintenance plans are designed to keep your robotic systems operating at peak efficiency. Regular check-ups and preventive care help identify and resolve potential issues before they impact your production."
           }
@@ -42,7 +42,7 @@
         "block_XgFrqY": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/Troubleshooting_Icon_12f9b6cf-c9f4-4a3b-9546-2d37229ca245.svg",
+            "image": "shopify://shop_images/Troubleshooting_Icon_e2caa39a-f5cf-4878-b886-80c00e58b6d8.svg",
             "title": "Troubleshooting",
             "content": "Our expert technicians provide quick and effective troubleshooting and repair services to minimize downtime. We ensure that any disruptions to your operations are promptly addressed, restoring functionality as quickly as possible."
           }
@@ -50,7 +50,7 @@
         "block_YGfxWY": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/Optimization_Icon_149fc954-39cf-4ab9-9697-f0c720a648e3.svg",
+            "image": "shopify://shop_images/Optimization_Icon_d22b95a7-81ff-46ff-9d9a-8ea6b3ac3bee.svg",
             "title": "Optimization",
             "content": "Stay ahead with our continuous improvement and upgrade services. We help you integrate the latest technologies and optimize your existing systems to enhance performance and extend the lifespan of your equipment."
           }
@@ -58,7 +58,7 @@
         "block_rVXX3Y": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/Training_Icon_8ff24995-1c20-44c0-b760-c9118aeefade.svg",
+            "image": "shopify://shop_images/training.svg",
             "title": "Training",
             "content": "Empower your team with our comprehensive training programs. Our ongoing technical support ensures your staff can effectively operate and maintain the systems, enhancing overall productivity and efficiency."
           }
