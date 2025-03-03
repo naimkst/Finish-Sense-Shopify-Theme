@@ -1,19 +1,40 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "text_section_ytea43": {
+      "type": "text-section",
+      "settings": {
+        "text_block": "",
+        "section_color": "transparent",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "text_section_HXe3xy": {
       "type": "text-section",
       "settings": {
-        "text_block": "<p>Thank you for visiting FinishSense.io. Protecting your privacy is important to us. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you visit our website.<br\/><br\/>By accessing or using FinishSense.io, you agree to the terms of this Privacy Policy.<br\/><br\/>Information We Collect:<br\/><br\/>Personal Information: When you visit FinishSense.io, we may collect personal information such as your name, email address, postal address, phone number, and any other information you voluntarily provide through forms or correspondence.<br\/><br\/>Usage Information: We automatically collect certain information about your visit to FinishSense.io, including your IP address, browser type, operating system, referring URLs, pages visited, and other browsing behavior. This information helps us analyze trends, administer the site, and improve user experience.<br\/><br\/>Cookies and Similar Technologies: FinishSense.io uses cookies, web beacons, and other tracking technologies to enhance your browsing experience, personalize content, and analyze site traffic. You can control the use of cookies through your browser settings, but please note that disabling cookies may affect the functionality of our website.<br\/><br\/>How We Use Your Information:<br\/><br\/>To Provide and Improve Services: We use the information we collect to provide the services you request, improve our website and services, and customize your experience on FinishSense.io.<br\/><br\/>Communication: We may use your contact information to communicate with you about your account, respond to inquiries, send updates, newsletters, promotional offers, and other relevant information. You can opt out of receiving marketing communications at any time.<br\/><br\/>Analytics: We analyze usage data to understand how visitors interact with our website, measure the performance of our marketing campaigns, and identify areas for improvement.<br\/><br\/>Sharing Your Information:<br\/><br\/>We do not sell, trade, or rent your personal information to third parties without your consent, except as described in this Privacy Policy or as required by law. We may share your information with trusted third-party service providers who assist us in operating our website, conducting business, or servicing you, as long as those parties agree to keep this information confidential.<br\/><br\/>Data Retention:<br\/><br\/>We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.<br\/><br\/>Your Rights:<br\/><br\/>You have the right to access, update, or delete your personal information. You may also object to the processing of your personal data or request that we restrict certain uses of your information. To exercise these rights or for any questions regarding your privacy, please contact us at admin@finishsense.io.<br\/><br\/>Changes to this Privacy Policy:<br\/><br\/>We reserve the right to update or modify this Privacy Policy at any time. We will notify you of any changes by posting the updated Privacy Policy on FinishSense.io. Your continued use of our website after any modifications indicates your acceptance of the updated Privacy Policy.<br\/><br\/>Contact Us:<br\/><br\/>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at admin@finishsense.io.<\/p>"
+        "text_block": "<p>Thank you for visiting FinishSense.io. Protecting your privacy is important to us. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you visit our website.<br/><br/>By accessing or using FinishSense.io, you agree to the terms of this Privacy Policy.<br/><br/>Information We Collect:<br/><br/>Personal Information: When you visit FinishSense.io, we may collect personal information such as your name, email address, postal address, phone number, and any other information you voluntarily provide through forms or correspondence.<br/><br/>Usage Information: We automatically collect certain information about your visit to FinishSense.io, including your IP address, browser type, operating system, referring URLs, pages visited, and other browsing behavior. This information helps us analyze trends, administer the site, and improve user experience.<br/><br/>Cookies and Similar Technologies: FinishSense.io uses cookies, web beacons, and other tracking technologies to enhance your browsing experience, personalize content, and analyze site traffic. You can control the use of cookies through your browser settings, but please note that disabling cookies may affect the functionality of our website.<br/><br/>How We Use Your Information:<br/><br/>To Provide and Improve Services: We use the information we collect to provide the services you request, improve our website and services, and customize your experience on FinishSense.io.<br/><br/>Communication: We may use your contact information to communicate with you about your account, respond to inquiries, send updates, newsletters, promotional offers, and other relevant information. You can opt out of receiving marketing communications at any time.<br/><br/>Analytics: We analyze usage data to understand how visitors interact with our website, measure the performance of our marketing campaigns, and identify areas for improvement.<br/><br/>Sharing Your Information:<br/><br/>We do not sell, trade, or rent your personal information to third parties without your consent, except as described in this Privacy Policy or as required by law. We may share your information with trusted third-party service providers who assist us in operating our website, conducting business, or servicing you, as long as those parties agree to keep this information confidential.<br/><br/>Data Retention:<br/><br/>We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.<br/><br/>Your Rights:<br/><br/>You have the right to access, update, or delete your personal information. You may also object to the processing of your personal data or request that we restrict certain uses of your information. To exercise these rights or for any questions regarding your privacy, please contact us at admin@finishsense.io.<br/><br/>Changes to this Privacy Policy:<br/><br/>We reserve the right to update or modify this Privacy Policy at any time. We will notify you of any changes by posting the updated Privacy Policy on FinishSense.io. Your continued use of our website after any modifications indicates your acceptance of the updated Privacy Policy.<br/><br/>Contact Us:<br/><br/>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at admin@finishsense.io.</p>",
+        "section_color": "transparent",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "main": {
       "type": "not-found",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
+    "text_section_ytea43",
     "text_section_HXe3xy",
     "main"
   ]
