@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "single_hero_m7xdtM": {
+      "type": "single-hero",
+      "settings": {
+        "video_url": "shopify://files/videos/Sequence 01_1.mp4",
+        "section_title": "Unlocking Performance Through Precision Documentation.",
+        "button_text": "Customer Login",
+        "button_link": ""
+      }
+    },
     "text_section_YrnbQR": {
       "type": "text-section",
       "settings": {
@@ -52,6 +61,7 @@
     }
   },
   "order": [
+    "single_hero_m7xdtM",
     "text_section_YrnbQR",
     "resources_manager_yHmfCU",
     "main",
