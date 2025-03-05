@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_section_jMMgEQ": {
@@ -6,10 +15,10 @@
         "block_MfhCwi": {
           "type": "block",
           "settings": {
-            "hero_background_image": "shopify:\/\/shop_images\/lackierroboter-von-duerr.jpg",
+            "hero_background_image": "shopify://shop_images/lackierroboter-von-duerr.jpg",
             "hero_title": "We Are Looking For Talented Industry Experts",
             "hero_description": "",
-            "hero_button_text": "Current Openings",
+            "hero_button_text": "Coming Soon",
             "hero_button_Link": ""
           }
         }
@@ -17,19 +26,20 @@
       "block_order": [
         "block_MfhCwi"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "main": {
       "type": "not-found",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "text_section_YrzqwX": {
       "type": "text-section",
       "settings": {
-        "text_block": "<p><strong>Join Our Team at FinishSense<\/strong><\/p><p>Are you passionate about innovation and cutting-edge technology? Do you thrive in a dynamic and collaborative work environment? Consider a career at FinishSense, where we're redefining the future of robotic system integration.<\/p><p>As a leading player in the industry, FinishSense offers exciting opportunities for talented individuals to contribute to groundbreaking projects and make a real impact. Whether you're an experienced engineer, a skilled technician, or a motivated sales professional, we're always on the lookout for exceptional talent to join our team.<\/p><p>At FinishSense, we foster a culture of creativity, teamwork, and continuous learning. We believe in investing in our employees' growth and development, providing ongoing training, career advancement opportunities, and competitive benefits.<\/p><p>Join us in shaping the future of industrial automation and unlocking new possibilities for our clients and partners. Explore our current openings and take the next step towards a rewarding career with FinishSense.<\/p>"
+        "text_block": "<p><strong>Join Our Team at FinishSense</strong></p><p>Are you passionate about innovation and cutting-edge technology? Do you thrive in a dynamic and collaborative work environment? Consider a career at FinishSense, where we're redefining the future of robotic system integration.</p><p>As a leading player in the industry, FinishSense offers exciting opportunities for talented individuals to contribute to groundbreaking projects and make a real impact. Whether you're an experienced engineer, a skilled technician, or a motivated sales professional, we're always on the lookout for exceptional talent to join our team.</p><p>At FinishSense, we foster a culture of creativity, teamwork, and continuous learning. We believe in investing in our employees' growth and development, providing ongoing training, career advancement opportunities, and competitive benefits.</p><p>Join us in shaping the future of industrial automation and unlocking new possibilities for our clients and partners. Explore our current openings and take the next step towards a rewarding career with FinishSense.</p>",
+        "section_color": "transparent",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     }
   },
