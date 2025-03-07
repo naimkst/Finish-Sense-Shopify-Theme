@@ -265,17 +265,6 @@
         "section_color": "#3693d9"
       }
     },
-    "banner_section_pG3pX6": {
-      "type": "banner-section",
-      "settings": {
-        "left_image": "shopify://shop_images/Paint-Finishing-3.jpg",
-        "title": "Why You Should Choose Us",
-        "description": "At FinishSense, we combine expertise, innovation, and a customer-centric approach to deliver tailored robotic solutions that optimize your operations. With a commitment to quality, brand-agnostic technology selection, and end-to-end support, we are your trusted partner for precision and performance.",
-        "button_text": "Read More",
-        "button_Link": "shopify://pages/company",
-        "section_color": "rgba(0,0,0,0)"
-      }
-    },
     "blog_section_tw4eb4": {
       "type": "blog-section",
       "settings": {
@@ -291,6 +280,17 @@
         "section_description": "Please fill in the details and we will be in touch shortly or send us email @:",
         "email_address": "sales@finishsense.io",
         "form_title": "Complete the form below...",
+        "section_color": "rgba(0,0,0,0)"
+      }
+    },
+    "banner_section_pG3pX6": {
+      "type": "banner-section",
+      "settings": {
+        "left_image": "shopify://shop_images/Paint-Finishing-3.jpg",
+        "title": "Why You Should Choose Us",
+        "description": "At FinishSense, we combine expertise, innovation, and a customer-centric approach to deliver tailored robotic solutions that optimize your operations. With a commitment to quality, brand-agnostic technology selection, and end-to-end support, we are your trusted partner for precision and performance.",
+        "button_text": "Read More",
+        "button_Link": "shopify://pages/company",
         "section_color": "rgba(0,0,0,0)"
       }
     }
